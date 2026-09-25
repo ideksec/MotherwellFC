@@ -1,0 +1,1254 @@
+{
+ "events": [
+  {
+   "kind": "penalty_goal",
+   "label": "Penalty - Scored",
+   "minute": 40,
+   "minute_display": "40'",
+   "period": 1,
+   "player": "Lukas Fadinger",
+   "scoring": true,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Lukas Fadinger (Motherwell) Penalty - Scored at 40'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 48,
+   "minute_display": "48'",
+   "period": 2,
+   "player": "Josh Mulligan",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Hibernian",
+   "text": "Josh Mulligan (Hibernian) Yellow Card at 48'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 55,
+   "minute_display": "55'",
+   "period": 2,
+   "player": "Oscar Priestman",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Oscar Priestman (Motherwell) Yellow Card at 55'"
+  },
+  {
+   "kind": "penalty_goal",
+   "label": "Penalty - Scored",
+   "minute": 56,
+   "minute_display": "56'",
+   "period": 2,
+   "player": "Martin Boyle",
+   "scoring": true,
+   "team": "opponent",
+   "team_name": "Hibernian",
+   "text": "Martin Boyle (Hibernian) Penalty - Scored at 56'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 60,
+   "minute_display": "60'",
+   "period": 2,
+   "player": "Rudi Molotnikov",
+   "player_off": "Adam Major",
+   "player_on": "Rudi Molotnikov",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Hibernian",
+   "text": "Rudi Molotnikov (Hibernian) Substitution at 60'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 66,
+   "minute_display": "66'",
+   "period": 2,
+   "player": "Jamie Knight-Lebel",
+   "player_off": "Jake Girdwood-Reich",
+   "player_on": "Jamie Knight-Lebel",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Jamie Knight-Lebel (Motherwell) Substitution at 66'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 66,
+   "minute_display": "66'",
+   "period": 2,
+   "player": "Tawanda Maswanhise",
+   "player_off": "Willy Gabriel Vogt Veigantes",
+   "player_on": "Tawanda Maswanhise",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Tawanda Maswanhise (Motherwell) Substitution at 66'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 68,
+   "minute_display": "68'",
+   "period": 2,
+   "player": "Lukas Fadinger",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Lukas Fadinger (Motherwell) Yellow Card at 68'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 73,
+   "minute_display": "73'",
+   "period": 2,
+   "player": "Ante Suto",
+   "player_off": "Martin Boyle",
+   "player_on": "Ante Suto",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Hibernian",
+   "text": "Ante Suto (Hibernian) Substitution at 73'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 73,
+   "minute_display": "73'",
+   "period": 2,
+   "player": "Azeem Abdulai",
+   "player_off": "Miguel Chaiwa",
+   "player_on": "Azeem Abdulai",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Hibernian",
+   "text": "Azeem Abdulai (Hibernian) Substitution at 73'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 75,
+   "minute_display": "75'",
+   "period": 2,
+   "player": "Alexander Lowry",
+   "player_off": "Regan Charles-Cook",
+   "player_on": "Alexander Lowry",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Alexander Lowry (Motherwell) Substitution at 75'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 76,
+   "minute_display": "76'",
+   "period": 2,
+   "player": "Tom Sparrow",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Tom Sparrow (Motherwell) Yellow Card at 76'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 82,
+   "minute_display": "82'",
+   "period": 2,
+   "player": "Ewan Wilson",
+   "player_off": "Emmanuel Longelo",
+   "player_on": "Ewan Wilson",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Ewan Wilson (Motherwell) Substitution at 82'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 82,
+   "minute_display": "82'",
+   "period": 2,
+   "player": "Olly Whyte",
+   "player_off": "Oscar Priestman",
+   "player_on": "Olly Whyte",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Olly Whyte (Motherwell) Substitution at 82'"
+  },
+  {
+   "kind": "goal",
+   "label": "Goal",
+   "minute": 85,
+   "minute_display": "85'",
+   "period": 2,
+   "player": "Ibrahim Sa'Id",
+   "scoring": true,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Ibrahim Sa'Id (Motherwell) Goal at 85'"
+  }
+ ],
+ "figure": "reports/motherwell/figures/2026-08-02_at-hibs.png",
+ "footballdata_stats": {
+  "available": true,
+  "motherwell": {
+   "corners": 2,
+   "fouls": 13,
+   "ht_goals": 1,
+   "red_cards": 0,
+   "shots": 9,
+   "shots_on_target": 5,
+   "yellow_cards": 3
+  },
+  "opponent": {
+   "corners": 9,
+   "fouls": 14,
+   "ht_goals": 0,
+   "red_cards": 0,
+   "shots": 19,
+   "shots_on_target": 6,
+   "yellow_cards": 1
+  }
+ },
+ "generated_at": "2026-09-25T00:58:42Z",
+ "lineups": {
+  "motherwell": {
+   "bench": [
+    {
+     "espn_id": "291429",
+     "jersey": "21",
+     "minutes_est": null,
+     "name": "Matty Connolly",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "366706",
+     "jersey": "25",
+     "minutes_est": 8,
+     "name": "Olly Whyte",
+     "off_minute": null,
+     "on_minute": 82,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "347021",
+     "jersey": "24",
+     "minutes_est": null,
+     "name": "Luca Ross",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "307108",
+     "fouled": 3,
+     "jersey": "18",
+     "minutes_est": 24,
+     "name": "Tawanda Maswanhise",
+     "off_minute": null,
+     "on_minute": 66,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "367146",
+     "fouled": 1,
+     "jersey": "4",
+     "minutes_est": 24,
+     "name": "Jamie Knight-Lebel",
+     "off_minute": null,
+     "on_minute": 66,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "291487",
+     "jersey": "11",
+     "minutes_est": 15,
+     "name": "Alexander Lowry",
+     "off_minute": null,
+     "on_minute": 75,
+     "position": "SUB",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "322901",
+     "jersey": "23",
+     "minutes_est": 8,
+     "name": "Ewan Wilson",
+     "off_minute": null,
+     "on_minute": 82,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "388127",
+     "jersey": "29",
+     "minutes_est": null,
+     "name": "Zander Mcallister",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "366702",
+     "jersey": "27",
+     "minutes_est": null,
+     "name": "Mikey Booth",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    }
+   ],
+   "formation": "4-4-2",
+   "starters": [
+    {
+     "espn_id": "297800",
+     "goals_conceded": 1,
+     "jersey": "1",
+     "minutes_est": 90,
+     "name": "Alex Paulsen",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "G",
+     "saves": 3,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "330297",
+     "fouled": 1,
+     "fouls": 1,
+     "goals_conceded": 1,
+     "jersey": "5",
+     "minutes_est": 90,
+     "name": "Martin Moormann",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-L",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "336926",
+     "goals_conceded": 1,
+     "jersey": "3",
+     "minutes_est": 66,
+     "name": "Jake Girdwood-Reich",
+     "off_minute": 66,
+     "on_minute": 0,
+     "position": "CD-R",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "assists": 1,
+     "espn_id": "139655",
+     "fouls": 1,
+     "goals_conceded": 1,
+     "jersey": "20",
+     "minutes_est": 90,
+     "name": "Dylan Williams",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "LB",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "319094",
+     "fouled": 3,
+     "fouls": 2,
+     "goals_conceded": 1,
+     "jersey": "7",
+     "minutes_est": 90,
+     "name": "Tom Sparrow",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "RB",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "274022",
+     "fouls": 1,
+     "goals": 1,
+     "goals_conceded": 1,
+     "jersey": "8",
+     "minutes_est": 90,
+     "name": "Lukas Fadinger",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CM-L",
+     "shots": 3,
+     "shots_on_target": 2,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "336927",
+     "fouled": 2,
+     "fouls": 3,
+     "goals_conceded": 1,
+     "jersey": "12",
+     "minutes_est": 82,
+     "name": "Oscar Priestman",
+     "off_minute": 82,
+     "on_minute": 0,
+     "position": "CM-R",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "243554",
+     "fouled": 2,
+     "fouls": 2,
+     "goals_conceded": 1,
+     "jersey": "45",
+     "minutes_est": 82,
+     "name": "Emmanuel Longelo",
+     "off_minute": 82,
+     "on_minute": 0,
+     "position": "LM",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "3103163",
+     "goals_conceded": 1,
+     "jersey": "77",
+     "minutes_est": 66,
+     "name": "Willy Gabriel Vogt Veigantes",
+     "off_minute": 66,
+     "on_minute": 0,
+     "position": "RM",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "223826",
+     "goals_conceded": 1,
+     "jersey": "17",
+     "minutes_est": 75,
+     "name": "Regan Charles-Cook",
+     "off_minute": 75,
+     "on_minute": 0,
+     "position": "CF-L",
+     "shots": 3,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "297816",
+     "fouled": 2,
+     "fouls": 3,
+     "goals": 1,
+     "goals_conceded": 1,
+     "jersey": "19",
+     "minutes_est": 90,
+     "name": "Ibrahim Sa'Id",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CF-R",
+     "shots": 2,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    }
+   ],
+   "used_subs": 5
+  },
+  "opponent": {
+   "bench": [
+    {
+     "espn_id": "164513",
+     "jersey": "13",
+     "minutes_est": null,
+     "name": "Jordan Smith",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "272137",
+     "jersey": "18",
+     "minutes_est": null,
+     "name": "Thibault Klidje",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "347065",
+     "jersey": "27",
+     "minutes_est": null,
+     "name": "K. Megwa",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "259074",
+     "jersey": "32",
+     "minutes_est": null,
+     "name": "Josh Campbell",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "418566",
+     "fouls": 1,
+     "goals_conceded": 1,
+     "jersey": "22",
+     "minutes_est": 17,
+     "name": "Ante Suto",
+     "off_minute": null,
+     "on_minute": 73,
+     "position": "SUB",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "347068",
+     "goals_conceded": 1,
+     "jersey": "20",
+     "minutes_est": 30,
+     "name": "Rudi Molotnikov",
+     "off_minute": null,
+     "on_minute": 60,
+     "position": "SUB",
+     "shots": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "146577",
+     "jersey": "4",
+     "minutes_est": null,
+     "name": "Grant Hanley",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "324615",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "47",
+     "minutes_est": 17,
+     "name": "Azeem Abdulai",
+     "off_minute": null,
+     "on_minute": 73,
+     "position": "SUB",
+     "shots": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "347064",
+     "jersey": "30",
+     "minutes_est": null,
+     "name": "J. MacIntyre",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    }
+   ],
+   "formation": "3-4-3",
+   "starters": [
+    {
+     "espn_id": "218661",
+     "goals_conceded": 2,
+     "jersey": "1",
+     "minutes_est": 90,
+     "name": "Raphael Sallinger",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "G",
+     "saves": 3,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "212372",
+     "fouled": 1,
+     "goals_conceded": 2,
+     "jersey": "6",
+     "minutes_est": 90,
+     "name": "Jason Kerr",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "150970",
+     "fouls": 2,
+     "goals_conceded": 2,
+     "jersey": "21",
+     "minutes_est": 90,
+     "name": "Jordan Obita",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-L",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "277173",
+     "fouls": 1,
+     "goals_conceded": 2,
+     "jersey": "5",
+     "minutes_est": 90,
+     "name": "Warren O'Hora",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-R",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "330824",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "14",
+     "minutes_est": 73,
+     "name": "Miguel Chaiwa",
+     "off_minute": 73,
+     "on_minute": 0,
+     "position": "CM-L",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "288580",
+     "fouled": 2,
+     "fouls": 2,
+     "goals_conceded": 2,
+     "jersey": "8",
+     "minutes_est": 90,
+     "name": "Josh Mulligan",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CM-R",
+     "shots": 3,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "348287",
+     "fouls": 1,
+     "goals_conceded": 1,
+     "jersey": "3",
+     "minutes_est": 60,
+     "name": "Adam Major",
+     "off_minute": 60,
+     "on_minute": 0,
+     "position": "LM",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "225573",
+     "fouled": 2,
+     "fouls": 1,
+     "goals_conceded": 2,
+     "jersey": "25",
+     "minutes_est": 90,
+     "name": "Felix Passlack",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "RM",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "282449",
+     "fouled": 2,
+     "fouls": 3,
+     "goals_conceded": 2,
+     "jersey": "9",
+     "minutes_est": 90,
+     "name": "Nathan Lowe",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "F",
+     "shots": 4,
+     "shots_on_target": 2,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "139748",
+     "fouled": 2,
+     "fouls": 2,
+     "goals": 1,
+     "goals_conceded": 1,
+     "jersey": "10",
+     "minutes_est": 73,
+     "name": "Martin Boyle",
+     "off_minute": 73,
+     "on_minute": 0,
+     "position": "CF-L",
+     "shots": 2,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "418350",
+     "fouled": 1,
+     "fouls": 1,
+     "goals_conceded": 2,
+     "jersey": "7",
+     "minutes_est": 90,
+     "name": "Owen Elding",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CF-R",
+     "shots": 5,
+     "shots_on_target": 2,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    }
+   ],
+   "used_subs": 3
+  }
+ },
+ "market": {
+  "actual_points": 3,
+  "available": true,
+  "draw_prob": 0.275,
+  "expected_points": 1.18,
+  "favourite": "opponent",
+  "motherwell_loss_prob": 0.424,
+  "motherwell_win_prob": 0.301,
+  "odds": {
+   "away": 3.1,
+   "draw": 3.4,
+   "home": 2.2
+  },
+  "over_2_5_price": 1.78,
+  "points_vs_market": 1.82,
+  "source": "football-data.co.uk (Bet365 closing)"
+ },
+ "match": {
+  "attendance": 17440,
+  "city": "Edinburgh",
+  "competition": {
+   "code": "sco.1",
+   "name": "Scottish Premiership"
+  },
+  "date": "2026-08-02",
+  "espn_id": "401878412",
+  "home_away": "away",
+  "kickoff_utc": "2026-08-02T15:30Z",
+  "neutral_site": false,
+  "opponent": {
+   "abbrev": "HIBS",
+   "espn_id": "258",
+   "name": "Hibernian",
+   "slug": "hibs"
+  },
+  "referee": "Steven Mclean",
+  "result": "W",
+  "score": {
+   "motherwell": 2,
+   "opponent": 1
+  },
+  "season": "2026-27 Scottish Premiership",
+  "status": "STATUS_FULL_TIME",
+  "venue": "Easter Road"
+ },
+ "notes": [],
+ "player_lines": {
+  "motherwell": {
+   "assists": [
+    {
+     "assists": 1,
+     "name": "Dylan Williams"
+    }
+   ],
+   "booked": [
+    "Tom Sparrow",
+    "Lukas Fadinger",
+    "Oscar Priestman"
+   ],
+   "most_shots": [
+    {
+     "name": "Lukas Fadinger",
+     "shots": 3
+    },
+    {
+     "name": "Regan Charles-Cook",
+     "shots": 3
+    },
+    {
+     "name": "Ibrahim Sa'Id",
+     "shots": 2
+    }
+   ],
+   "most_shots_on_target": [
+    {
+     "name": "Lukas Fadinger",
+     "shots_on_target": 2
+    },
+    {
+     "name": "Regan Charles-Cook",
+     "shots_on_target": 1
+    },
+    {
+     "name": "Ibrahim Sa'Id",
+     "shots_on_target": 1
+    }
+   ],
+   "players_used": 16,
+   "scorers": [
+    {
+     "goals": 1,
+     "name": "Lukas Fadinger"
+    },
+    {
+     "goals": 1,
+     "name": "Ibrahim Sa'Id"
+    }
+   ],
+   "sent_off": []
+  },
+  "opponent": {
+   "assists": [],
+   "booked": [
+    "Josh Mulligan"
+   ],
+   "most_shots": [
+    {
+     "name": "Owen Elding",
+     "shots": 5
+    },
+    {
+     "name": "Nathan Lowe",
+     "shots": 4
+    },
+    {
+     "name": "Josh Mulligan",
+     "shots": 3
+    }
+   ],
+   "most_shots_on_target": [
+    {
+     "name": "Nathan Lowe",
+     "shots_on_target": 2
+    },
+    {
+     "name": "Owen Elding",
+     "shots_on_target": 2
+    },
+    {
+     "name": "Martin Boyle",
+     "shots_on_target": 1
+    }
+   ],
+   "players_used": 14,
+   "scorers": [
+    {
+     "goals": 1,
+     "name": "Martin Boyle"
+    }
+   ],
+   "sent_off": []
+  }
+ },
+ "rolling": {
+  "last5_all": {
+   "clean_sheets": 0,
+   "draws": 0,
+   "failed_to_score": 0,
+   "form": "W",
+   "games": 1,
+   "goal_diff": 1,
+   "goals_against": 1,
+   "goals_for": 2,
+   "losses": 0,
+   "points": 3,
+   "ppg": 3.0,
+   "streak": "W1",
+   "unbeaten": 1,
+   "winless": 0,
+   "wins": 1,
+   "xg_against": 1.92,
+   "xg_diff": 0.08,
+   "xg_for": 2.0,
+   "xg_games": 1,
+   "xpoints": 1.44
+  },
+  "last5_league": {
+   "clean_sheets": 0,
+   "draws": 0,
+   "failed_to_score": 0,
+   "form": "W",
+   "games": 1,
+   "goal_diff": 1,
+   "goals_against": 1,
+   "goals_for": 2,
+   "losses": 0,
+   "points": 3,
+   "ppg": 3.0,
+   "streak": "W1",
+   "unbeaten": 1,
+   "winless": 0,
+   "wins": 1,
+   "xg_against": 1.92,
+   "xg_diff": 0.08,
+   "xg_for": 2.0,
+   "xg_games": 1,
+   "xpoints": 1.44
+  },
+  "season_all": {
+   "away_record": "1-0-0",
+   "clean_sheets": 0,
+   "draws": 0,
+   "failed_to_score": 0,
+   "form": "W",
+   "form_last5": "W",
+   "games": 1,
+   "goal_diff": 1,
+   "goals_against": 1,
+   "goals_for": 2,
+   "home_record": "0-0-0",
+   "losses": 0,
+   "points": 3,
+   "ppg": 3.0,
+   "streak": "W1",
+   "unbeaten": 1,
+   "winless": 0,
+   "wins": 1,
+   "xg_against": 1.92,
+   "xg_diff": 0.08,
+   "xg_for": 2.0,
+   "xg_games": 1,
+   "xpoints": 1.44
+  },
+  "season_league": {
+   "away_record": "1-0-0",
+   "clean_sheets": 0,
+   "draws": 0,
+   "failed_to_score": 0,
+   "form": "W",
+   "form_last5": "W",
+   "games": 1,
+   "goal_diff": 1,
+   "goals_against": 1,
+   "goals_for": 2,
+   "home_record": "0-0-0",
+   "losses": 0,
+   "points": 3,
+   "ppg": 3.0,
+   "streak": "W1",
+   "unbeaten": 1,
+   "winless": 0,
+   "wins": 1,
+   "xg_against": 1.92,
+   "xg_diff": 0.08,
+   "xg_for": 2.0,
+   "xg_games": 1,
+   "xpoints": 1.44
+  }
+ },
+ "schema_version": 1,
+ "season": "2026-27",
+ "sources": {
+  "espn_summary": true,
+  "footballdata_market": true,
+  "footballdata_row": true,
+  "footballdata_xg": true
+ },
+ "table": {
+  "as_of": "fetch time (see generated_at)",
+  "motherwell": {
+   "draws": 2,
+   "espn_id": "266",
+   "gap_to_above": 0,
+   "gap_to_below": 0,
+   "goal_difference": -2,
+   "losses": 3,
+   "played": 7,
+   "points": 8,
+   "rank": 8,
+   "team": "Motherwell",
+   "teams": 12,
+   "wins": 2
+  },
+  "table": [
+   {
+    "draws": 0,
+    "espn_id": "256",
+    "goal_difference": 10,
+    "losses": 1,
+    "played": 7,
+    "points": 18,
+    "rank": 1,
+    "team": "Celtic",
+    "wins": 6
+   },
+   {
+    "draws": 1,
+    "espn_id": "257",
+    "goal_difference": 4,
+    "losses": 1,
+    "played": 7,
+    "points": 16,
+    "rank": 2,
+    "team": "Rangers",
+    "wins": 5
+   },
+   {
+    "draws": 1,
+    "espn_id": "262",
+    "goal_difference": 6,
+    "losses": 2,
+    "played": 7,
+    "points": 13,
+    "rank": 3,
+    "team": "Heart of Midlothian",
+    "wins": 4
+   },
+   {
+    "draws": 1,
+    "espn_id": "261",
+    "goal_difference": 2,
+    "losses": 3,
+    "played": 7,
+    "points": 10,
+    "rank": 4,
+    "team": "Dundee",
+    "wins": 3
+   },
+   {
+    "draws": 1,
+    "espn_id": "250",
+    "goal_difference": -1,
+    "losses": 3,
+    "played": 7,
+    "points": 10,
+    "rank": 5,
+    "team": "St Mirren",
+    "wins": 3
+   },
+   {
+    "draws": 2,
+    "espn_id": "267",
+    "goal_difference": -1,
+    "losses": 3,
+    "played": 7,
+    "points": 8,
+    "rank": 6,
+    "team": "St Johnstone",
+    "wins": 2
+   },
+   {
+    "draws": 2,
+    "espn_id": "263",
+    "goal_difference": -1,
+    "losses": 3,
+    "played": 7,
+    "points": 8,
+    "rank": 7,
+    "team": "Aberdeen",
+    "wins": 2
+   },
+   {
+    "draws": 2,
+    "espn_id": "266",
+    "goal_difference": -2,
+    "losses": 3,
+    "played": 7,
+    "points": 8,
+    "rank": 8,
+    "team": "Motherwell",
+    "wins": 2
+   },
+   {
+    "draws": 2,
+    "espn_id": "264",
+    "goal_difference": -2,
+    "losses": 3,
+    "played": 7,
+    "points": 8,
+    "rank": 9,
+    "team": "Dundee United",
+    "wins": 2
+   },
+   {
+    "draws": 1,
+    "espn_id": "258",
+    "goal_difference": -3,
+    "losses": 4,
+    "played": 7,
+    "points": 7,
+    "rank": 10,
+    "team": "Hibernian",
+    "wins": 2
+   },
+   {
+    "draws": 3,
+    "espn_id": "254",
+    "goal_difference": -3,
+    "losses": 3,
+    "played": 7,
+    "points": 6,
+    "rank": 11,
+    "team": "Falkirk",
+    "wins": 1
+   },
+   {
+    "draws": 2,
+    "espn_id": "260",
+    "goal_difference": -9,
+    "losses": 4,
+    "played": 7,
+    "points": 5,
+    "rank": 12,
+    "team": "Kilmarnock",
+    "wins": 1
+   }
+  ]
+ },
+ "team_stats": {
+  "motherwell": {
+   "clearances": 34,
+   "corners": 2,
+   "fouls": 13,
+   "interceptions": 0,
+   "offsides": 2,
+   "pass_pct": 0.9,
+   "passes": 505,
+   "passes_accurate": 452,
+   "possession_pct": 52,
+   "red_cards": 0,
+   "saves": 3,
+   "shots": 9,
+   "shots_blocked": 2,
+   "shots_on_target": 5,
+   "tackles": 13,
+   "tackles_won": 9,
+   "yellow_cards": 3
+  },
+  "opponent": {
+   "clearances": 12,
+   "corners": 9,
+   "fouls": 14,
+   "interceptions": 0,
+   "offsides": 1,
+   "pass_pct": 0.9,
+   "passes": 444,
+   "passes_accurate": 382,
+   "possession_pct": 48,
+   "red_cards": 0,
+   "saves": 3,
+   "shots": 19,
+   "shots_blocked": 8,
+   "shots_on_target": 6,
+   "tackles": 23,
+   "tackles_won": 15,
+   "yellow_cards": 1
+  }
+ },
+ "xg": {
+  "available": true,
+  "diff": 0.08,
+  "motherwell": 2.0,
+  "opponent": 1.92,
+  "source": "football-data.co.uk",
+  "xpoints": 1.44
+ }
+}

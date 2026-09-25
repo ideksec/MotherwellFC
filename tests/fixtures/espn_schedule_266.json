@@ -1,0 +1,823 @@
+{
+ "team": {
+  "id": "266",
+  "abbreviation": "MOT",
+  "displayName": "Motherwell",
+  "name": "Motherwell",
+  "location": "Motherwell"
+ },
+ "season": {
+  "year": 2026,
+  "type": 14300,
+  "name": "2026-27 Scottish Premiership",
+  "displayName": "2026-27 Scottish Premiership",
+  "half": 1
+ },
+ "events": [
+  {
+   "id": "401878380",
+   "date": "2026-09-19T14:00Z",
+   "name": "Motherwell at Dundee",
+   "shortName": "MOT @ DUN",
+   "season": {
+    "year": 2026,
+    "displayName": "2026-27 Scottish Premiership"
+   },
+   "seasonType": {
+    "id": "1",
+    "type": 14300,
+    "name": "2026-27 Scottish Premiership",
+    "abbreviation": "2026-27 Scottish Premiership"
+   },
+   "league": {
+    "id": "735",
+    "name": "Scottish Premiership",
+    "abbreviation": "SPFL Premiership",
+    "slug": "sco.1"
+   },
+   "competitions": [
+    {
+     "id": "401878380",
+     "date": "2026-09-19T14:00Z",
+     "attendance": 5318,
+     "status": {
+      "clock": 5400.0,
+      "addedClock": 540.0,
+      "displayClock": "90'+9'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "fullName": "The Scot Foam Stadium at Dens Park",
+      "address": {
+       "city": "Dundee",
+       "country": "Scotland"
+      }
+     },
+     "competitors": [
+      {
+       "id": "261",
+       "homeAway": "home",
+       "winner": true,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878380/competitions/401878380/competitors/261/scores/38?lang=en&region=us",
+        "value": 2.0,
+        "displayValue": "2",
+        "winner": true,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 0,
+       "team": {
+        "id": "261",
+        "abbreviation": "DUN",
+        "displayName": "Dundee",
+        "shortDisplayName": "Dundee",
+        "location": "Dundee"
+       }
+      },
+      {
+       "id": "266",
+       "homeAway": "away",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878380/competitions/401878380/competitors/266/scores/38?lang=en&region=us",
+        "value": 1.0,
+        "displayValue": "1",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 1,
+       "team": {
+        "id": "266",
+        "abbreviation": "MOT",
+        "displayName": "Motherwell",
+        "shortDisplayName": "Motherwell",
+        "location": "Motherwell"
+       }
+      }
+     ],
+     "odds": []
+    }
+   ],
+   "status": {
+    "clock": 5400.0,
+    "addedClock": 540.0,
+    "displayClock": "90'+9'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   }
+  },
+  {
+   "id": "401878401",
+   "date": "2026-09-15T18:45Z",
+   "name": "Aberdeen at Motherwell",
+   "shortName": "ABE @ MOT",
+   "season": {
+    "year": 2026,
+    "displayName": "2026-27 Scottish Premiership"
+   },
+   "seasonType": {
+    "id": "1",
+    "type": 14300,
+    "name": "2026-27 Scottish Premiership",
+    "abbreviation": "2026-27 Scottish Premiership"
+   },
+   "league": {
+    "id": "735",
+    "name": "Scottish Premiership",
+    "abbreviation": "SPFL Premiership",
+    "slug": "sco.1"
+   },
+   "competitions": [
+    {
+     "id": "401878401",
+     "date": "2026-09-15T18:45Z",
+     "attendance": 6965,
+     "status": {
+      "clock": 5400.0,
+      "addedClock": 240.0,
+      "displayClock": "90'+4'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "fullName": "Fir Park",
+      "address": {
+       "city": "Motherwell",
+       "country": "Scotland"
+      }
+     },
+     "competitors": [
+      {
+       "id": "266",
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878401/competitions/401878401/competitors/266/scores/38?lang=en&region=us",
+        "value": 0.0,
+        "displayValue": "0",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 0,
+       "team": {
+        "id": "266",
+        "abbreviation": "MOT",
+        "displayName": "Motherwell",
+        "shortDisplayName": "Motherwell",
+        "location": "Motherwell"
+       }
+      },
+      {
+       "id": "263",
+       "homeAway": "away",
+       "winner": true,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878401/competitions/401878401/competitors/263/scores/38?lang=en&region=us",
+        "value": 4.0,
+        "displayValue": "4",
+        "winner": true,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 1,
+       "team": {
+        "id": "263",
+        "abbreviation": "ABE",
+        "displayName": "Aberdeen",
+        "shortDisplayName": "Aberdeen",
+        "location": "Aberdeen"
+       }
+      }
+     ],
+     "odds": []
+    }
+   ],
+   "status": {
+    "clock": 5400.0,
+    "addedClock": 240.0,
+    "displayClock": "90'+4'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   }
+  },
+  {
+   "id": "401878383",
+   "date": "2026-09-05T14:00Z",
+   "name": "Motherwell at Rangers",
+   "shortName": "MOT @ RAN",
+   "season": {
+    "year": 2026,
+    "displayName": "2026-27 Scottish Premiership"
+   },
+   "seasonType": {
+    "id": "1",
+    "type": 14300,
+    "name": "2026-27 Scottish Premiership",
+    "abbreviation": "2026-27 Scottish Premiership"
+   },
+   "league": {
+    "id": "735",
+    "name": "Scottish Premiership",
+    "abbreviation": "SPFL Premiership",
+    "slug": "sco.1"
+   },
+   "competitions": [
+    {
+     "id": "401878383",
+     "date": "2026-09-05T14:00Z",
+     "attendance": 50868,
+     "status": {
+      "clock": 5400.0,
+      "addedClock": 240.0,
+      "displayClock": "90'+4'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "fullName": "Ibrox Stadium",
+      "address": {
+       "city": "Glasgow",
+       "country": "Scotland"
+      }
+     },
+     "competitors": [
+      {
+       "id": "257",
+       "homeAway": "home",
+       "winner": true,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878383/competitions/401878383/competitors/257/scores/38?lang=en&region=us",
+        "value": 1.0,
+        "displayValue": "1",
+        "winner": true,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 0,
+       "team": {
+        "id": "257",
+        "abbreviation": "RAN",
+        "displayName": "Rangers",
+        "shortDisplayName": "Rangers",
+        "location": "Rangers"
+       }
+      },
+      {
+       "id": "266",
+       "homeAway": "away",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878383/competitions/401878383/competitors/266/scores/38?lang=en&region=us",
+        "value": 0.0,
+        "displayValue": "0",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 1,
+       "team": {
+        "id": "266",
+        "abbreviation": "MOT",
+        "displayName": "Motherwell",
+        "shortDisplayName": "Motherwell",
+        "location": "Motherwell"
+       }
+      }
+     ],
+     "odds": []
+    }
+   ],
+   "status": {
+    "clock": 5400.0,
+    "addedClock": 240.0,
+    "displayClock": "90'+4'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   }
+  },
+  {
+   "id": "401878387",
+   "date": "2026-09-02T18:45Z",
+   "name": "Dundee United at Motherwell",
+   "shortName": "DUN @ MOT",
+   "season": {
+    "year": 2026,
+    "displayName": "2026-27 Scottish Premiership"
+   },
+   "seasonType": {
+    "id": "1",
+    "type": 14300,
+    "name": "2026-27 Scottish Premiership",
+    "abbreviation": "2026-27 Scottish Premiership"
+   },
+   "league": {
+    "id": "735",
+    "name": "Scottish Premiership",
+    "abbreviation": "SPFL Premiership",
+    "slug": "sco.1"
+   },
+   "competitions": [
+    {
+     "id": "401878387",
+     "date": "2026-09-02T18:45Z",
+     "attendance": 0,
+     "status": {
+      "clock": 5400.0,
+      "addedClock": 180.0,
+      "displayClock": "90'+3'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "fullName": "Fir Park",
+      "address": {
+       "city": "Motherwell",
+       "country": "Scotland"
+      }
+     },
+     "competitors": [
+      {
+       "id": "266",
+       "homeAway": "home",
+       "winner": true,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878387/competitions/401878387/competitors/266/scores/38?lang=en&region=us",
+        "value": 3.0,
+        "displayValue": "3",
+        "winner": true,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 0,
+       "team": {
+        "id": "266",
+        "abbreviation": "MOT",
+        "displayName": "Motherwell",
+        "shortDisplayName": "Motherwell",
+        "location": "Motherwell"
+       }
+      },
+      {
+       "id": "264",
+       "homeAway": "away",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878387/competitions/401878387/competitors/264/scores/38?lang=en&region=us",
+        "value": 0.0,
+        "displayValue": "0",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 1,
+       "team": {
+        "id": "264",
+        "abbreviation": "DUN",
+        "displayName": "Dundee United",
+        "shortDisplayName": "Dundee Utd",
+        "location": "Dundee United"
+       }
+      }
+     ],
+     "odds": []
+    }
+   ],
+   "status": {
+    "clock": 5400.0,
+    "addedClock": 180.0,
+    "displayClock": "90'+3'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   }
+  },
+  {
+   "id": "401878393",
+   "date": "2026-08-30T14:00Z",
+   "name": "Motherwell at St Mirren",
+   "shortName": "MOT @ STM",
+   "season": {
+    "year": 2026,
+    "displayName": "2026-27 Scottish Premiership"
+   },
+   "seasonType": {
+    "id": "1",
+    "type": 14300,
+    "name": "2026-27 Scottish Premiership",
+    "abbreviation": "2026-27 Scottish Premiership"
+   },
+   "league": {
+    "id": "735",
+    "name": "Scottish Premiership",
+    "abbreviation": "SPFL Premiership",
+    "slug": "sco.1"
+   },
+   "competitions": [
+    {
+     "id": "401878393",
+     "date": "2026-08-30T14:00Z",
+     "attendance": 5295,
+     "status": {
+      "clock": 5400.0,
+      "addedClock": 360.0,
+      "displayClock": "90'+6'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "fullName": "The SMISA Stadium",
+      "address": {
+       "city": "Paisley",
+       "country": "Scotland"
+      }
+     },
+     "competitors": [
+      {
+       "id": "250",
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878393/competitions/401878393/competitors/250/scores/38?lang=en&region=us",
+        "value": 3.0,
+        "displayValue": "3",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 0,
+       "team": {
+        "id": "250",
+        "abbreviation": "STM",
+        "displayName": "St Mirren",
+        "shortDisplayName": "St Mirren",
+        "location": "St Mirren"
+       }
+      },
+      {
+       "id": "266",
+       "homeAway": "away",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878393/competitions/401878393/competitors/266/scores/38?lang=en&region=us",
+        "value": 3.0,
+        "displayValue": "3",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 1,
+       "team": {
+        "id": "266",
+        "abbreviation": "MOT",
+        "displayName": "Motherwell",
+        "shortDisplayName": "Motherwell",
+        "location": "Motherwell"
+       }
+      }
+     ],
+     "odds": []
+    }
+   ],
+   "status": {
+    "clock": 5400.0,
+    "addedClock": 360.0,
+    "displayClock": "90'+6'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   }
+  },
+  {
+   "id": "401878408",
+   "date": "2026-08-09T14:00Z",
+   "name": "Falkirk at Motherwell",
+   "shortName": "FALK @ MOT",
+   "season": {
+    "year": 2026,
+    "displayName": "2026-27 Scottish Premiership"
+   },
+   "seasonType": {
+    "id": "1",
+    "type": 14300,
+    "name": "2026-27 Scottish Premiership",
+    "abbreviation": "2026-27 Scottish Premiership"
+   },
+   "league": {
+    "id": "735",
+    "name": "Scottish Premiership",
+    "abbreviation": "SPFL Premiership",
+    "slug": "sco.1"
+   },
+   "competitions": [
+    {
+     "id": "401878408",
+     "date": "2026-08-09T14:00Z",
+     "attendance": 7028,
+     "status": {
+      "clock": 5400.0,
+      "addedClock": 240.0,
+      "displayClock": "90'+4'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "fullName": "Fir Park",
+      "address": {
+       "city": "Motherwell",
+       "country": "Scotland"
+      }
+     },
+     "competitors": [
+      {
+       "id": "266",
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878408/competitions/401878408/competitors/266/scores/38?lang=en&region=us",
+        "value": 0.0,
+        "displayValue": "0",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 0,
+       "team": {
+        "id": "266",
+        "abbreviation": "MOT",
+        "displayName": "Motherwell",
+        "shortDisplayName": "Motherwell",
+        "location": "Motherwell"
+       }
+      },
+      {
+       "id": "254",
+       "homeAway": "away",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878408/competitions/401878408/competitors/254/scores/38?lang=en&region=us",
+        "value": 0.0,
+        "displayValue": "0",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 1,
+       "team": {
+        "id": "254",
+        "abbreviation": "FALK",
+        "displayName": "Falkirk",
+        "shortDisplayName": "Falkirk",
+        "location": "Falkirk"
+       }
+      }
+     ],
+     "odds": []
+    }
+   ],
+   "status": {
+    "clock": 5400.0,
+    "addedClock": 240.0,
+    "displayClock": "90'+4'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   }
+  },
+  {
+   "id": "401878412",
+   "date": "2026-08-02T15:30Z",
+   "name": "Motherwell at Hibernian",
+   "shortName": "MOT @ HIBS",
+   "season": {
+    "year": 2026,
+    "displayName": "2026-27 Scottish Premiership"
+   },
+   "seasonType": {
+    "id": "1",
+    "type": 14300,
+    "name": "2026-27 Scottish Premiership",
+    "abbreviation": "2026-27 Scottish Premiership"
+   },
+   "league": {
+    "id": "735",
+    "name": "Scottish Premiership",
+    "abbreviation": "SPFL Premiership",
+    "slug": "sco.1"
+   },
+   "competitions": [
+    {
+     "id": "401878412",
+     "date": "2026-08-02T15:30Z",
+     "attendance": 17440,
+     "status": {
+      "clock": 5400.0,
+      "addedClock": 300.0,
+      "displayClock": "90'+5'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "fullName": "Easter Road",
+      "address": {
+       "city": "Edinburgh",
+       "country": "Scotland"
+      }
+     },
+     "competitors": [
+      {
+       "id": "258",
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878412/competitions/401878412/competitors/258/scores/38?lang=en&region=us",
+        "value": 1.0,
+        "displayValue": "1",
+        "winner": false,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 0,
+       "team": {
+        "id": "258",
+        "abbreviation": "HIBS",
+        "displayName": "Hibernian",
+        "shortDisplayName": "Hibernian",
+        "location": "Hibernian"
+       }
+      },
+      {
+       "id": "266",
+       "homeAway": "away",
+       "winner": true,
+       "score": {
+        "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/sco.1/events/401878412/competitions/401878412/competitors/266/scores/38?lang=en&region=us",
+        "value": 2.0,
+        "displayValue": "2",
+        "winner": true,
+        "source": {
+         "id": "38",
+         "description": "SA.ENVOY"
+        }
+       },
+       "order": 1,
+       "team": {
+        "id": "266",
+        "abbreviation": "MOT",
+        "displayName": "Motherwell",
+        "shortDisplayName": "Motherwell",
+        "location": "Motherwell"
+       }
+      }
+     ],
+     "odds": []
+    }
+   ],
+   "status": {
+    "clock": 5400.0,
+    "addedClock": 300.0,
+    "displayClock": "90'+5'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   }
+  }
+ ]
+}

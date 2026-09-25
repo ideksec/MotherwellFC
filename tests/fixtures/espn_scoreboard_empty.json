@@ -1,0 +1,11 @@
+{
+ "leagues": [
+  {
+   "id": "735",
+   "name": "Scottish Premiership",
+   "abbreviation": "SPFL Premiership",
+   "slug": "sco.1"
+  }
+ ],
+ "events": []
+}

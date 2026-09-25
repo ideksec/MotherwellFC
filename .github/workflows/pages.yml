@@ -1,0 +1,54 @@
+name: Publish reports site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "reports/motherwell/**"
+      - "data/processed/motherwell/**"
+      - "scripts/build_site.py"
+      - "src/steelmen/viz/**"
+      - ".github/workflows/pages.yml"
+  schedule:
+    # 11:00 UTC, after the morning Routines (report ~08:00 UK, preview ~09:00
+    # UK). The Routines commit with [skip ci], which suppresses the push
+    # trigger above, so new reports would otherwise never reach the site.
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never cancel a half-finished deploy; queue behind it instead.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install package with site dependencies
+        run: pip install -e ".[site]"
+      - name: Build site
+        run: python scripts/build_site.py --out site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

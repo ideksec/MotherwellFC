@@ -1,0 +1,84 @@
+name: Nightly Motherwell stat pack
+
+on:
+  schedule:
+    # 03:00 UTC every day (03:00 GMT / 04:00 BST) — after midweek matches
+    # end. Runs all year; non-match days are no-ops and make no commit.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Match date YYYY-MM-DD (default: recent-days lookback)"
+        required: false
+      days_back:
+        description: "Lookback window in days"
+        required: false
+        default: "3"
+      force:
+        description: "Rebuild packs even if they exist"
+        type: boolean
+        default: false
+      dry_run:
+        description: "Print packs without writing or committing"
+        type: boolean
+        default: false
+      run_live_tests:
+        description: "Run pytest -m live against ESPN / football-data.co.uk first"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-motherwell
+  cancel-in-progress: false
+
+jobs:
+  statpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install package
+        run: pip install -e ".[dev]"
+      - name: Live API smoke tests
+        if: ${{ inputs.run_live_tests }}
+        run: pytest -m live
+      - name: Build stat packs
+        id: build
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.date }}" ]; then
+            ARGS="--date ${{ inputs.date }}"
+          else
+            ARGS="--days-back ${{ inputs.days_back || '3' }}"
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python scripts/nightly_motherwell.py $ARGS | tee run.log
+          {
+            echo "summary<<EOF"
+            grep '^RESULT:' run.log | grep -v 'no-match' | sed 's/^RESULT: //'
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      - name: Commit and push
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [ -z "$(git status --porcelain data/processed reports/motherwell/figures)" ]; then
+            echo "No changes - no commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed reports/motherwell/figures
+          git commit -m "Nightly stat pack [skip ci]" -m "${{ steps.build.outputs.summary }}"
+          git pull --rebase origin main
+          git push origin HEAD:main
