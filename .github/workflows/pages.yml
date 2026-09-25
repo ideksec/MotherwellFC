@@ -37,10 +37,6 @@ jobs:
           cache: pip
       - name: Install package with site dependencies
         run: pip install -e ".[site]"
-      - name: Configure Pages (enables it on first run)
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Build site
         run: python scripts/build_site.py --out site
       - uses: actions/upload-pages-artifact@v3
