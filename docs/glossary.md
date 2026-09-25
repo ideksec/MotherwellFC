@@ -35,7 +35,9 @@ Metric definitions used across the package, the stat packs and the reports.
 
 ## Box score (ESPN)
 
-- **Possession %**, **shots**, **shots on target (SOT)**, **blocked shots**, **corners**,
+- **Possession %**, **shots**, **shots on target (SOT)**, **blocked shots** (the team's own
+  shots that were blocked — Dundee United's 2026-09-02 pack shows 9 for Motherwell against
+  United's 5 total shots), **corners**,
   **fouls**, **offsides**, **saves**, **passes / accurate passes / pass %**, **tackles /
   tackles won**, **clearances**. Vendor-defined; use for within-match comparison, not
   cross-vendor comparison.

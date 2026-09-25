@@ -18,7 +18,7 @@ TEAM_STAT_KEYS = {
     "possessionPct": "possession_pct",
     "totalShots": "shots",
     "shotsOnTarget": "shots_on_target",
-    "blockedShots": "shots_blocked",
+    "blockedShots": "shots_blocked",  # this team's own shots that were blocked
     "wonCorners": "corners",
     "foulsCommitted": "fouls",
     "yellowCards": "yellow_cards",
