@@ -101,6 +101,24 @@ def test_build_renders_everything(site, tmp_path):
     assert (out / ".nojekyll").exists()
 
 
+def test_clear_output_refuses_repo_and_foreign_dirs(site, tmp_path):
+    with pytest.raises(SystemExit):
+        site._clear_output_dir(REPO)
+    with pytest.raises(SystemExit):
+        site._clear_output_dir(REPO.parent)
+    foreign = tmp_path / "not-a-site"
+    foreign.mkdir()
+    (foreign / "keep.txt").write_text("x")
+    with pytest.raises(SystemExit):
+        site._clear_output_dir(foreign)
+    assert (foreign / "keep.txt").exists()
+    previous = tmp_path / "site"
+    previous.mkdir()
+    (previous / ".nojekyll").write_text("")
+    site._clear_output_dir(previous)
+    assert not previous.exists()
+
+
 def test_build_with_no_data(site, tmp_path):
     out = tmp_path / "site"
     count = site.build(

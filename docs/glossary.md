@@ -30,7 +30,7 @@ Metric definitions used across the package, the stat packs and the reports.
   (proportional removal of the bookmaker's **overround**).
 - **Expected points from the market**: 3 × P(win) + P(draw).
 - **Points vs market**: actual points minus market expectation. "Beating the market".
-- Odds are Bet365 closing prices from football-data.co.uk (`B365H/D/A`); `AvgH/D/A`
+- Odds are Bet365 pre-match prices from football-data.co.uk (`B365H/D/A`); `AvgH/D/A`
   are the market averages.
 
 ## Box score (ESPN)

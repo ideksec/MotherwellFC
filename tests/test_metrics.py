@@ -87,6 +87,8 @@ def test_season_summary_records():
 def test_empty_log():
     out = form.last_n_summary(_log([]), 5)
     assert out["games"] == 0 and out["ppg"] is None and out["form"] == ""
+    with pytest.raises(KeyError):
+        form.through_match(_log([]), espn_id="1")
 
 
 def test_discipline_summary():

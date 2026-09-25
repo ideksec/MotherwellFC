@@ -1,2 +1,27 @@
 date,kickoff_utc,competition,competition_code,home_away,opponent,opponent_espn_id,venue,source
-2026-10-11,2026-10-11T11:00:00Z,Scottish Premier League,,home,Celtic,,Fir Park,thesportsdb
+2026-10-11,2026-10-11T11:00Z,Scottish Premiership,sco.1,home,Celtic,256,Fir Park,espn
+2026-10-17,2026-10-17T14:00Z,Scottish Premiership,sco.1,away,Kilmarnock,260,The BBSP Stadium,espn
+2026-10-25,2026-10-25T14:00Z,Scottish Premiership,sco.1,home,Heart of Midlothian,262,Fir Park,espn
+2026-10-28,2026-10-28T19:45Z,Scottish Premiership,sco.1,away,St Johnstone,267,McDiarmid Park,espn
+2026-10-31,2026-10-31T15:00Z,Scottish Premiership,sco.1,home,St Mirren,250,Fir Park,espn
+2026-11-07,2026-11-07T15:00Z,Scottish Premiership,sco.1,away,Dundee United,264,Tannadice Park,espn
+2026-11-21,2026-11-21T20:00Z,Scottish Premiership,sco.1,home,Rangers,257,Fir Park,espn
+2026-11-28,2026-11-28T17:45Z,Scottish Premiership,sco.1,home,Hibernian,258,Fir Park,espn
+2026-12-02,2026-12-02T19:45Z,Scottish Premiership,sco.1,away,Falkirk,254,Falkirk Stadium,espn
+2026-12-05,2026-12-05T15:00Z,Scottish Premiership,sco.1,home,Kilmarnock,260,Fir Park,espn
+2026-12-13,2026-12-13T15:00Z,Scottish Premiership,sco.1,away,Heart of Midlothian,262,Tynecastle Park,espn
+2026-12-19,2026-12-19T15:00Z,Scottish Premiership,sco.1,home,Dundee,261,Fir Park,espn
+2026-12-26,2026-12-26T15:00Z,Scottish Premiership,sco.1,away,Celtic,256,Celtic Park,espn
+2026-12-30,2026-12-30T19:45Z,Scottish Premiership,sco.1,away,Aberdeen,263,Pittodrie Stadium,espn
+2027-01-02,2027-01-02T15:00Z,Scottish Premiership,sco.1,home,St Johnstone,267,Fir Park,espn
+2027-01-09,2027-01-09T15:00Z,Scottish Premiership,sco.1,away,Hibernian,258,Easter Road,espn
+2027-01-23,2027-01-23T15:00Z,Scottish Premiership,sco.1,home,Dundee United,264,Fir Park,espn
+2027-01-30,2027-01-30T15:00Z,Scottish Premiership,sco.1,away,Kilmarnock,260,The BBSP Stadium,espn
+2027-02-03,2027-02-03T19:45Z,Scottish Premiership,sco.1,home,Celtic,256,Fir Park,espn
+2027-02-13,2027-02-13T15:00Z,Scottish Premiership,sco.1,away,St Mirren,250,The SMISA Stadium,espn
+2027-02-20,2027-02-20T15:00Z,Scottish Premiership,sco.1,home,Heart of Midlothian,262,Fir Park,espn
+2027-02-27,2027-02-27T15:00Z,Scottish Premiership,sco.1,home,Falkirk,254,Fir Park,espn
+2027-03-13,2027-03-13T15:00Z,Scottish Premiership,sco.1,away,Rangers,257,Ibrox Stadium,espn
+2027-03-20,2027-03-20T15:00Z,Scottish Premiership,sco.1,away,Dundee,261,The Scot Foam Stadium at Dens Park,espn
+2027-04-03,2027-04-03T14:00Z,Scottish Premiership,sco.1,home,Aberdeen,263,Fir Park,espn
+2027-04-10,2027-04-10T14:00Z,Scottish Premiership,sco.1,away,St Johnstone,267,McDiarmid Park,espn

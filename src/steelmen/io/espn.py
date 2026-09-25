@@ -11,6 +11,7 @@ from steelmen.io.cache import DATA_RAW, cached_get_json
 from steelmen.utils.teams import MOTHERWELL_ESPN_ID
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer"
+STANDINGS_BASE = "https://site.api.espn.com/apis/v2/sports/soccer"
 
 # league code -> display name. Order matters: the nightly script scans in
 # this order and the first hit wins for a given event id.
@@ -58,13 +59,33 @@ def get_team_schedule(
     league: str,
     team_id: str = MOTHERWELL_ESPN_ID,
     *,
+    fixtures: bool = False,
     cache_dir: Path = DATA_RAW,
     force: bool = False,
 ) -> dict:
-    """Season fixtures and results for a team in one league."""
+    """A team's season in one league: played matches by default, upcoming
+    fixtures with fixtures=True (ESPN's ?fixture=true switch)."""
+    suffix = "_fixtures" if fixtures else ""
     return cached_get_json(
         f"{BASE}/{league}/teams/{team_id}/schedule",
-        cache_path=cache_dir / "espn" / "schedule" / f"{league}_t{team_id}.json",
+        params={"fixture": "true"} if fixtures else None,
+        cache_path=cache_dir / "espn" / "schedule" / f"{league}_t{team_id}{suffix}.json",
+        force=force,
+    )
+
+
+def get_standings(
+    league: str,
+    *,
+    cache_dir: Path = DATA_RAW,
+    force: bool = False,
+    stamp: str | None = None,
+) -> dict:
+    """The league table as ESPN has it now (stamp = cache-buster, e.g. today's date)."""
+    suffix = f"_{stamp}" if stamp else ""
+    return cached_get_json(
+        f"{STANDINGS_BASE}/{league}/standings",
+        cache_path=cache_dir / "espn" / "standings" / f"{league}{suffix}.json",
         force=force,
     )
 

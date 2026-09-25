@@ -313,31 +313,47 @@ def parse_player_lines(lineups: dict, side: str = "motherwell") -> dict:
     }
 
 
-def parse_standings(summary: dict, *, team_id: str = MOTHERWELL_ESPN_ID) -> dict | None:
-    """League table from the summary's standings block (league matches only).
-
-    Returns None when ESPN attaches no table (cups, friendlies).
-    """
-    groups = (summary.get("standings") or {}).get("groups") or []
+def _standings_entries(payload: dict) -> list[dict]:
+    """Entries from either a match summary (standings.groups[0]) or the
+    standings endpoint (children[0]); [] when there is no table."""
+    groups = (payload.get("standings") or {}).get("groups") or payload.get("children") or []
     if not groups:
+        return []
+    return groups[0].get("standings", {}).get("entries", []) or []
+
+
+def parse_standings(payload: dict, *, team_id: str = MOTHERWELL_ESPN_ID) -> dict | None:
+    """League table from a summary's standings block or the standings endpoint.
+
+    Returns None when there is no table (cups, friendlies). `motherwell` is None
+    when the table exists but does not contain the team.
+    """
+    entries = _standings_entries(payload)
+    if not entries:
         return None
-    entries = groups[0].get("standings", {}).get("entries", [])
     rows = []
     for entry in entries:
         stats = {s["name"]: s.get("value") for s in entry.get("stats", [])}
-        rows.append(
-            {
-                "rank": int(stats.get("rank") or 0),
-                "team": entry.get("team"),
-                "espn_id": str(entry.get("id")),
-                "played": int(stats.get("gamesPlayed") or 0),
-                "wins": int(stats.get("wins") or 0),
-                "draws": int(stats.get("ties") or 0),
-                "losses": int(stats.get("losses") or 0),
-                "goal_difference": int(stats.get("pointDifferential") or 0),
-                "points": int(stats.get("points") or 0),
-            }
-        )
+        team = entry.get("team")
+        if isinstance(team, dict):
+            espn_id, team_name = str(team.get("id")), team.get("displayName")
+        else:
+            espn_id, team_name = str(entry.get("id")), team
+        row = {
+            "rank": int(stats.get("rank") or 0),
+            "team": team_name,
+            "espn_id": espn_id,
+            "played": int(stats.get("gamesPlayed") or 0),
+            "wins": int(stats.get("wins") or 0),
+            "draws": int(stats.get("ties") or 0),
+            "losses": int(stats.get("losses") or 0),
+            "goal_difference": int(stats.get("pointDifferential") or 0),
+            "points": int(stats.get("points") or 0),
+        }
+        if stats.get("pointsFor") is not None:
+            row["goals_for"] = int(stats["pointsFor"])
+            row["goals_against"] = int(stats.get("pointsAgainst") or 0)
+        rows.append(row)
     rows.sort(key=lambda r: r["rank"])
     ours = next((r for r in rows if r["espn_id"] == str(team_id)), None)
     if ours is None:

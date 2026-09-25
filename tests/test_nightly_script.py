@@ -24,7 +24,7 @@ def nightly():
 
 @pytest.fixture
 def wired(nightly, monkeypatch, scoreboard_gameday, scoreboard_empty, summary_aberdeen,
-          footballdata_frame, schedule_266, tmp_path):  # fmt: skip
+          footballdata_frame, schedule_266, standings_payload, tmp_path):  # fmt: skip
     """Patch the network layer; return the module and a data root."""
     calls = {"scoreboard": [], "summary": []}
 
@@ -44,7 +44,18 @@ def wired(nightly, monkeypatch, scoreboard_gameday, scoreboard_empty, summary_ab
     monkeypatch.setattr(nightly, "get_scoreboard", fake_scoreboard)
     monkeypatch.setattr(nightly, "get_summary", fake_summary)
     monkeypatch.setattr(nightly, "get_season_csv", lambda *a, **k: footballdata_frame.copy())
-    monkeypatch.setattr(nightly, "get_team_schedule", lambda *a, **k: schedule_266)
+    upcoming = json.loads(json.dumps(schedule_266))
+    for event in upcoming["events"]:
+        event["competitions"][0]["status"]["type"] = {
+            "name": "STATUS_SCHEDULED",
+            "completed": False,
+        }
+    monkeypatch.setattr(
+        nightly,
+        "get_team_schedule",
+        lambda *a, fixtures=False, **k: upcoming if fixtures else schedule_266,
+    )
+    monkeypatch.setattr(nightly, "get_standings", lambda *a, **k: standings_payload)
     monkeypatch.setattr(nightly, "next_events", lambda *a, **k: [
         {"idEvent": "1", "dateEvent": "2026-10-11", "strTimestamp": "2026-10-11T11:00:00",
          "strHomeTeam": "Motherwell", "strAwayTeam": "Celtic",
@@ -82,9 +93,12 @@ def test_match_day_writes_pack_log_and_figure(wired, capsys):
     assert log["espn_id"].tolist() == ["401878401"]
     assert float(log["motherwell_xg"].iloc[0]) == 0.77
     assert (nightly.FIGURES_DIR / "2026-09-15_vs-aberdeen.png").exists()
-    assert "RESULT: fixtures 1 upcoming (next 2026-10-11)" in out
+    assert "RESULT: fixtures 8 upcoming (next 2026-08-02)" in out  # 7 ESPN + 1 TheSportsDB
+    fixtures = pd.read_csv(root / "processed/motherwell/fixtures.csv")
+    assert set(fixtures["source"]) == {"espn", "thesportsdb"}
     assert "RESULT: table updated (Motherwell 8th, 8 pts)" in out
-    assert (root / "processed/motherwell/table.csv").exists()
+    table = pd.read_csv(root / "processed/motherwell/table.csv")
+    assert len(table) == 12 and "goals_for" in table.columns
     # second run is idempotent
     nightly.main(["--date", "2026-09-15", "--data-root", str(root), "--skip-fixtures"])
     assert "RESULT: exists 2026-09-15 sco.1 event 401878401" in capsys.readouterr().out
@@ -125,6 +139,22 @@ def test_dry_run_writes_nothing(wired, capsys):
     out = capsys.readouterr().out
     assert "RESULT: dry-run 2026-09-15 sco.1 event 401878401" in out
     assert not (root / "processed").exists()
+
+
+def test_refresh_table_handles_missing_team_and_ordinals(wired, monkeypatch, standings_payload):
+    nightly, root, calls = wired
+    entries = standings_payload["children"][0]["standings"]["entries"]
+    for entry in entries:
+        for stat in entry["stats"]:
+            if stat["name"] == "rank" and entry["team"]["id"] == "266":
+                stat["value"] = 1.0
+    out = nightly.refresh_table(root=root, dry_run=True, force=False, stamp="x")
+    assert out.startswith("RESULT: table updated (Motherwell 1st,")
+    standings_payload["children"][0]["standings"]["entries"] = [
+        e for e in entries if e["team"]["id"] != "266"
+    ]
+    out = nightly.refresh_table(root=root, dry_run=True, force=False, stamp="x")
+    assert "Motherwell not listed" in out
 
 
 def test_recent_dates_include_today(nightly):

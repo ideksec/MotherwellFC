@@ -39,6 +39,12 @@ def schedule_266() -> dict:
 
 
 @pytest.fixture
+def standings_payload() -> dict:
+    """ESPN standings endpoint (trimmed), 12 teams after matchday 7."""
+    return _load_json("espn_standings.json")
+
+
+@pytest.fixture
 def footballdata_frame() -> pd.DataFrame:
     return pd.read_csv(FIXTURES / "footballdata_SC0_sample.csv")
 

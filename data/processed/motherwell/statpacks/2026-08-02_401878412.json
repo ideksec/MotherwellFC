@@ -219,7 +219,7 @@
    "yellow_cards": 1
   }
  },
- "generated_at": "2026-09-25T00:58:42Z",
+ "generated_at": "2026-09-25T02:40:02Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -820,7 +820,7 @@
   },
   "over_2_5_price": 1.78,
   "points_vs_market": 1.82,
-  "source": "football-data.co.uk (Bet365 closing)"
+  "source": "football-data.co.uk (Bet365 pre-match)"
  },
  "match": {
   "attendance": 17440,
@@ -1053,7 +1053,7 @@
   "footballdata_xg": true
  },
  "table": {
-  "as_of": "fetch time (see generated_at)",
+  "as_of": "when the ESPN summary was fetched, not full time",
   "motherwell": {
    "draws": 2,
    "espn_id": "266",

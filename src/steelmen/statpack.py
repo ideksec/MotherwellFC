@@ -120,9 +120,9 @@ def build_stat_pack(
     fd_stats = stats_block(footballdata_row, home)
     table = parse_standings(summary) if league == PREMIERSHIP else None
     if table is not None:
-        # ESPN attaches the table as it stands when the summary is fetched, not
-        # as it stood at full time — identical for the nightly run, not for backfills
-        table["as_of"] = "fetch time (see generated_at)"
+        # ESPN attaches the table as it stood when the summary was fetched (the
+        # morning after, for nightly runs; earlier than generated_at on rebuilds)
+        table["as_of"] = "when the ESPN summary was fetched, not full time"
 
     log = through_match(matchlog, espn_id=match["espn_id"])
     if xg["available"]:

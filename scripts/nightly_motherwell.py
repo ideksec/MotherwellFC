@@ -23,13 +23,14 @@ import pandas as pd
 
 from steelmen.clean.footballdata import find_match, normalise
 from steelmen.clean.match import parse_match_summary, parse_standings
-from steelmen.clean.matchlog import load_matchlog, matchlog_row, upsert_matchlog
+from steelmen.clean.matchlog import matchlog_row, upsert_matchlog
 from steelmen.io.cache import FetchError
 from steelmen.io.espn import (
     LEAGUES,
     PREMIERSHIP,
     final_events,
     get_scoreboard,
+    get_standings,
     get_summary,
     get_team_schedule,
     is_final,
@@ -42,7 +43,12 @@ from steelmen.statpack import (
     stat_pack_path,
     write_stat_pack,
 )
-from steelmen.utils.teams import MOTHERWELL_ESPN_ID, MOTHERWELL_FD_NAME, footballdata_name
+from steelmen.utils.teams import (
+    MOTHERWELL_ESPN_ID,
+    MOTHERWELL_FD_NAME,
+    footballdata_name,
+    ordinal,
+)
 from steelmen.utils.time import UK, season_code, season_label, uk_date
 from steelmen.viz.match import match_figure
 
@@ -172,7 +178,7 @@ def refresh_fixtures(*, root: Path, force: bool, dry_run: bool, stamp: str) -> s
     rows: dict[str, dict] = {}
     try:
         schedule = get_team_schedule(
-            PREMIERSHIP, MOTHERWELL_ESPN_ID, cache_dir=root / "raw", force=True
+            PREMIERSHIP, MOTHERWELL_ESPN_ID, fixtures=True, cache_dir=root / "raw", force=True
         )
         for event in schedule.get("events", []):
             if is_final(event):
@@ -227,34 +233,25 @@ def refresh_fixtures(*, root: Path, force: bool, dry_run: bool, stamp: str) -> s
     return f"RESULT: fixtures {len(frame)} upcoming (next {frame.iloc[0]['date']})"
 
 
-def refresh_table(*, root: Path, dry_run: bool, latest_summary: dict | None) -> str:
-    """League table from the most recent league summary's standings block."""
-    if latest_summary is None:
-        return "RESULT: table unchanged (no league summary this run)"
-    standings = parse_standings(latest_summary)
+def refresh_table(*, root: Path, dry_run: bool, force: bool, stamp: str) -> str:
+    """League table from ESPN's standings endpoint, refreshed every run so it
+    moves on nights when other clubs play too."""
+    try:
+        payload = get_standings(PREMIERSHIP, cache_dir=root / "raw", force=force, stamp=stamp)
+    except FetchError as err:
+        return f"RESULT: table unavailable ({err})"
+    standings = parse_standings(payload)
     if not standings:
-        return "RESULT: table unavailable"
+        return "RESULT: table unavailable (no entries)"
     frame = pd.DataFrame(standings["table"])
     if not dry_run:
-        frame.to_csv(table_path(root), index=False)
+        path = table_path(root)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        frame.to_csv(path, index=False)
     ours = standings["motherwell"]
-    return f"RESULT: table updated (Motherwell {ours['rank']}th, {ours['points']} pts)"
-
-
-def latest_league_summary(root: Path) -> dict | None:
-    """The cached summary of the newest league match in the log, for the table."""
-    logs = sorted((root / "processed" / "motherwell").glob("matchlog_*.csv"))
-    if not logs:
-        return None
-    log = load_matchlog(logs[-1])
-    league = log[log["competition_code"] == PREMIERSHIP]
-    if league.empty:
-        return None
-    newest = league.sort_values("kickoff_utc").iloc[-1]
-    cached = root / "raw" / "espn" / "summary" / f"{PREMIERSHIP}_{newest['espn_id']}.json"
-    if not cached.exists():
-        return None
-    return json.loads(cached.read_text())
+    if ours is None:
+        return f"RESULT: table updated ({len(frame)} teams; Motherwell not listed)"
+    return f"RESULT: table updated (Motherwell {ordinal(ours['rank'])}, {ours['points']} pts)"
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -292,11 +289,7 @@ def main(argv: list[str] | None = None) -> int:
             )
         )
     results.append(
-        refresh_table(
-            root=args.data_root,
-            dry_run=args.dry_run,
-            latest_summary=latest_league_summary(args.data_root),
-        )
+        refresh_table(root=args.data_root, dry_run=args.dry_run, force=args.force, stamp=stamp)
     )
     for line in results:
         print(line)

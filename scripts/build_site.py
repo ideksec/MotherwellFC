@@ -442,6 +442,20 @@ def render_report(report: Report) -> str:
     )
 
 
+def _clear_output_dir(out_dir: Path) -> None:
+    """Remove a previous build, and only a previous build: refuse to delete the
+    repository itself, any of its ancestors, or a non-empty directory that was
+    not produced by this script (no .nojekyll marker)."""
+    out_dir = out_dir.resolve()
+    if out_dir == REPO_ROOT or out_dir in REPO_ROOT.parents:
+        raise SystemExit(f"Refusing to clear {out_dir}: it contains the repository")
+    if not out_dir.exists():
+        return
+    if any(out_dir.iterdir()) and not (out_dir / ".nojekyll").exists():
+        raise SystemExit(f"Refusing to clear {out_dir}: not a previous site build")
+    shutil.rmtree(out_dir)
+
+
 def build(
     out_dir: Path,
     *,
@@ -455,8 +469,7 @@ def build(
     table = load_csv(data_dir / "table.csv")
     fixtures = load_csv(data_dir / "fixtures.csv")
 
-    if out_dir.exists():
-        shutil.rmtree(out_dir)
+    _clear_output_dir(out_dir)
     for section, _, _ in SECTIONS:
         (out_dir / section).mkdir(parents=True)
     (out_dir / "figures").mkdir(parents=True, exist_ok=True)

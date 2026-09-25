@@ -26,9 +26,9 @@ def _filtered(log: pd.DataFrame, competition: str | None) -> pd.DataFrame:
 def through_match(log: pd.DataFrame, *, espn_id: str) -> pd.DataFrame:
     """The log up to and including one match, in kickoff order."""
     frame = _filtered(log, None)
-    if frame.empty:
-        return frame
-    positions = frame.index[frame["espn_id"].astype(str) == str(espn_id)]
+    positions = (
+        frame.index[frame["espn_id"].astype(str) == str(espn_id)] if not frame.empty else []
+    )
     if len(positions) == 0:
         raise KeyError(f"espn_id {espn_id} not in match log")
     return frame.iloc[: positions[0] + 1].reset_index(drop=True)

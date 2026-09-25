@@ -27,7 +27,7 @@ See `docs/data_sources.md` for the catalog. Findings that shaped the design:
   cloud IPs only with a non-browser User-Agent. Date-range scoreboards return 400, so
   the nightly job asks per date. Cup coverage looked patchy in probes.
 - **football-data.co.uk** added team xG (`HxG`, `AxG`) to the Scottish Premiership CSV
-  for 2026-27, alongside shots, corners, cards and closing odds. Free, league only,
+  for 2026-27, alongside shots, corners, cards and pre-match odds. Free, league only,
   posted within a day or two of the match — hence the xG retry window in Stage 1.
 - **football-data.org** puts Scotland on a paid tier and has no xG. **Understat** has no
   Scotland. **FBref** forbids tools built on its data and blocks scripts. Sportmonks and
@@ -73,8 +73,8 @@ Principles:
   provisional match-log upsert → stat pack → final upsert → match figure.
 - Idempotent: an existing pack is skipped unless `--force`, or it is a league pack
   without xG and the match is ≤ 4 days old (`XG_RETRY_DAYS`).
-- Always refreshes `fixtures.csv` (ESPN schedule + TheSportsDB) and `table.csv` (from
-  the newest cached league summary's standings block).
+- Always refreshes `fixtures.csv` (ESPN schedule with `?fixture=true` + TheSportsDB)
+  and `table.csv` (ESPN's standings endpoint, fetched fresh every run).
 - Prints `RESULT:` lines that the workflow folds into the commit message. No-op runs
   leave the tree clean, so the commit step naturally skips them.
 

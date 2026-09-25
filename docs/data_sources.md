@@ -28,9 +28,9 @@ the nightly job simply finds nothing and the fixture still shows via TheSportsDB
 | player_lines (scorers, assists, most shots, booked) | ESPN roster stats |
 | table (Premiership standings after the match) | ESPN standings block |
 | xg (team xG for/against, xPts) | football-data.co.uk `HxG` / `AxG` — league only |
-| market (Bet365 closing odds → implied probabilities, points vs market) | football-data.co.uk |
+| market (Bet365 pre-match odds → implied probabilities, points vs market) | football-data.co.uk |
 | footballdata_stats (shots, corners, cards, half-time score; cross-check) | football-data.co.uk |
-| fixtures.csv | ESPN team schedule (upcoming) + TheSportsDB next events |
+| fixtures.csv | ESPN team schedule with `?fixture=true` (upcoming, league) + TheSportsDB next events (all competitions) |
 
 ## Automated pulls
 

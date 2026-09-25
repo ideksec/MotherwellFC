@@ -55,7 +55,7 @@ Follow `reports/report_template.md` headers, adapted for a match:
 - **Blockquote header**: `> Date: {match.date}` and `> Author: MotherwellFC match pipeline`.
 - **Question**: "What happened, and what does it say about where Motherwell are?"
 - **Data**: one line citing the stat pack path, its `generated_at`, and the source
-  flags (ESPN ✓, xG ✓/✗, market ✓/✗) as provenance.
+  flags (ESPN ✓, xG ✓/✗, market ✓/✗) as provenance. Odds are pre-match prices, not closing.
 - **Results** — four themed sections, each with a thesis-first `###` header:
   1. **Match story** — the goals and turning points from `events` (minutes, scorers,
      penalties, cards, subs that changed it), the shape (`lineups.motherwell.formation`),
@@ -71,7 +71,8 @@ Follow `reports/report_template.md` headers, adapted for a match:
      debuts or absences only if in the data or sourced inline.
   4. **Where this leaves the season** — `rolling.last5_league`, `rolling.season_league`
      (form, points, PPG, xGD, streak), and `table.motherwell` (rank, points, gaps) when
-     present — it is the table as fetched the morning after, per `table.as_of`. For non-league matches use `rolling.*_all` and say the table is unaffected.
+     present — it is the table as fetched with the ESPN summary, per `table.as_of`;
+     `data/processed/motherwell/table.csv` is the current one. For non-league matches use `rolling.*_all` and say the table is unaffected.
 - **Limitations**: one or two honest lines (single match, vendor box-score stats,
   estimated minutes, xG source, anything missing).
 - **Takeaway**: 2–4 sentences, the single most important thing for a 'Well fan.

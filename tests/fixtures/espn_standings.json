@@ -1,0 +1,551 @@
+{
+ "children": [
+  {
+   "name": "2026-27 Scottish Premiership",
+   "standings": {
+    "entries": [
+     {
+      "team": {
+       "id": "256",
+       "displayName": "Celtic",
+       "abbreviation": "CEL"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 1.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": 10.0
+       },
+       {
+        "name": "points",
+        "value": 18.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 4.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 14.0
+       },
+       {
+        "name": "ties",
+        "value": 0.0
+       },
+       {
+        "name": "wins",
+        "value": 6.0
+       },
+       {
+        "name": "rank",
+        "value": 1.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "257",
+       "displayName": "Rangers",
+       "abbreviation": "RAN"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 1.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": 4.0
+       },
+       {
+        "name": "points",
+        "value": 16.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 4.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 8.0
+       },
+       {
+        "name": "ties",
+        "value": 1.0
+       },
+       {
+        "name": "wins",
+        "value": 5.0
+       },
+       {
+        "name": "rank",
+        "value": 2.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "262",
+       "displayName": "Heart of Midlothian",
+       "abbreviation": "HOM"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 2.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": 6.0
+       },
+       {
+        "name": "points",
+        "value": 13.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 8.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 14.0
+       },
+       {
+        "name": "ties",
+        "value": 1.0
+       },
+       {
+        "name": "wins",
+        "value": 4.0
+       },
+       {
+        "name": "rank",
+        "value": 3.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "261",
+       "displayName": "Dundee",
+       "abbreviation": "DUN"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 3.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": 2.0
+       },
+       {
+        "name": "points",
+        "value": 10.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 7.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 9.0
+       },
+       {
+        "name": "ties",
+        "value": 1.0
+       },
+       {
+        "name": "wins",
+        "value": 3.0
+       },
+       {
+        "name": "rank",
+        "value": 4.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "250",
+       "displayName": "St Mirren",
+       "abbreviation": "STM"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 3.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -1.0
+       },
+       {
+        "name": "points",
+        "value": 10.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 9.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 8.0
+       },
+       {
+        "name": "ties",
+        "value": 1.0
+       },
+       {
+        "name": "wins",
+        "value": 3.0
+       },
+       {
+        "name": "rank",
+        "value": 5.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "267",
+       "displayName": "St Johnstone",
+       "abbreviation": "STJ"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 3.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -1.0
+       },
+       {
+        "name": "points",
+        "value": 8.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 10.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 9.0
+       },
+       {
+        "name": "ties",
+        "value": 2.0
+       },
+       {
+        "name": "wins",
+        "value": 2.0
+       },
+       {
+        "name": "rank",
+        "value": 6.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "263",
+       "displayName": "Aberdeen",
+       "abbreviation": "ABE"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 3.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -1.0
+       },
+       {
+        "name": "points",
+        "value": 8.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 8.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 7.0
+       },
+       {
+        "name": "ties",
+        "value": 2.0
+       },
+       {
+        "name": "wins",
+        "value": 2.0
+       },
+       {
+        "name": "rank",
+        "value": 7.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "266",
+       "displayName": "Motherwell",
+       "abbreviation": "MOT"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 3.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -2.0
+       },
+       {
+        "name": "points",
+        "value": 8.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 11.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 9.0
+       },
+       {
+        "name": "ties",
+        "value": 2.0
+       },
+       {
+        "name": "wins",
+        "value": 2.0
+       },
+       {
+        "name": "rank",
+        "value": 8.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "264",
+       "displayName": "Dundee United",
+       "abbreviation": "DUN"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 3.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -2.0
+       },
+       {
+        "name": "points",
+        "value": 8.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 11.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 9.0
+       },
+       {
+        "name": "ties",
+        "value": 2.0
+       },
+       {
+        "name": "wins",
+        "value": 2.0
+       },
+       {
+        "name": "rank",
+        "value": 9.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "258",
+       "displayName": "Hibernian",
+       "abbreviation": "HIBS"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 4.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -3.0
+       },
+       {
+        "name": "points",
+        "value": 7.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 11.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 8.0
+       },
+       {
+        "name": "ties",
+        "value": 1.0
+       },
+       {
+        "name": "wins",
+        "value": 2.0
+       },
+       {
+        "name": "rank",
+        "value": 10.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "254",
+       "displayName": "Falkirk",
+       "abbreviation": "FALK"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 3.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -3.0
+       },
+       {
+        "name": "points",
+        "value": 6.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 9.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 6.0
+       },
+       {
+        "name": "ties",
+        "value": 3.0
+       },
+       {
+        "name": "wins",
+        "value": 1.0
+       },
+       {
+        "name": "rank",
+        "value": 11.0
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "260",
+       "displayName": "Kilmarnock",
+       "abbreviation": "KIL"
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 7.0
+       },
+       {
+        "name": "losses",
+        "value": 4.0
+       },
+       {
+        "name": "pointDifferential",
+        "value": -9.0
+       },
+       {
+        "name": "points",
+        "value": 5.0
+       },
+       {
+        "name": "pointsAgainst",
+        "value": 15.0
+       },
+       {
+        "name": "pointsFor",
+        "value": 6.0
+       },
+       {
+        "name": "ties",
+        "value": 2.0
+       },
+       {
+        "name": "wins",
+        "value": 1.0
+       },
+       {
+        "name": "rank",
+        "value": 12.0
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

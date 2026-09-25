@@ -14,8 +14,14 @@ PAPER = "#FBFAF8"
 RESULT_COLOURS = {"W": "#1C6B3F", "D": AMBER, "L": CLARET}
 
 
-def apply_style(plt) -> None:
-    plt.rcParams.update(
+def apply_style(target=None) -> None:
+    """Set the lab's matplotlib style. Accepts pyplot for backwards compatibility;
+    by default it updates matplotlib.rcParams without importing pyplot, so
+    importing steelmen.viz never changes a notebook's backend."""
+    import matplotlib
+
+    params = target.rcParams if target is not None else matplotlib.rcParams
+    params.update(
         {
             "figure.facecolor": PAPER,
             "axes.facecolor": PAPER,

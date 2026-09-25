@@ -2,14 +2,12 @@
 
 from pathlib import Path
 
-import matplotlib
+import pandas as pd
+from matplotlib.figure import Figure
 
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # noqa: E402
-import pandas as pd  # noqa: E402
-
-from steelmen.metrics.form import through_match  # noqa: E402
-from steelmen.viz.palette import (  # noqa: E402
+from steelmen.metrics.form import through_match
+from steelmen.utils.teams import team_short
+from steelmen.viz.palette import (
     AMBER,
     CLARET,
     CLARET_SOFT,
@@ -26,7 +24,8 @@ GOAL_KINDS = {"goal", "penalty_goal", "own_goal"}
 def _timeline(ax, pack: dict) -> None:
     match = pack["match"]
     opp = match["opponent"]["name"]
-    ax.set_xlim(0, 96)
+    last_minute = max([e.get("minute") or 0 for e in pack["events"]] + [90])
+    ax.set_xlim(0, max(96, last_minute + 3))
     ax.set_ylim(-1.6, 1.6)
     ax.set_yticks([1, -1])
     ax.set_yticklabels(["Motherwell", opp])
@@ -39,6 +38,8 @@ def _timeline(ax, pack: dict) -> None:
         minute = event.get("minute")
         if minute is None or event.get("team") is None:
             continue
+        if event.get("period") == 1 and minute > 45:
+            minute = 45.4  # first-half stoppage time stays left of the half-time line
         y = 1 if event["team"] == "motherwell" else -1
         strong = CLARET if y == 1 else OPPONENT
         soft = CLARET_SOFT if y == 1 else OPPONENT_SOFT
@@ -96,8 +97,8 @@ def _form_line(ax, pack: dict, matchlog: pd.DataFrame) -> None:
     ax.set_xticks(x)
     ax.set_xticklabels(
         [
-            f"{'v' if h == 'home' else '@'} {str(o)[:3].upper()}"
-            for h, o in zip(log["home_away"], log["opponent"])
+            f"{'v' if h == 'home' else '@'} {team_short(slug=str(slug), name=str(name))}"
+            for h, slug, name in zip(log["home_away"], log["opponent_slug"], log["opponent"])
         ],
         rotation=45,
         ha="right",
@@ -111,10 +112,11 @@ def _form_line(ax, pack: dict, matchlog: pd.DataFrame) -> None:
 
 
 def match_figure(pack: dict, matchlog: pd.DataFrame, out_path: Path) -> Path:
-    apply_style(plt)
-    fig, (ax_top, ax_bottom) = plt.subplots(
-        2, 1, figsize=(9, 6.5), gridspec_kw={"height_ratios": [1.0, 1.3]}
-    )
+    """Render the match figure. Uses the object-oriented API (no pyplot), so it
+    is safe to call from scripts and notebooks alike."""
+    apply_style()
+    fig = Figure(figsize=(9, 6.5))
+    ax_top, ax_bottom = fig.subplots(2, 1, gridspec_kw={"height_ratios": [1.0, 1.3]})
     _timeline(ax_top, pack)
     _form_line(ax_bottom, pack, matchlog)
     fig.text(
@@ -128,5 +130,4 @@ def match_figure(pack: dict, matchlog: pd.DataFrame, out_path: Path) -> Path:
     fig.tight_layout(rect=(0, 0.02, 1, 1))
     out_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(out_path, dpi=150)
-    plt.close(fig)
     return out_path

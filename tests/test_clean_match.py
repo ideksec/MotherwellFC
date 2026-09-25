@@ -84,6 +84,23 @@ def test_standings(summary_aberdeen):
 
 def test_standings_absent():
     assert m.parse_standings({"standings": {}}) is None
+    assert m.parse_standings({"children": []}) is None
+
+
+def test_standings_endpoint_shape(standings_payload):
+    table = m.parse_standings(standings_payload)
+    assert table["motherwell"]["rank"] == 8
+    assert table["table"][0]["team"] == "Celtic"
+    assert table["table"][0]["goals_for"] == 14 and table["table"][0]["goals_against"] == 4
+
+
+def test_standings_without_motherwell(standings_payload):
+    entries = standings_payload["children"][0]["standings"]["entries"]
+    standings_payload["children"][0]["standings"]["entries"] = [
+        e for e in entries if e["team"]["id"] != "266"
+    ]
+    table = m.parse_standings(standings_payload)
+    assert table["motherwell"] is None and len(table["table"]) == 11
 
 
 def test_drift_raises(summary_aberdeen):

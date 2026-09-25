@@ -81,7 +81,8 @@ def stats_block(row: pd.Series | None, motherwell_home: bool) -> dict:
 
 
 def market_block(row: pd.Series | None, motherwell_home: bool, result: str) -> dict:
-    """Pre-match Bet365 odds -> implied probabilities and a points-vs-market verdict."""
+    """Pre-match Bet365 odds (B365H/D/A, the earlier price, not the closing
+    B365C* columns) -> implied probabilities and a points-vs-market verdict."""
     if row is None:
         return {"available": False}
     h, d, a = row.get("B365H"), row.get("B365D"), row.get("B365A")
@@ -94,7 +95,7 @@ def market_block(row: pd.Series | None, motherwell_home: bool, result: str) -> d
     actual_points = {"W": 3, "D": 1, "L": 0}[result]
     return {
         "available": True,
-        "source": "football-data.co.uk (Bet365 closing)",
+        "source": "football-data.co.uk (Bet365 pre-match)",
         "odds": {"home": float(h), "draw": float(d), "away": float(a)},
         "motherwell_win_prob": round(p_win, 3),
         "draw_prob": round(probs["draw"], 3),
