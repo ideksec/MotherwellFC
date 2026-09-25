@@ -27,8 +27,10 @@ site. See [spec.md](spec.md) for the operating spec, standards and data policies
   - `statpack`: assembles the per-match JSON the reports are written from
   - `viz`: the per-match figure (event timeline + recent form) and the season form chart
 - **Reports** — `reports/motherwell/matches/` (automated per-match write-ups),
-  `previews/` (match-day previews), `monthly/` (month-in-numbers reviews), all served
-  as the [published site](https://ideksec.github.io/MotherwellFC/)
+  `previews/` (match-day previews), `monthly/` (month-in-numbers reviews) and
+  `analysis/` (standalone pieces from the playground, e.g. the
+  [squad usage after seven](reports/motherwell/analysis/2026-09-25_squad-usage-after-seven.md)),
+  all served as the [published site](https://ideksec.github.io/MotherwellFC/)
 - **Notebooks** — narrative analyses that use the package (`notebooks/analysis/`), plus a
   reusable [template](notebooks/templates/analysis_template.ipynb) and an
   [analysis guide](docs/analysis_guide.md)
@@ -46,7 +48,7 @@ data/           raw/ and interim/ are local-only (gitignored); processed/ for sm
                                        history_matches.csv (5 seasons, Motherwell-relative)
                 processed/spfl/        league_{season}.csv (every Premiership match, trimmed columns)
 notebooks/      templates/, exploration/, analysis/, modeling/, viz/
-reports/        motherwell/{matches,previews,monthly,figures}/, publishable/, report_template.md
+reports/        motherwell/{matches,previews,monthly,analysis,figures}/, publishable/, report_template.md
 src/            steelmen Python package (io, clean, metrics, statpack, viz, utils)
 scripts/        The nightly pull, the history backfill and the site builder
 apps/           dashboards/, services/ (empty for now)

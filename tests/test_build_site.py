@@ -45,6 +45,8 @@ def _make_repo(tmp_path):
     (reports / "matches" / "2026-09-19_at-dundee.md").write_text(SAMPLE_REPORT)
     (reports / "previews" / "2026-10-11_vs-celtic.md").write_text("# Celtic preview\n\ntext\n")
     (reports / "monthly" / "2026-09.md").write_text("# September in numbers\n\ntext\n")
+    (reports / "analysis").mkdir()
+    (reports / "analysis" / "2026-09-25_squad-usage.md").write_text("# Squad usage\n\ntext\n")
     (reports / "matches" / "notes.md").write_text("# ignored\n")
     figures = reports / "figures"
     figures.mkdir()
@@ -75,6 +77,7 @@ def test_collect_reports_by_section(site, tmp_path):
     found = site.collect_reports(reports)
     assert [(r.section, r.date) for r in found] == [
         ("previews", "2026-10-11"),
+        ("analysis", "2026-09-25"),
         ("matches", "2026-09-19"),
         ("monthly", "2026-09"),
     ]
@@ -87,8 +90,9 @@ def test_build_renders_everything(site, tmp_path):
     reports, data, figures = _make_repo(tmp_path)
     out = tmp_path / "site"
     count = site.build(out, reports_dir=reports, data_dir=data, figures_dir=figures)
-    assert count == 3
+    assert count == 4
     index = (out / "index.html").read_text()
+    assert "Analysis" in index and (out / "analysis" / "2026-09-25_squad-usage.html").exists()
     assert 'class="badge l"' in index and "Match reports" in index and "Previews" in index
     assert "8 of 2" in index  # position cell from table.csv
     assert "2026-10-11 v Celtic" in index

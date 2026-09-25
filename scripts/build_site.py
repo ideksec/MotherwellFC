@@ -37,11 +37,13 @@ SITE_TITLE = "Motherwell in numbers"
 MATCH_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(vs|at)-([a-z0-9-]+?)(?:_([a-z0-9-]+))?\.md$")
 PREVIEW_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_(vs|at)-([a-z0-9-]+?)(?:_([a-z0-9-]+))?\.md$")
 MONTHLY_RE = re.compile(r"^(\d{4}-\d{2})(?:_([a-z0-9-]+))?\.md$")
+ANALYSIS_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_([a-z0-9-]+)\.md$")
 
 SECTIONS = [
     ("matches", "Match reports", MATCH_RE),
     ("previews", "Previews", PREVIEW_RE),
     ("monthly", "Monthly reviews", MONTHLY_RE),
+    ("analysis", "Analysis", ANALYSIS_RE),
 ]
 
 STYLESHEET = """
@@ -239,7 +241,7 @@ def collect_reports(reports_dir: Path) -> list[Report]:
                 continue
             text = path.read_text()
             groups = match.groups()
-            if section == "monthly":
+            if section in ("monthly", "analysis"):
                 report = Report(
                     section=section,
                     path=path,

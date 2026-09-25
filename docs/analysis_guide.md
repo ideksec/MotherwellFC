@@ -34,6 +34,7 @@ cache path and a test, then run it from a script.
 
 ```python
 from steelmen.metrics import last_n_summary, season_summary, xpoints, implied_probabilities
+from steelmen.metrics import load_packs, squad_usage   # per-player minutes, shots, goals across packs
 from steelmen.metrics.discipline import discipline_summary
 from steelmen.viz import form_figure, match_figure
 ```
@@ -48,7 +49,8 @@ assumptions) → Method → Results → Conclusion (finding, limitations, next s
 
 ## 4. Promote the answer
 
-A question worth keeping becomes a report under `reports/motherwell/` following
+A question worth keeping becomes a report under `reports/motherwell/analysis/`
+(`YYYY-MM-DD_slug.md`, published on the site's Analysis section) following
 `reports/report_template.md`, with figures in `reports/motherwell/figures/`. Long
 pieces for fans go through `reports/publishable/` once polished. The monthly review
 Routine (`docs/ROUTINE_MONTHLY.md`) draws on the same files.
