@@ -68,8 +68,8 @@ def squad_usage(
         red_cards=("red_cards", "sum"),
     )
     grouped["sub_apps"] = grouped["apps"] - grouped["starts"]
-    grouped["shots_per90"] = (
-        (grouped["shots"] / grouped["minutes_est"].replace(0, pd.NA) * 90).astype(float).round(2)
-    )
+    minutes = grouped["minutes_est"].astype(float).replace(0.0, float("nan"))
+    grouped["shots_per90"] = (grouped["shots"] / minutes * 90).round(2)
+
     out = grouped.reset_index().sort_values(["minutes_est", "name"], ascending=[False, True])
     return out[USAGE_COLUMNS].reset_index(drop=True)
