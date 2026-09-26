@@ -11,7 +11,7 @@ import pandas as pd
 
 MATCHLOG_COLUMNS = [
     "espn_id", "date", "kickoff_utc", "season", "competition_code", "competition",
-    "home_away", "opponent", "opponent_slug", "result", "points",
+    "round", "leg", "home_away", "opponent", "opponent_slug", "result", "decided_by", "points",
     "motherwell_goals", "opponent_goals", "ht_motherwell", "ht_opponent",
     "venue", "attendance", "referee",
     "motherwell_xg", "opponent_xg",
@@ -44,10 +44,13 @@ def matchlog_row(pack: dict) -> dict:
         "season": pack.get("season"),
         "competition_code": match["competition"]["code"],
         "competition": match["competition"]["name"],
+        "round": match.get("round"),
+        "leg": match.get("leg"),
         "home_away": match["home_away"],
         "opponent": match["opponent"]["name"],
         "opponent_slug": match["opponent"]["slug"],
         "result": match["result"],
+        "decided_by": match.get("decided_by", "ft"),
         "points": POINTS[match["result"]],
         "motherwell_goals": match["score"]["motherwell"],
         "opponent_goals": match["score"]["opponent"],

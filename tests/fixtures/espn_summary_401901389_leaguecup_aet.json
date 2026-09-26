@@ -1,0 +1,5124 @@
+{
+ "header": {
+  "id": "401901389",
+  "season": {
+   "year": 2026,
+   "current": true,
+   "type": 14230,
+   "name": "2026-27 Scottish League Cup, Round 2"
+  },
+  "league": {
+   "id": "5330",
+   "name": "Scottish League Cup",
+   "abbreviation": "SLC",
+   "slug": "sco.cis",
+   "midsizeName": "SCO.CIS"
+  },
+  "competitions": [
+   {
+    "id": "401901389",
+    "date": "2026-08-16T13:00Z",
+    "neutralSite": false,
+    "status": {
+     "type": {
+      "id": "45",
+      "name": "STATUS_FINAL_AET",
+      "state": "post",
+      "completed": true,
+      "description": "Final Score - After Extra Time",
+      "detail": "AET",
+      "shortDetail": "AET"
+     }
+    },
+    "isFinal": false,
+    "notes": [],
+    "competitors": [
+     {
+      "id": "405",
+      "homeAway": "home",
+      "winner": true,
+      "score": "1",
+      "order": 0,
+      "team": {
+       "id": "405",
+       "abbreviation": "STE",
+       "displayName": "Stenhousemuir",
+       "name": "Stenhousemuir",
+       "shortDisplayName": "Stenhousem'r",
+       "location": "Stenhousemuir"
+      }
+     },
+     {
+      "id": "266",
+      "homeAway": "away",
+      "winner": false,
+      "score": "0",
+      "order": 1,
+      "team": {
+       "id": "266",
+       "abbreviation": "MOT",
+       "displayName": "Motherwell",
+       "name": "Motherwell",
+       "shortDisplayName": "Motherwell",
+       "location": "Motherwell"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "gameInfo": {
+  "venue": {
+   "fullName": "Ochilview Park",
+   "address": {
+    "city": "Stenhousemuir",
+    "country": "Scotland"
+   }
+  },
+  "attendance": 1943,
+  "officials": [
+   {
+    "displayName": "Colin Stevenson",
+    "position": {
+     "name": "Referee",
+     "displayName": "Referee",
+     "id": "1"
+    }
+   }
+  ]
+ },
+ "boxscore": {
+  "teams": [
+   {
+    "team": {
+     "id": "405",
+     "abbreviation": "STE",
+     "displayName": "Stenhousemuir",
+     "name": "Stenhousemuir",
+     "shortDisplayName": "Stenhousem'r",
+     "location": "Stenhousemuir"
+    },
+    "homeAway": "home",
+    "statistics": [
+     {
+      "name": "foulsCommitted",
+      "displayValue": "14",
+      "label": "Fouls"
+     },
+     {
+      "name": "yellowCards",
+      "displayValue": "4",
+      "label": "Yellow Cards"
+     },
+     {
+      "name": "redCards",
+      "displayValue": "0",
+      "label": "Red Cards"
+     },
+     {
+      "name": "offsides",
+      "displayValue": "2",
+      "label": "Offsides"
+     },
+     {
+      "name": "wonCorners",
+      "displayValue": "9",
+      "label": "Corner Kicks"
+     },
+     {
+      "name": "saves",
+      "displayValue": "1",
+      "label": "Saves"
+     },
+     {
+      "name": "possessionPct",
+      "displayValue": "35",
+      "label": "Possession"
+     },
+     {
+      "name": "totalShots",
+      "displayValue": "11",
+      "label": "SHOTS"
+     },
+     {
+      "name": "shotsOnTarget",
+      "displayValue": "5",
+      "label": "ON GOAL"
+     },
+     {
+      "name": "shotPct",
+      "displayValue": "0.5",
+      "label": "On Target %"
+     },
+     {
+      "name": "penaltyKickGoals",
+      "displayValue": "0",
+      "label": "Penalty Goals"
+     },
+     {
+      "name": "penaltyKickShots",
+      "displayValue": "0",
+      "label": "Penalty Kicks Taken"
+     },
+     {
+      "name": "accuratePasses",
+      "displayValue": "0",
+      "label": "Accurate Passes"
+     },
+     {
+      "name": "totalPasses",
+      "displayValue": "0",
+      "label": "Passes"
+     },
+     {
+      "name": "passPct",
+      "displayValue": "0.0",
+      "label": "Pass Completion %"
+     },
+     {
+      "name": "accurateCrosses",
+      "displayValue": "0",
+      "label": "Accurate Crosses"
+     },
+     {
+      "name": "totalCrosses",
+      "displayValue": "0",
+      "label": "Crosses"
+     },
+     {
+      "name": "crossPct",
+      "displayValue": "0.0",
+      "label": "Cross %"
+     },
+     {
+      "name": "totalLongBalls",
+      "displayValue": "0",
+      "label": "Long Balls"
+     },
+     {
+      "name": "accurateLongBalls",
+      "displayValue": "0",
+      "label": "Accurate Long Balls"
+     },
+     {
+      "name": "longballPct",
+      "displayValue": "0.0",
+      "label": "Long Balls %"
+     },
+     {
+      "name": "blockedShots",
+      "displayValue": "2",
+      "label": "Blocked Shots"
+     },
+     {
+      "name": "effectiveTackles",
+      "displayValue": "0",
+      "label": "Effective Tackles"
+     },
+     {
+      "name": "totalTackles",
+      "displayValue": "0",
+      "label": "Tackles"
+     },
+     {
+      "name": "tacklePct",
+      "displayValue": "0.0",
+      "label": "Tackle %"
+     },
+     {
+      "name": "interceptions",
+      "displayValue": "0",
+      "label": "Interceptions"
+     },
+     {
+      "name": "effectiveClearance",
+      "displayValue": "0",
+      "label": "Effective Clearances"
+     },
+     {
+      "name": "totalClearance",
+      "displayValue": "0",
+      "label": "Clearances"
+     }
+    ]
+   },
+   {
+    "team": {
+     "id": "266",
+     "abbreviation": "MOT",
+     "displayName": "Motherwell",
+     "name": "Motherwell",
+     "shortDisplayName": "Motherwell",
+     "location": "Motherwell"
+    },
+    "homeAway": "away",
+    "statistics": [
+     {
+      "name": "foulsCommitted",
+      "displayValue": "16",
+      "label": "Fouls"
+     },
+     {
+      "name": "yellowCards",
+      "displayValue": "3",
+      "label": "Yellow Cards"
+     },
+     {
+      "name": "redCards",
+      "displayValue": "0",
+      "label": "Red Cards"
+     },
+     {
+      "name": "offsides",
+      "displayValue": "2",
+      "label": "Offsides"
+     },
+     {
+      "name": "wonCorners",
+      "displayValue": "8",
+      "label": "Corner Kicks"
+     },
+     {
+      "name": "saves",
+      "displayValue": "4",
+      "label": "Saves"
+     },
+     {
+      "name": "possessionPct",
+      "displayValue": "65",
+      "label": "Possession"
+     },
+     {
+      "name": "totalShots",
+      "displayValue": "7",
+      "label": "SHOTS"
+     },
+     {
+      "name": "shotsOnTarget",
+      "displayValue": "1",
+      "label": "ON GOAL"
+     },
+     {
+      "name": "shotPct",
+      "displayValue": "0.1",
+      "label": "On Target %"
+     },
+     {
+      "name": "penaltyKickGoals",
+      "displayValue": "0",
+      "label": "Penalty Goals"
+     },
+     {
+      "name": "penaltyKickShots",
+      "displayValue": "0",
+      "label": "Penalty Kicks Taken"
+     },
+     {
+      "name": "accuratePasses",
+      "displayValue": "0",
+      "label": "Accurate Passes"
+     },
+     {
+      "name": "totalPasses",
+      "displayValue": "0",
+      "label": "Passes"
+     },
+     {
+      "name": "passPct",
+      "displayValue": "0.0",
+      "label": "Pass Completion %"
+     },
+     {
+      "name": "accurateCrosses",
+      "displayValue": "0",
+      "label": "Accurate Crosses"
+     },
+     {
+      "name": "totalCrosses",
+      "displayValue": "0",
+      "label": "Crosses"
+     },
+     {
+      "name": "crossPct",
+      "displayValue": "0.0",
+      "label": "Cross %"
+     },
+     {
+      "name": "totalLongBalls",
+      "displayValue": "0",
+      "label": "Long Balls"
+     },
+     {
+      "name": "accurateLongBalls",
+      "displayValue": "0",
+      "label": "Accurate Long Balls"
+     },
+     {
+      "name": "longballPct",
+      "displayValue": "0.0",
+      "label": "Long Balls %"
+     },
+     {
+      "name": "blockedShots",
+      "displayValue": "0",
+      "label": "Blocked Shots"
+     },
+     {
+      "name": "effectiveTackles",
+      "displayValue": "0",
+      "label": "Effective Tackles"
+     },
+     {
+      "name": "totalTackles",
+      "displayValue": "0",
+      "label": "Tackles"
+     },
+     {
+      "name": "tacklePct",
+      "displayValue": "0.0",
+      "label": "Tackle %"
+     },
+     {
+      "name": "interceptions",
+      "displayValue": "0",
+      "label": "Interceptions"
+     },
+     {
+      "name": "effectiveClearance",
+      "displayValue": "0",
+      "label": "Effective Clearances"
+     },
+     {
+      "name": "totalClearance",
+      "displayValue": "0",
+      "label": "Clearances"
+     }
+    ]
+   }
+  ]
+ },
+ "rosters": [
+  {
+   "homeAway": "home",
+   "winner": true,
+   "formation": "4-2-3-1",
+   "team": {
+    "id": "405",
+    "abbreviation": "STE",
+    "displayName": "Stenhousemuir"
+   },
+   "roster": [
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "1",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "1",
+     "athlete": {
+      "id": "118995",
+      "displayName": "Darren Jamieson",
+      "shortName": "D. Jamieson",
+      "fullName": "Darren Jamieson"
+     },
+     "position": {
+      "name": "Goalkeeper",
+      "abbreviation": "G"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "saves",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "19",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "6",
+     "athlete": {
+      "id": "347001",
+      "displayName": "Scott Bright",
+      "shortName": "S. Bright",
+      "fullName": "Scott Bright"
+     },
+     "position": {
+      "name": "Center Left Defender",
+      "abbreviation": "CD-L"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "5",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "5",
+     "athlete": {
+      "id": "229901",
+      "displayName": "Sam Young",
+      "shortName": "S. Young",
+      "fullName": "Sam Young"
+     },
+     "position": {
+      "name": "Center Right Defender",
+      "abbreviation": "CD-R"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "14",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "3",
+     "athlete": {
+      "id": "322774",
+      "displayName": "Kinlay Bilham",
+      "shortName": "K. Bilham",
+      "fullName": "Kinlay Bilham"
+     },
+     "position": {
+      "name": "Left Back",
+      "abbreviation": "LB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "45'"
+       },
+       "scoringPlay": false,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false
+      },
+      {
+       "clock": {
+        "displayValue": "65'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "2",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "2",
+     "athlete": {
+      "id": "162845",
+      "displayName": "Ross Meechan",
+      "shortName": "R. Meechan",
+      "fullName": "Ross Meechan"
+     },
+     "position": {
+      "name": "Right Back",
+      "abbreviation": "RB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "104'"
+       },
+       "scoringPlay": false,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "21",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "10",
+     "athlete": {
+      "id": "409059",
+      "displayName": "Lewis Hodgkiss",
+      "shortName": "L. Hodgkiss",
+      "fullName": "Lewis Hodgkiss"
+     },
+     "position": {
+      "name": "Attacking Midfielder",
+      "abbreviation": "AM"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "65'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "17",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "4",
+     "athlete": {
+      "id": "13199",
+      "displayName": "Michael Anderson",
+      "shortName": "M. Anderson",
+      "fullName": "Michael Anderson"
+     },
+     "position": {
+      "name": "Left Midfielder",
+      "abbreviation": "LM"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "80'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "8",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "8",
+     "athlete": {
+      "id": "311110",
+      "displayName": "Finn Robson",
+      "shortName": "F. Robson",
+      "fullName": "Finn Robson"
+     },
+     "position": {
+      "name": "Right Midfielder",
+      "abbreviation": "RM"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "22",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "9",
+     "athlete": {
+      "id": "108365",
+      "displayName": "Andrew Shinnie",
+      "shortName": "A. Shinnie",
+      "fullName": "Andrew Shinnie"
+     },
+     "position": {
+      "name": "Forward",
+      "abbreviation": "F"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "75'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "24",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "11",
+     "athlete": {
+      "id": "366795",
+      "displayName": "Leyton Grant",
+      "shortName": "L. Grant",
+      "fullName": "Leyton Grant"
+     },
+     "position": {
+      "name": "Attacking Midfielder Left",
+      "abbreviation": "AM-L"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "90'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "11",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "7",
+     "athlete": {
+      "id": "332860",
+      "displayName": "Lewis O'Donnell",
+      "shortName": "L. O'Donnell",
+      "fullName": "Lewis O'Donnell"
+     },
+     "position": {
+      "name": "Attacking Midfielder Right",
+      "abbreviation": "AM-R"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "105'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "37",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "324795",
+      "displayName": "Oscar Macintyre",
+      "shortName": "O. Macintyre",
+      "fullName": "Oscar Macintyre"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "65'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "34",
+     "subbedIn": false,
+     "subbedOut": false,
+     "athlete": {
+      "id": "282118",
+      "displayName": "Robbie Hemfrey",
+      "shortName": "R. Hemfrey",
+      "fullName": "Robbie Hemfrey"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "saves",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "9",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "212362",
+      "displayName": "Matthew Aitken",
+      "shortName": "M. Aitken",
+      "fullName": "Matthew Aitken"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "90'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      },
+      {
+       "clock": {
+        "displayValue": "118'"
+       },
+       "scoringPlay": false,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "6",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "336768",
+      "displayName": "Archie Graham",
+      "shortName": "A. Graham",
+      "fullName": "Archie Graham"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "105'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "26",
+     "subbedIn": false,
+     "subbedOut": false,
+     "athlete": {
+      "id": "190512",
+      "displayName": "Nicky Jamieson",
+      "shortName": "N. Jamieson",
+      "fullName": "Nicky Jamieson"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "7",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "240728",
+      "displayName": "Ewan O'Reilly",
+      "shortName": "E. O'Reilly",
+      "fullName": "Ewan O'Reilly"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "totalGoals",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "totalShots",
+       "value": 2.0,
+       "displayValue": "2"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "75'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      },
+      {
+       "clock": {
+        "displayValue": "114'"
+       },
+       "scoringPlay": true,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "didScore": true
+      },
+      {
+       "clock": {
+        "displayValue": "119'"
+       },
+       "scoringPlay": false,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "4",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "176462",
+      "displayName": "Gregor Buchanan",
+      "shortName": "G. Buchanan",
+      "fullName": "Gregor Buchanan"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "80'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "20",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "365869",
+      "displayName": "Gus Stevenson",
+      "shortName": "G. Stevenson",
+      "fullName": "Gus Stevenson"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 3.0,
+       "displayValue": "3"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "65'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "25",
+     "subbedIn": false,
+     "subbedOut": false,
+     "athlete": {
+      "id": "330004",
+      "displayName": "Shea Scally",
+      "shortName": "S. Scally",
+      "fullName": "Shea Scally"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "homeAway": "away",
+   "winner": false,
+   "formation": "4-2-3-1",
+   "team": {
+    "id": "266",
+    "abbreviation": "MOT",
+    "displayName": "Motherwell"
+   },
+   "roster": [
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "21",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "1",
+     "athlete": {
+      "id": "291429",
+      "displayName": "Matty Connolly",
+      "shortName": "M. Connolly",
+      "fullName": "Matty Connolly"
+     },
+     "position": {
+      "name": "Goalkeeper",
+      "abbreviation": "G"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "saves",
+       "value": 4.0,
+       "displayValue": "4"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "3",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "6",
+     "athlete": {
+      "id": "336926",
+      "displayName": "Jake Girdwood-Reich",
+      "shortName": "J. Girdwood-Reich",
+      "fullName": "Jake Girdwood-Reich"
+     },
+     "position": {
+      "name": "Center Left Defender",
+      "abbreviation": "CD-L"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "85'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "4",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "5",
+     "athlete": {
+      "id": "367146",
+      "displayName": "Jamie Knight-Lebel",
+      "shortName": "J. Knight-Lebel",
+      "fullName": "Jamie Knight-Lebel"
+     },
+     "position": {
+      "name": "Center Right Defender",
+      "abbreviation": "CD-R"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "23",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "3",
+     "athlete": {
+      "id": "322901",
+      "displayName": "Ewan Wilson",
+      "shortName": "E. Wilson",
+      "fullName": "Ewan Wilson"
+     },
+     "position": {
+      "name": "Left Back",
+      "abbreviation": "LB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "45'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "24",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "2",
+     "athlete": {
+      "id": "347021",
+      "displayName": "Luca Ross",
+      "shortName": "L. Ross",
+      "fullName": "Luca Ross"
+     },
+     "position": {
+      "name": "Right Back",
+      "abbreviation": "RB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "27",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "10",
+     "athlete": {
+      "id": "366702",
+      "displayName": "Mikey Booth",
+      "shortName": "M. Booth",
+      "fullName": "Mikey Booth"
+     },
+     "position": {
+      "name": "Attacking Midfielder",
+      "abbreviation": "AM"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 4.0,
+       "displayValue": "4"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "71",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "4",
+     "athlete": {
+      "id": "290102",
+      "displayName": "Joseph Hodge",
+      "shortName": "J. Hodge",
+      "fullName": "Joseph Hodge"
+     },
+     "position": {
+      "name": "Left Midfielder",
+      "abbreviation": "LM"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "62'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "25",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "8",
+     "athlete": {
+      "id": "366706",
+      "displayName": "Olly Whyte",
+      "shortName": "O. Whyte",
+      "fullName": "Olly Whyte"
+     },
+     "position": {
+      "name": "Right Midfielder",
+      "abbreviation": "RM"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "105'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "18",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "9",
+     "athlete": {
+      "id": "307108",
+      "displayName": "Tawanda Maswanhise",
+      "shortName": "T. Maswanhise",
+      "fullName": "Tawanda Maswanhise"
+     },
+     "position": {
+      "name": "Forward",
+      "abbreviation": "F"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "62'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "19",
+     "subbedIn": false,
+     "subbedOut": true,
+     "formationPlace": "11",
+     "athlete": {
+      "id": "297816",
+      "displayName": "Ibrahim Sa'Id",
+      "shortName": "I. Sa'Id",
+      "fullName": "Ibrahim Sa'Id"
+     },
+     "position": {
+      "name": "Attacking Midfielder Left",
+      "abbreviation": "AM-L"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "24'"
+       },
+       "scoringPlay": false,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false
+      },
+      {
+       "clock": {
+        "displayValue": "45'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": true,
+     "jersey": "77",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "7",
+     "athlete": {
+      "id": "3103163",
+      "displayName": "Willy Gabriel Vogt Veigantes",
+      "shortName": "W. Vogt Veigantes",
+      "fullName": "Willy Gabriel Vogt Veigantes"
+     },
+     "position": {
+      "name": "Attacking Midfielder Right",
+      "abbreviation": "AM-R"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 1.0,
+       "displayValue": "1"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "107'"
+       },
+       "scoringPlay": false,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "17",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "223826",
+      "displayName": "Regan Charles-Cook",
+      "shortName": "R. Charles-Cook",
+      "fullName": "Regan Charles-Cook"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "62'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "36",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "298219",
+      "displayName": "Lucas Weir",
+      "shortName": "L. Weir",
+      "fullName": "Lucas Weir"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "5",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "330297",
+      "displayName": "Martin Moormann",
+      "shortName": "M. Moormann",
+      "fullName": "Martin Moormann"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "85'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "29",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "388127",
+      "displayName": "Zander Mcallister",
+      "shortName": "Z. Mcallister",
+      "fullName": "Zander Mcallister"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "105'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "8",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "274022",
+      "displayName": "Lukas Fadinger",
+      "shortName": "L. Fadinger",
+      "fullName": "Lukas Fadinger"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "62'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      },
+      {
+       "clock": {
+        "displayValue": "90'+3'"
+       },
+       "scoringPlay": false,
+       "substitution": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "45",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "243554",
+      "displayName": "Emmanuel Longelo",
+      "shortName": "E. Longelo",
+      "fullName": "Emmanuel Longelo"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "45'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "22",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "240956",
+      "displayName": "Johnny Koutroumbis",
+      "shortName": "J. Koutroumbis",
+      "fullName": "Johnny Koutroumbis"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "1",
+     "subbedIn": false,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "297800",
+      "displayName": "Alex Paulsen",
+      "shortName": "A. Paulsen",
+      "fullName": "Alex Paulsen"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "saves",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": true,
+     "starter": false,
+     "jersey": "11",
+     "subbedIn": true,
+     "subbedOut": false,
+     "formationPlace": "0",
+     "athlete": {
+      "id": "291487",
+      "displayName": "Alexander Lowry",
+      "shortName": "A. Lowry",
+      "fullName": "Alexander Lowry"
+     },
+     "position": {
+      "name": "Substitute",
+      "abbreviation": "SUB"
+     },
+     "stats": [
+      {
+       "name": "appearances",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsCommitted",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "foulsSuffered",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "ownGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "subIns",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalsConceded",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "shotsFaced",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "goalAssists",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offsides",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "shotsOnTarget",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalGoals",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "value": 2.0,
+       "displayValue": "2"
+      }
+     ],
+     "plays": [
+      {
+       "clock": {
+        "displayValue": "45'"
+       },
+       "scoringPlay": false,
+       "substitution": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "keyEvents": [
+  {
+   "id": "50965639",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Ibrahim Sa'Id (Motherwell) Yellow Card at 24'",
+   "shortText": "Ibrahim Sa'Id Yellow Card",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 1420.0,
+    "displayValue": "24'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "297816",
+      "displayName": "Ibrahim Sa'Id"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50966420",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Kinlay Bilham (Stenhousemuir) Yellow Card at 45'",
+   "shortText": "Kinlay Bilham Yellow Card",
+   "period": {
+    "number": 1
+   },
+   "clock": {
+    "value": 2686.0,
+    "displayValue": "45'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "322774",
+      "displayName": "Kinlay Bilham"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50967254",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Emmanuel Longelo (Motherwell) Substitution at 45'",
+   "shortText": "Emmanuel Longelo Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 2700.0,
+    "displayValue": "45'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "243554",
+      "displayName": "Emmanuel Longelo"
+     }
+    },
+    {
+     "athlete": {
+      "id": "297816",
+      "displayName": "Ibrahim Sa'Id"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50967255",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Alexander Lowry (Motherwell) Substitution at 45'",
+   "shortText": "Alexander Lowry Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 2700.0,
+    "displayValue": "45'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "291487",
+      "displayName": "Alexander Lowry"
+     }
+    },
+    {
+     "athlete": {
+      "id": "322901",
+      "displayName": "Ewan Wilson"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50968726",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Regan Charles-Cook (Motherwell) Substitution at 62'",
+   "shortText": "Regan Charles-Cook Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3698.0,
+    "displayValue": "62'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "223826",
+      "displayName": "Regan Charles-Cook"
+     }
+    },
+    {
+     "athlete": {
+      "id": "307108",
+      "displayName": "Tawanda Maswanhise"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50968727",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Lukas Fadinger (Motherwell) Substitution at 62'",
+   "shortText": "Lukas Fadinger Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3699.0,
+    "displayValue": "62'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "274022",
+      "displayName": "Lukas Fadinger"
+     }
+    },
+    {
+     "athlete": {
+      "id": "290102",
+      "displayName": "Joseph Hodge"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50969035",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Oscar Macintyre (Stenhousemuir) Substitution at 65'",
+   "shortText": "Oscar Macintyre Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3874.0,
+    "displayValue": "65'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "324795",
+      "displayName": "Oscar Macintyre"
+     }
+    },
+    {
+     "athlete": {
+      "id": "322774",
+      "displayName": "Kinlay Bilham"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50969036",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Gus Stevenson (Stenhousemuir) Substitution at 65'",
+   "shortText": "Gus Stevenson Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 3875.0,
+    "displayValue": "65'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "365869",
+      "displayName": "Gus Stevenson"
+     }
+    },
+    {
+     "athlete": {
+      "id": "409059",
+      "displayName": "Lewis Hodgkiss"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50969476",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Ewan O'Reilly (Stenhousemuir) Substitution at 75'",
+   "shortText": "Ewan O'Reilly Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 4500.0,
+    "displayValue": "75'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "240728",
+      "displayName": "Ewan O'Reilly"
+     }
+    },
+    {
+     "athlete": {
+      "id": "108365",
+      "displayName": "Andrew Shinnie"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50969862",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Gregor Buchanan (Stenhousemuir) Substitution at 80'",
+   "shortText": "Gregor Buchanan Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 4795.0,
+    "displayValue": "80'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "176462",
+      "displayName": "Gregor Buchanan"
+     }
+    },
+    {
+     "athlete": {
+      "id": "13199",
+      "displayName": "Michael Anderson"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50970151",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Martin Moormann (Motherwell) Substitution at 85'",
+   "shortText": "Martin Moormann Substitution",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 5066.0,
+    "displayValue": "85'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "330297",
+      "displayName": "Martin Moormann"
+     }
+    },
+    {
+     "athlete": {
+      "id": "336926",
+      "displayName": "Jake Girdwood-Reich"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50970839",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Lukas Fadinger (Motherwell) Yellow Card at 90'+3'",
+   "shortText": "Lukas Fadinger Yellow Card",
+   "period": {
+    "number": 2
+   },
+   "clock": {
+    "value": 5400.0,
+    "displayValue": "90'+3'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "274022",
+      "displayName": "Lukas Fadinger"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50971184",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Matthew Aitken (Stenhousemuir) Substitution at 90'",
+   "shortText": "Matthew Aitken Substitution",
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "value": 5400.0,
+    "displayValue": "90'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "212362",
+      "displayName": "Matthew Aitken"
+     }
+    },
+    {
+     "athlete": {
+      "id": "366795",
+      "displayName": "Leyton Grant"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50972141",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Ross Meechan (Stenhousemuir) Yellow Card at 104'",
+   "shortText": "Ross Meechan Yellow Card",
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "value": 6198.0,
+    "displayValue": "104'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "162845",
+      "displayName": "Ross Meechan"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50972330",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Zander Mcallister (Motherwell) Substitution at 105'",
+   "shortText": "Zander Mcallister Substitution",
+   "period": {
+    "number": 3
+   },
+   "clock": {
+    "value": 6285.0,
+    "displayValue": "105'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "388127",
+      "displayName": "Zander Mcallister"
+     }
+    },
+    {
+     "athlete": {
+      "id": "366706",
+      "displayName": "Olly Whyte"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50972613",
+   "type": {
+    "id": "76",
+    "text": "Substitution",
+    "type": "substitution"
+   },
+   "text": "Archie Graham (Stenhousemuir) Substitution at 105'",
+   "shortText": "Archie Graham Substitution",
+   "period": {
+    "number": 4
+   },
+   "clock": {
+    "value": 6300.0,
+    "displayValue": "105'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "336768",
+      "displayName": "Archie Graham"
+     }
+    },
+    {
+     "athlete": {
+      "id": "332860",
+      "displayName": "Lewis O'Donnell"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50973028",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Willy Gabriel Vogt Veigantes (Motherwell) Yellow Card at 107'",
+   "shortText": "Willy Gabriel Vogt Veigantes Yel",
+   "period": {
+    "number": 4
+   },
+   "clock": {
+    "value": 6406.0,
+    "displayValue": "107'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "266",
+    "displayName": "Motherwell"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "3103163",
+      "displayName": "Willy Gabriel Vogt Veigantes"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50973652",
+   "type": {
+    "id": "70",
+    "text": "Goal",
+    "type": "goal"
+   },
+   "text": "Ewan O'Reilly (Stenhousemuir) Goal at 114'",
+   "shortText": "Ewan O'Reilly Goal",
+   "period": {
+    "number": 4
+   },
+   "clock": {
+    "value": 6785.0,
+    "displayValue": "114'"
+   },
+   "scoringPlay": true,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "240728",
+      "displayName": "Ewan O'Reilly"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50973945",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Matthew Aitken (Stenhousemuir) Yellow Card at 118'",
+   "shortText": "Matthew Aitken Yellow Card",
+   "period": {
+    "number": 4
+   },
+   "clock": {
+    "value": 7022.0,
+    "displayValue": "118'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "212362",
+      "displayName": "Matthew Aitken"
+     }
+    }
+   ],
+   "shootout": false
+  },
+  {
+   "id": "50974162",
+   "type": {
+    "id": "94",
+    "text": "Yellow Card",
+    "type": "yellow-card"
+   },
+   "text": "Ewan O'Reilly (Stenhousemuir) Yellow Card at 119'",
+   "shortText": "Ewan O'Reilly Yellow Card",
+   "period": {
+    "number": 4
+   },
+   "clock": {
+    "value": 7139.0,
+    "displayValue": "119'"
+   },
+   "scoringPlay": false,
+   "team": {
+    "id": "405",
+    "displayName": "Stenhousemuir"
+   },
+   "participants": [
+    {
+     "athlete": {
+      "id": "240728",
+      "displayName": "Ewan O'Reilly"
+     }
+    }
+   ],
+   "shootout": false
+  }
+ ],
+ "odds": [],
+ "standings": {}
+}

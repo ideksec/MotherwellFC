@@ -24,6 +24,18 @@ def summary_dundee() -> dict:
 
 
 @pytest.fixture
+def summary_leaguecup_aet() -> dict:
+    """Stenhousemuir 1-0 Motherwell after extra time, League Cup round 2, 2026-08-16."""
+    return _load_json("espn_summary_401901389_leaguecup_aet.json")
+
+
+@pytest.fixture
+def summary_uecl() -> dict:
+    """Motherwell 1-3 SC Freiburg, Conference League play-off first leg, 2026-08-20."""
+    return _load_json("espn_summary_401910991_uecl.json")
+
+
+@pytest.fixture
 def scoreboard_gameday() -> dict:
     return _load_json("espn_scoreboard_gameday.json")
 

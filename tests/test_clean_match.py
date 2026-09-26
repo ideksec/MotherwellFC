@@ -41,8 +41,53 @@ def test_events_are_labelled_and_ordered(summary_dundee):
     assert minutes == sorted(minutes)
 
 
+def test_extra_time_cup_tie(summary_leaguecup_aet):
+    out = m.parse_match_summary(summary_leaguecup_aet, "sco.cis")
+    assert out["result"] == "L" and out["decided_by"] == "aet"
+    assert out["round"] == "Round 2" and out["leg"] is None
+    assert out["competition"]["name"] == "Scottish League Cup"
+    assert out["opponent"]["slug"] == "stenhousemuir"
+    events = m.parse_events(summary_leaguecup_aet)
+    goal = next(e for e in events if e["kind"] == "goal")
+    assert goal["minute"] == 114 and goal["period"] == 4 and goal["team"] == "opponent"
+
+
+def test_european_leg_drops_admin_events(summary_uecl):
+    out = m.parse_match_summary(summary_uecl, "uefa.europa.conf_qual")
+    assert out["leg"] == "1st Leg" and out["round"] == "Playoff Round"
+    assert out["attendance"] is None  # ESPN wrote 0
+    events = m.parse_events(summary_uecl)
+    kinds = {e["kind"] for e in events}
+    assert not kinds & {"kickoff", "halftime", "end-regular-time", "start-2nd-half", "other"}
+    goals = [e for e in events if e["scoring"]]
+    assert [g["kind"] for g in goals] == ["goal", "goal", "penalty_goal", "goal"]
+    assert any(e["kind"] == "red_card" for e in events)
+    assert goals[-1]["minute"] == 96
+
+
+def test_penalty_shootout_uses_winner_flag(summary_leaguecup_aet):
+    comp = summary_leaguecup_aet["header"]["competitions"][0]
+    comp["status"]["type"]["name"] = "STATUS_FINAL_PEN"
+    for c in comp["competitors"]:
+        c["score"] = "1"
+        c["shootoutScore"] = 4 if c["team"]["id"] == "266" else 3
+        c["winner"] = c["team"]["id"] == "266"
+    out = m.parse_match_summary(summary_leaguecup_aet, "sco.cis")
+    assert out["result"] == "W" and out["decided_by"] == "pens"
+    assert out["shootout"] == {"motherwell": 4, "opponent": 3}
+
+
+def test_empty_box_score_is_unavailable(summary_aberdeen):
+    for team in summary_aberdeen["boxscore"]["teams"]:
+        for stat in team["statistics"]:
+            stat["displayValue"] = "3" if stat["name"] == "yellowCards" else "0"
+    stats = m.parse_team_stats(summary_aberdeen)
+    assert stats == {"available": False, "motherwell": {}, "opponent": {}}
+
+
 def test_team_stats(summary_aberdeen):
     stats = m.parse_team_stats(summary_aberdeen)
+    assert stats["available"] is True
     assert stats["motherwell"]["shots"] == 12
     assert stats["motherwell"]["shots_on_target"] == 5
     assert stats["motherwell"]["possession_pct"] == 68.9

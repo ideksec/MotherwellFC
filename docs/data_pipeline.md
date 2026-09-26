@@ -25,7 +25,8 @@ See `docs/data_sources.md` for the catalog. Findings that shaped the design:
 - **ESPN's site API** is the workhorse: box score, lineups with substitutions, key events,
   attendance, referee, odds and the league table in one summary call. No key. Works from
   cloud IPs only with a non-browser User-Agent. Date-range scoreboards return 400, so
-  the nightly job asks per date. Cup coverage looked patchy in probes.
+  the nightly job asks per date, and `?dates=YYYY` lists a competition's whole calendar
+  year, which is how cup and European ties are found and backfilled (`--season`).
 - **football-data.co.uk** added team xG (`HxG`, `AxG`) to the Scottish Premiership CSV
   for 2026-27, alongside shots, corners, cards and pre-match odds. Free, league only,
   posted within a day or two of the match — hence the xG retry window in Stage 1.

@@ -84,7 +84,7 @@ Every Motherwell match produces a published write-up automatically, in three sta
 
 1. **Nightly stat pack** — [`nightly-motherwell.yml`](.github/workflows/nightly-motherwell.yml)
    runs at 03:00 UTC, scans the last three days across the Premiership, both domestic
-   cups, European ties and friendlies, and for each finished match commits a compact
+   cups, European ties and friendlies (backfill a whole year with `--season 2026`), and for each finished match commits a compact
    JSON stat pack to `data/processed/motherwell/statpacks/`, a match-log row, a match
    figure, and refreshed fixtures and table. Deterministic Python
    (`scripts/nightly_motherwell.py`), covered by offline fixture tests.

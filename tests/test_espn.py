@@ -52,6 +52,24 @@ def test_schedule_fixtures_switch(tmp_path, monkeypatch):
     ]
 
 
+def test_season_scoreboard_params(tmp_path, monkeypatch):
+    seen = {}
+
+    def fake(url, *, params=None, cache_path, force):
+        seen.update(params=params, cache_path=cache_path)
+        return {"events": []}
+
+    monkeypatch.setattr(espn, "cached_get_json", fake)
+    espn.get_season_scoreboard("sco.cis", 2026, cache_dir=tmp_path, stamp="2026-09-26")
+    assert seen["params"] == {"dates": "2026", "limit": "1000"}
+    assert seen["cache_path"].name == "sco.cis_2026_2026-09-26.json"
+
+
+def test_cup_codes_are_labelled_correctly():
+    assert espn.LEAGUES["sco.cis"] == "Scottish League Cup"
+    assert espn.LEAGUES["sco.tennents"] == "Scottish Cup"
+
+
 def test_standings_url_and_stamp(tmp_path, monkeypatch):
     seen = {}
 

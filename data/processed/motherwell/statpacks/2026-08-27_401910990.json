@@ -1,0 +1,1176 @@
+{
+ "events": [
+  {
+   "kind": "goal",
+   "label": "Goal",
+   "minute": 6,
+   "minute_display": "6'",
+   "period": 1,
+   "player": "Derry Scherhant",
+   "scoring": true,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Goal! Freiburg 1, Motherwell 0. Derry Scherhant (Freiburg) right footed shot from the centre of the box to the bottom right corner. Assisted by Maximilian Eggestein."
+  },
+  {
+   "kind": "goal",
+   "label": "Goal",
+   "minute": 22,
+   "minute_display": "22'",
+   "period": 1,
+   "player": "Emmanuel Longelo",
+   "scoring": true,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Goal! Freiburg 1, Motherwell 1. Emmanuel Longelo (Motherwell) left footed shot from outside the box to the bottom left corner. Assisted by Ibrahim Said following a fast break."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 45,
+   "minute_display": "45'",
+   "period": 2,
+   "player": "Tom Sparrow",
+   "player_off": "Tawanda Maswanhise",
+   "player_on": "Tom Sparrow",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Substitution, Motherwell. Tom Sparrow replaces Tawanda Maswanhise."
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 55,
+   "minute_display": "55'",
+   "period": 2,
+   "player": "Jamie Knight-Lebel",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Jamie Knight-Lebel (Motherwell) is shown the yellow card for a bad foul."
+  },
+  {
+   "kind": "red_card",
+   "label": "Red Card",
+   "minute": 57,
+   "minute_display": "57'",
+   "period": 2,
+   "player": "Jake Girdwood-Reich",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Jake Girdwood-Reich (Motherwell) is shown the red card."
+  },
+  {
+   "kind": "goal",
+   "label": "Goal - Header",
+   "minute": 60,
+   "minute_display": "60'",
+   "period": 2,
+   "player": "Igor Matanovic",
+   "scoring": true,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Goal! Freiburg 2, Motherwell 1. Igor Matanovic (Freiburg) header from very close range to the bottom right corner. Assisted by Derry Scherhant with a cross following a corner."
+  },
+  {
+   "kind": "goal",
+   "label": "Goal - Header",
+   "minute": 63,
+   "minute_display": "63'",
+   "period": 2,
+   "player": "Cyriaque Iri\u00e9",
+   "scoring": true,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Goal! Freiburg 3, Motherwell 1. Cyriaque Iri\u00e9 (Freiburg) header from very close range to the bottom right corner. Assisted by Derry Scherhant with a cross following a corner."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 64,
+   "minute_display": "64'",
+   "period": 2,
+   "player": "Philipp Lienhart",
+   "player_off": "Max Rosenfelder",
+   "player_on": "Philipp Lienhart",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Substitution, Freiburg. Philipp Lienhart replaces Max Rosenfelder."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 64,
+   "minute_display": "64'",
+   "period": 2,
+   "player": "Lucas H\u00f6ler",
+   "player_off": "Yuito Suzuki",
+   "player_on": "Lucas H\u00f6ler",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Substitution, Freiburg. Lucas H\u00f6ler replaces Yuito Suzuki."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 65,
+   "minute_display": "65'",
+   "period": 2,
+   "player": "Olly Whyte",
+   "player_off": "Joseph Hodge",
+   "player_on": "Olly Whyte",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Substitution, Motherwell. Olly Whyte replaces Joe Hodge."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 65,
+   "minute_display": "65'",
+   "period": 2,
+   "player": "Regan Charles-Cook",
+   "player_off": "Seb Palmer-Houlden",
+   "player_on": "Regan Charles-Cook",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Substitution, Motherwell. Regan Charles-Cook replaces Seb Palmer-Houlden."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 65,
+   "minute_display": "65'",
+   "period": 2,
+   "player": "Willy Gabriel Vogt Veigantes",
+   "player_off": "Ibrahim Sa'Id",
+   "player_on": "Willy Gabriel Vogt Veigantes",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Substitution, Motherwell. Willy Vogt replaces Ibrahim Said."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 67,
+   "minute_display": "67'",
+   "period": 2,
+   "player": "Keisuke Goto",
+   "player_off": "Igor Matanovic",
+   "player_on": "Keisuke Goto",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Substitution, Freiburg. Keisuke Goto replaces Igor Matanovic."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 68,
+   "minute_display": "68'",
+   "period": 2,
+   "player": "Vincenzo Grifo",
+   "player_off": "Derry Scherhant",
+   "player_on": "Vincenzo Grifo",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Substitution, Freiburg. Vincenzo Grifo replaces Derry Scherhant."
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 76,
+   "minute_display": "76'",
+   "period": 2,
+   "player": "Dylan Williams",
+   "player_off": "Alexander Lowry",
+   "player_on": "Dylan Williams",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Dylan Williams (Motherwell) Substitution at 76'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 78,
+   "minute_display": "78'",
+   "period": 2,
+   "player": "Ifechukwu Ogbus",
+   "player_off": "Matthias Ginter",
+   "player_on": "Ifechukwu Ogbus",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Substitution, Freiburg. Bruno Ogbus replaces Matthias Ginter."
+  },
+  {
+   "kind": "goal",
+   "label": "Goal",
+   "minute": 85,
+   "minute_display": "85'",
+   "period": 2,
+   "player": "Keisuke Goto",
+   "scoring": true,
+   "team": "opponent",
+   "team_name": "SC Freiburg",
+   "text": "Goal! Freiburg 4, Motherwell 1. Keisuke Goto (Freiburg) left footed shot from the centre of the box to the high centre of the goal."
+  }
+ ],
+ "figure": "reports/motherwell/figures/2026-08-27_at-sc-freiburg_uecl-qual.png",
+ "footballdata_stats": {
+  "available": false
+ },
+ "generated_at": "2026-09-26T20:05:16Z",
+ "lineups": {
+  "motherwell": {
+   "bench": [
+    {
+     "espn_id": "388127",
+     "jersey": "29",
+     "minutes_est": null,
+     "name": "Zander Mcallister",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "366706",
+     "goals_conceded": 1,
+     "jersey": "25",
+     "minutes_est": 25,
+     "name": "Olly Whyte",
+     "off_minute": null,
+     "on_minute": 65,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "366702",
+     "jersey": "27",
+     "minutes_est": null,
+     "name": "Mikey Booth",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "347021",
+     "jersey": "24",
+     "minutes_est": null,
+     "name": "Luca Ross",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "319094",
+     "goals_conceded": 3,
+     "jersey": "7",
+     "minutes_est": 45,
+     "name": "Tom Sparrow",
+     "off_minute": null,
+     "on_minute": 45,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "197372",
+     "jersey": "2",
+     "minutes_est": null,
+     "name": "Stephen O'Donnell",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "362500",
+     "jersey": "15",
+     "minutes_est": null,
+     "name": "Eythor Bj\u00f8rgolfsson",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "139655",
+     "goals_conceded": 1,
+     "jersey": "20",
+     "minutes_est": 14,
+     "name": "Dylan Williams",
+     "off_minute": null,
+     "on_minute": 76,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "291429",
+     "jersey": "21",
+     "minutes_est": null,
+     "name": "Matty Connolly",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "264656",
+     "jersey": "9",
+     "minutes_est": null,
+     "name": "Apostolos Stamatelopoulos",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "223826",
+     "goals_conceded": 1,
+     "jersey": "17",
+     "minutes_est": 25,
+     "name": "Regan Charles-Cook",
+     "off_minute": null,
+     "on_minute": 65,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "3103163",
+     "goals_conceded": 1,
+     "jersey": "77",
+     "minutes_est": 25,
+     "name": "Willy Gabriel Vogt Veigantes",
+     "off_minute": null,
+     "on_minute": 65,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    }
+   ],
+   "formation": "4-3-3",
+   "starters": [
+    {
+     "espn_id": "297800",
+     "fouled": 1,
+     "goals_conceded": 4,
+     "jersey": "1",
+     "minutes_est": 90,
+     "name": "Alex Paulsen",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "G",
+     "saves": 6,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "322901",
+     "fouls": 1,
+     "goals_conceded": 4,
+     "jersey": "23",
+     "minutes_est": 90,
+     "name": "Ewan Wilson",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-L",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "367146",
+     "fouls": 2,
+     "goals_conceded": 4,
+     "jersey": "4",
+     "minutes_est": 90,
+     "name": "Jamie Knight-Lebel",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-R",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "243554",
+     "fouls": 1,
+     "goals": 1,
+     "goals_conceded": 4,
+     "jersey": "45",
+     "minutes_est": 90,
+     "name": "Emmanuel Longelo",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "LB",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "336926",
+     "fouls": 1,
+     "goals_conceded": 1,
+     "jersey": "3",
+     "minutes_est": 90,
+     "name": "Jake Girdwood-Reich",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "RB",
+     "red_cards": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "291487",
+     "fouled": 1,
+     "goals_conceded": 3,
+     "jersey": "11",
+     "minutes_est": 76,
+     "name": "Alexander Lowry",
+     "off_minute": 76,
+     "on_minute": 0,
+     "position": "CM",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "290102",
+     "fouled": 1,
+     "fouls": 2,
+     "goals_conceded": 3,
+     "jersey": "71",
+     "minutes_est": 65,
+     "name": "Joseph Hodge",
+     "off_minute": 65,
+     "on_minute": 0,
+     "position": "LM",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "274022",
+     "fouled": 1,
+     "fouls": 1,
+     "goals_conceded": 4,
+     "jersey": "8",
+     "minutes_est": 90,
+     "name": "Lukas Fadinger",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "RM",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "352909",
+     "fouls": 2,
+     "goals_conceded": 3,
+     "jersey": "47",
+     "minutes_est": 65,
+     "name": "Seb Palmer-Houlden",
+     "off_minute": 65,
+     "on_minute": 0,
+     "position": "F",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "assists": 1,
+     "espn_id": "297816",
+     "fouled": 1,
+     "fouls": 1,
+     "goals_conceded": 3,
+     "jersey": "19",
+     "minutes_est": 65,
+     "name": "Ibrahim Sa'Id",
+     "off_minute": 65,
+     "on_minute": 0,
+     "position": "LF",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "307108",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "18",
+     "minutes_est": 45,
+     "name": "Tawanda Maswanhise",
+     "off_minute": 45,
+     "on_minute": 0,
+     "position": "RF",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    }
+   ],
+   "used_subs": 5
+  },
+  "opponent": {
+   "bench": [
+    {
+     "espn_id": "387472",
+     "jersey": "27",
+     "minutes_est": null,
+     "name": "Berkay Yilmaz",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "367558",
+     "jersey": "33",
+     "minutes_est": null,
+     "name": "Jordy Makengo",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "122292",
+     "jersey": "21",
+     "minutes_est": null,
+     "name": "Florian M\u00fcller",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "179571",
+     "jersey": "32",
+     "minutes_est": 22,
+     "name": "Vincenzo Grifo",
+     "off_minute": null,
+     "on_minute": 68,
+     "position": "SUB",
+     "shots": 2,
+     "shots_on_target": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "231190",
+     "jersey": "19",
+     "minutes_est": null,
+     "name": "Niklas Beste",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "171701",
+     "jersey": "17",
+     "minutes_est": null,
+     "name": "Lukas K\u00fcbler",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "169753",
+     "jersey": "5",
+     "minutes_est": null,
+     "name": "Anthony Jung",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "224246",
+     "jersey": "24",
+     "minutes_est": null,
+     "name": "Jannik Huth",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "387474",
+     "jersey": "43",
+     "minutes_est": 12,
+     "name": "Ifechukwu Ogbus",
+     "off_minute": null,
+     "on_minute": 78,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "346208",
+     "fouls": 1,
+     "goals": 1,
+     "jersey": "42",
+     "minutes_est": 23,
+     "name": "Keisuke Goto",
+     "off_minute": null,
+     "on_minute": 67,
+     "position": "SUB",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "238525",
+     "jersey": "9",
+     "minutes_est": 26,
+     "name": "Lucas H\u00f6ler",
+     "off_minute": null,
+     "on_minute": 64,
+     "position": "SUB",
+     "shots": 2,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "219316",
+     "jersey": "3",
+     "minutes_est": 26,
+     "name": "Philipp Lienhart",
+     "off_minute": null,
+     "on_minute": 64,
+     "position": "SUB",
+     "shots": 2,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    }
+   ],
+   "formation": "4-2-3-1",
+   "starters": [
+    {
+     "espn_id": "338852",
+     "goals_conceded": 1,
+     "jersey": "1",
+     "minutes_est": 90,
+     "name": "Mio Backhaus",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "G",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "367557",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "37",
+     "minutes_est": 64,
+     "name": "Max Rosenfelder",
+     "off_minute": 64,
+     "on_minute": 0,
+     "position": "CD-L",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "170209",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "28",
+     "minutes_est": 78,
+     "name": "Matthias Ginter",
+     "off_minute": 78,
+     "on_minute": 0,
+     "position": "CD-R",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "174618",
+     "goals_conceded": 1,
+     "jersey": "30",
+     "minutes_est": 90,
+     "name": "Christian G\u00fcnter",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "LB",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "364596",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "29",
+     "minutes_est": 90,
+     "name": "Philipp Treu",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "RB",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "303031",
+     "fouled": 2,
+     "goals_conceded": 1,
+     "jersey": "14",
+     "minutes_est": 64,
+     "name": "Yuito Suzuki",
+     "off_minute": 64,
+     "on_minute": 0,
+     "position": "AM",
+     "shots": 4,
+     "shots_on_target": 2,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "337079",
+     "fouled": 1,
+     "fouls": 3,
+     "goals_conceded": 1,
+     "jersey": "16",
+     "minutes_est": 90,
+     "name": "Yannick Engelhardt",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "LM",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "assists": 1,
+     "espn_id": "214203",
+     "goals_conceded": 1,
+     "jersey": "8",
+     "minutes_est": 90,
+     "name": "Maximilian Eggestein",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "RM",
+     "shots": 2,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "310883",
+     "fouled": 3,
+     "goals": 1,
+     "goals_conceded": 1,
+     "jersey": "31",
+     "minutes_est": 67,
+     "name": "Igor Matanovic",
+     "off_minute": 67,
+     "on_minute": 0,
+     "position": "F",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "assists": 2,
+     "espn_id": "346619",
+     "fouled": 1,
+     "fouls": 2,
+     "goals": 1,
+     "goals_conceded": 1,
+     "jersey": "7",
+     "minutes_est": 68,
+     "name": "Derry Scherhant",
+     "off_minute": 68,
+     "on_minute": 0,
+     "position": "AM-L",
+     "shots": 6,
+     "shots_on_target": 3,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "390031",
+     "fouled": 1,
+     "goals": 1,
+     "goals_conceded": 1,
+     "jersey": "22",
+     "minutes_est": 90,
+     "name": "Cyriaque Iri\u00e9",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "AM-R",
+     "shots": 7,
+     "shots_on_target": 2,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    }
+   ],
+   "used_subs": 5
+  }
+ },
+ "market": {
+  "available": false
+ },
+ "match": {
+  "attendance": 30841,
+  "city": "Freiburg im Breisgau",
+  "competition": {
+   "code": "uefa.europa.conf_qual",
+   "name": "UEFA Conference League qualifying"
+  },
+  "date": "2026-08-27",
+  "decided_by": "ft",
+  "espn_id": "401910990",
+  "home_away": "away",
+  "kickoff_utc": "2026-08-27T16:45Z",
+  "leg": "2nd Leg - SC Freiburg win 7-2 on aggregate",
+  "neutral_site": false,
+  "opponent": {
+   "abbrev": "SCF",
+   "espn_id": "126",
+   "name": "SC Freiburg",
+   "slug": "sc-freiburg"
+  },
+  "referee": "Andrea Colombo",
+  "result": "L",
+  "round": "Playoff Round",
+  "score": {
+   "motherwell": 1,
+   "opponent": 4
+  },
+  "season": "2026-27 UEFA Conference League Qualifying, Playoff Round",
+  "shootout": null,
+  "status": "STATUS_FULL_TIME",
+  "venue": "Europa-Park Stadion"
+ },
+ "notes": [
+  "xG unavailable: non-league match",
+  "no league table attached (non-league match)"
+ ],
+ "player_lines": {
+  "motherwell": {
+   "assists": [
+    {
+     "assists": 1,
+     "name": "Ibrahim Sa'Id"
+    }
+   ],
+   "booked": [
+    "Jamie Knight-Lebel"
+   ],
+   "most_shots": [
+    {
+     "name": "Emmanuel Longelo",
+     "shots": 1
+    },
+    {
+     "name": "Seb Palmer-Houlden",
+     "shots": 1
+    }
+   ],
+   "most_shots_on_target": [
+    {
+     "name": "Emmanuel Longelo",
+     "shots_on_target": 1
+    }
+   ],
+   "players_used": 16,
+   "scorers": [
+    {
+     "goals": 1,
+     "name": "Emmanuel Longelo"
+    }
+   ],
+   "sent_off": [
+    "Jake Girdwood-Reich"
+   ]
+  },
+  "opponent": {
+   "assists": [
+    {
+     "assists": 1,
+     "name": "Maximilian Eggestein"
+    },
+    {
+     "assists": 2,
+     "name": "Derry Scherhant"
+    }
+   ],
+   "booked": [],
+   "most_shots": [
+    {
+     "name": "Cyriaque Iri\u00e9",
+     "shots": 7
+    },
+    {
+     "name": "Derry Scherhant",
+     "shots": 6
+    },
+    {
+     "name": "Yuito Suzuki",
+     "shots": 4
+    }
+   ],
+   "most_shots_on_target": [
+    {
+     "name": "Derry Scherhant",
+     "shots_on_target": 3
+    },
+    {
+     "name": "Yuito Suzuki",
+     "shots_on_target": 2
+    },
+    {
+     "name": "Cyriaque Iri\u00e9",
+     "shots_on_target": 2
+    }
+   ],
+   "players_used": 16,
+   "scorers": [
+    {
+     "goals": 1,
+     "name": "Igor Matanovic"
+    },
+    {
+     "goals": 1,
+     "name": "Derry Scherhant"
+    },
+    {
+     "goals": 1,
+     "name": "Cyriaque Iri\u00e9"
+    },
+    {
+     "goals": 1,
+     "name": "Keisuke Goto"
+    }
+   ],
+   "sent_off": []
+  }
+ },
+ "rolling": {
+  "last5_all": {
+   "clean_sheets": 2,
+   "draws": 1,
+   "failed_to_score": 2,
+   "form": "DWLLL",
+   "games": 5,
+   "goal_diff": -4,
+   "goals_against": 8,
+   "goals_for": 4,
+   "losses": 3,
+   "points": 4,
+   "ppg": 0.8,
+   "streak": "L3",
+   "unbeaten": 0,
+   "winless": 3,
+   "wins": 1,
+   "xg_against": 0.44,
+   "xg_diff": 0.45,
+   "xg_for": 0.89,
+   "xg_games": 1,
+   "xpoints": 1.72
+  },
+  "last5_league": {
+   "clean_sheets": 1,
+   "draws": 1,
+   "failed_to_score": 1,
+   "form": "WD",
+   "games": 2,
+   "goal_diff": 1,
+   "goals_against": 1,
+   "goals_for": 2,
+   "losses": 0,
+   "points": 4,
+   "ppg": 2.0,
+   "streak": "D1",
+   "unbeaten": 2,
+   "winless": 1,
+   "wins": 1,
+   "xg_against": 2.36,
+   "xg_diff": 0.53,
+   "xg_for": 2.89,
+   "xg_games": 2,
+   "xpoints": 3.16
+  },
+  "season_all": {
+   "away_record": "2-1-2",
+   "clean_sheets": 4,
+   "draws": 2,
+   "failed_to_score": 2,
+   "form": "WWWDDWLLL",
+   "form_last5": "DWLLL",
+   "games": 9,
+   "goal_diff": 2,
+   "goals_against": 10,
+   "goals_for": 12,
+   "home_record": "2-1-1",
+   "losses": 3,
+   "points": 14,
+   "ppg": 1.56,
+   "streak": "L3",
+   "unbeaten": 0,
+   "winless": 3,
+   "wins": 4,
+   "xg_against": 2.36,
+   "xg_diff": 0.53,
+   "xg_for": 2.89,
+   "xg_games": 2,
+   "xpoints": 3.16
+  },
+  "season_league": {
+   "away_record": "1-0-0",
+   "clean_sheets": 1,
+   "draws": 1,
+   "failed_to_score": 1,
+   "form": "WD",
+   "form_last5": "WD",
+   "games": 2,
+   "goal_diff": 1,
+   "goals_against": 1,
+   "goals_for": 2,
+   "home_record": "0-1-0",
+   "losses": 0,
+   "points": 4,
+   "ppg": 2.0,
+   "streak": "D1",
+   "unbeaten": 2,
+   "winless": 1,
+   "wins": 1,
+   "xg_against": 2.36,
+   "xg_diff": 0.53,
+   "xg_for": 2.89,
+   "xg_games": 2,
+   "xpoints": 3.16
+  }
+ },
+ "schema_version": 1,
+ "season": "2026-27",
+ "sources": {
+  "espn_summary": true,
+  "footballdata_market": false,
+  "footballdata_row": false,
+  "footballdata_xg": false
+ },
+ "table": null,
+ "team_stats": {
+  "available": true,
+  "motherwell": {
+   "clearances": 21,
+   "corners": 1,
+   "fouls": 11,
+   "interceptions": 8,
+   "offsides": 2,
+   "pass_pct": 0.8,
+   "passes": 284,
+   "passes_accurate": 228,
+   "possession_pct": 29.8,
+   "red_cards": 1,
+   "saves": 6,
+   "shots": 2,
+   "shots_blocked": 0,
+   "shots_on_target": 1,
+   "tackles": 8,
+   "tackles_won": 3,
+   "yellow_cards": 1
+  },
+  "opponent": {
+   "clearances": 3,
+   "corners": 7,
+   "fouls": 6,
+   "interceptions": 5,
+   "offsides": 1,
+   "pass_pct": 0.9,
+   "passes": 664,
+   "passes_accurate": 608,
+   "possession_pct": 70.2,
+   "red_cards": 0,
+   "saves": 1,
+   "shots": 29,
+   "shots_blocked": 5,
+   "shots_on_target": 11,
+   "tackles": 12,
+   "tackles_won": 7,
+   "yellow_cards": 0
+  }
+ },
+ "xg": {
+  "available": false,
+  "source": null
+ }
+}

@@ -219,7 +219,7 @@
    "yellow_cards": 1
   }
  },
- "generated_at": "2026-09-25T02:40:02Z",
+ "generated_at": "2026-09-26T20:04:42Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -830,9 +830,11 @@
    "name": "Scottish Premiership"
   },
   "date": "2026-08-02",
+  "decided_by": "ft",
   "espn_id": "401878412",
   "home_away": "away",
   "kickoff_utc": "2026-08-02T15:30Z",
+  "leg": null,
   "neutral_site": false,
   "opponent": {
    "abbrev": "HIBS",
@@ -842,11 +844,13 @@
   },
   "referee": "Steven Mclean",
   "result": "W",
+  "round": null,
   "score": {
    "motherwell": 2,
    "opponent": 1
   },
   "season": "2026-27 Scottish Premiership",
+  "shootout": null,
   "status": "STATUS_FULL_TIME",
   "venue": "Easter Road"
  },
@@ -950,21 +954,21 @@
  },
  "rolling": {
   "last5_all": {
-   "clean_sheets": 0,
+   "clean_sheets": 2,
    "draws": 0,
    "failed_to_score": 0,
-   "form": "W",
-   "games": 1,
-   "goal_diff": 1,
+   "form": "WWW",
+   "games": 3,
+   "goal_diff": 6,
    "goals_against": 1,
-   "goals_for": 2,
+   "goals_for": 7,
    "losses": 0,
-   "points": 3,
+   "points": 9,
    "ppg": 3.0,
-   "streak": "W1",
-   "unbeaten": 1,
+   "streak": "W3",
+   "unbeaten": 3,
    "winless": 0,
-   "wins": 1,
+   "wins": 3,
    "xg_against": 1.92,
    "xg_diff": 0.08,
    "xg_for": 2.0,
@@ -994,24 +998,24 @@
    "xpoints": 1.44
   },
   "season_all": {
-   "away_record": "1-0-0",
-   "clean_sheets": 0,
+   "away_record": "2-0-0",
+   "clean_sheets": 2,
    "draws": 0,
    "failed_to_score": 0,
-   "form": "W",
-   "form_last5": "W",
-   "games": 1,
-   "goal_diff": 1,
+   "form": "WWW",
+   "form_last5": "WWW",
+   "games": 3,
+   "goal_diff": 6,
    "goals_against": 1,
-   "goals_for": 2,
-   "home_record": "0-0-0",
+   "goals_for": 7,
+   "home_record": "1-0-0",
    "losses": 0,
-   "points": 3,
+   "points": 9,
    "ppg": 3.0,
-   "streak": "W1",
-   "unbeaten": 1,
+   "streak": "W3",
+   "unbeaten": 3,
    "winless": 0,
-   "wins": 1,
+   "wins": 3,
    "xg_against": 1.92,
    "xg_diff": 0.08,
    "xg_for": 2.0,
@@ -1204,6 +1208,7 @@
   ]
  },
  "team_stats": {
+  "available": true,
   "motherwell": {
    "clearances": 34,
    "corners": 2,

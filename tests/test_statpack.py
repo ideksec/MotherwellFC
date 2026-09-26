@@ -75,7 +75,7 @@ def test_non_league_has_no_table(summary_dundee, footballdata_frame, tmp_path):
     pack = _pack(summary_dundee, footballdata_frame, tmp_path, league="sco.cis")
     assert pack["table"] is None
     assert pack["xg"]["available"] is False
-    assert report_filename(pack) == "2026-09-19_at-dundee_scottish-cup.md"
+    assert report_filename(pack) == "2026-09-19_at-dundee_league-cup.md"
 
 
 def test_filenames(summary_aberdeen, summary_dundee, footballdata_frame, tmp_path):

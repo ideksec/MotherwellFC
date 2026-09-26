@@ -209,7 +209,7 @@
    "yellow_cards": 1
   }
  },
- "generated_at": "2026-09-25T02:40:28Z",
+ "generated_at": "2026-09-26T20:05:20Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -812,9 +812,11 @@
    "name": "Scottish Premiership"
   },
   "date": "2026-09-19",
+  "decided_by": "ft",
   "espn_id": "401878380",
   "home_away": "away",
   "kickoff_utc": "2026-09-19T14:00Z",
+  "leg": null,
   "neutral_site": false,
   "opponent": {
    "abbrev": "DUN",
@@ -824,11 +826,13 @@
   },
   "referee": "Ross Hardie",
   "result": "L",
+  "round": null,
   "score": {
    "motherwell": 1,
    "opponent": 2
   },
   "season": "2026-27 Scottish Premiership",
+  "shootout": null,
   "status": "STATUS_FULL_TIME",
   "venue": "The Scot Foam Stadium at Dens Park"
  },
@@ -979,24 +983,24 @@
    "xpoints": 6.42
   },
   "season_all": {
-   "away_record": "1-1-2",
-   "clean_sheets": 2,
-   "draws": 2,
-   "failed_to_score": 3,
-   "form": "WDDWLLL",
+   "away_record": "2-2-4",
+   "clean_sheets": 5,
+   "draws": 3,
+   "failed_to_score": 4,
+   "form": "WWWDDWLLLDWLLL",
    "form_last5": "DWLLL",
-   "games": 7,
-   "goal_diff": -2,
-   "goals_against": 11,
-   "goals_for": 9,
-   "home_record": "1-1-1",
-   "losses": 3,
-   "points": 8,
-   "ppg": 1.14,
+   "games": 14,
+   "goal_diff": -1,
+   "goals_against": 20,
+   "goals_for": 19,
+   "home_record": "3-1-2",
+   "losses": 6,
+   "points": 18,
+   "ppg": 1.29,
    "streak": "L3",
    "unbeaten": 0,
    "winless": 3,
-   "wins": 2,
+   "wins": 5,
    "xg_against": 11.08,
    "xg_diff": -1.56,
    "xg_for": 9.52,
@@ -1189,6 +1193,7 @@
   ]
  },
  "team_stats": {
+  "available": true,
   "motherwell": {
    "clearances": 25,
    "corners": 9,

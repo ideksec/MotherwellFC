@@ -30,10 +30,12 @@ from steelmen.io.espn import (
     PREMIERSHIP,
     final_events,
     get_scoreboard,
+    get_season_scoreboard,
     get_standings,
     get_summary,
     get_team_schedule,
     is_final,
+    team_events,
 )
 from steelmen.io.footballdata import get_season_csv
 from steelmen.io.thesportsdb import next_events
@@ -173,8 +175,74 @@ def process_date(
     return results
 
 
-def refresh_fixtures(*, root: Path, force: bool, dry_run: bool, stamp: str) -> str:
-    """Upcoming fixtures from ESPN's team schedule (league) and TheSportsDB (all comps)."""
+def season_start(today: datetime | None = None) -> str:
+    """ISO date of 1 July in the current season's starting year."""
+    now = today or datetime.now(UK)
+    year = now.year if now.month >= 7 else now.year - 1
+    return f"{year}-07-01"
+
+
+def process_season(
+    year: int,
+    *,
+    root: Path,
+    force: bool,
+    dry_run: bool,
+    stamp: str,
+    leagues: list[str],
+    from_date: str | None = None,
+) -> list[str]:
+    """Every finished Motherwell match ESPN lists for a calendar year, oldest
+    first across competitions, on or after from_date (default: this season's
+    1 July, so last season's spring matches are left alone). Used to backfill
+    cups and European ties."""
+    since = from_date or season_start()
+    found: list[tuple[str, dict]] = []
+    results: list[str] = []
+    for league in leagues:
+        try:
+            season = get_season_scoreboard(
+                league, year, cache_dir=root / "raw", force=force, stamp=stamp
+            )
+        except FetchError as err:
+            results.append(f"RESULT: fetch-error season {year} {league}: {err}")
+            continue
+        found.extend((league, event) for event in final_events(season))
+    seen: set[str] = set()
+    for league, event in sorted(found, key=lambda item: item[1]["date"]):
+        if str(event["id"]) in seen or uk_date(event["date"]) < since:
+            continue
+        seen.add(str(event["id"]))
+        results.append(
+            process_event(event, league, root=root, force=force, dry_run=dry_run, stamp=stamp)
+        )
+    if not results:
+        results.append(f"RESULT: no-match season {year}")
+    return results
+
+
+def _fixture_row(event: dict, league: str, source: str) -> dict:
+    comp = event["competitions"][0]
+    ours = next(c for c in comp["competitors"] if str(c["team"]["id"]) == MOTHERWELL_ESPN_ID)
+    theirs = next(c for c in comp["competitors"] if str(c["team"]["id"]) != MOTHERWELL_ESPN_ID)
+    return {
+        "date": uk_date(event["date"]),
+        "kickoff_utc": event["date"],
+        "competition": (event.get("league") or {}).get("name") or LEAGUES.get(league, league),
+        "competition_code": league,
+        "home_away": ours.get("homeAway"),
+        "opponent": theirs["team"]["displayName"],
+        "opponent_espn_id": str(theirs["team"]["id"]),
+        "venue": ((comp.get("venue") or {}).get("fullName")),
+        "source": source,
+    }
+
+
+def refresh_fixtures(
+    *, root: Path, force: bool, dry_run: bool, stamp: str, leagues: list[str] | None = None
+) -> str:
+    """Upcoming fixtures: ESPN's team schedule for the league, ESPN's season
+    scoreboards for cups and Europe, TheSportsDB for anything else."""
     rows: dict[str, dict] = {}
     try:
         schedule = get_team_schedule(
@@ -183,26 +251,22 @@ def refresh_fixtures(*, root: Path, force: bool, dry_run: bool, stamp: str) -> s
         for event in schedule.get("events", []):
             if is_final(event):
                 continue
-            comp = event["competitions"][0]
-            ours = next(
-                c for c in comp["competitors"] if str(c["team"]["id"]) == MOTHERWELL_ESPN_ID
-            )
-            theirs = next(
-                c for c in comp["competitors"] if str(c["team"]["id"]) != MOTHERWELL_ESPN_ID
-            )
-            rows[f"espn:{event['id']}"] = {
-                "date": uk_date(event["date"]),
-                "kickoff_utc": event["date"],
-                "competition": (event.get("league") or {}).get("name") or LEAGUES[PREMIERSHIP],
-                "competition_code": PREMIERSHIP,
-                "home_away": ours.get("homeAway"),
-                "opponent": theirs["team"]["displayName"],
-                "opponent_espn_id": str(theirs["team"]["id"]),
-                "venue": ((comp.get("venue") or {}).get("fullName")),
-                "source": "espn",
-            }
+            rows[f"espn:{event['id']}"] = _fixture_row(event, PREMIERSHIP, "espn")
     except (FetchError, KeyError, StopIteration) as err:
         print(f"WARN: ESPN schedule unavailable: {err}", file=sys.stderr)
+    year = datetime.now(UK).year
+    for league in [code for code in (leagues or list(LEAGUES)) if code != PREMIERSHIP]:
+        try:
+            season = get_season_scoreboard(
+                league, year, cache_dir=root / "raw", force=force, stamp=stamp
+            )
+        except FetchError as err:
+            print(f"WARN: ESPN season scoreboard unavailable for {league}: {err}", file=sys.stderr)
+            continue
+        for event in team_events(season):
+            if is_final(event):
+                continue
+            rows.setdefault(f"espn:{event['id']}", _fixture_row(event, league, "espn"))
     try:
         for event in next_events(cache_dir=root / "raw", force=force, stamp=stamp):
             home = event.get("strHomeTeam") == "Motherwell"
@@ -257,6 +321,12 @@ def refresh_table(*, root: Path, dry_run: bool, force: bool, stamp: str) -> str:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--date", help="Process one UK date (YYYY-MM-DD) instead of the lookback")
+    parser.add_argument(
+        "--season", type=int, help="Backfill every finished match ESPN lists for a calendar year"
+    )
+    parser.add_argument(
+        "--from-date", help="With --season: earliest UK date to include (default: 1 July)"
+    )
     parser.add_argument("--days-back", type=int, default=3, help="Lookback window (default 3)")
     parser.add_argument("--force", action="store_true", help="Rebuild even if packs exist")
     parser.add_argument("--dry-run", action="store_true", help="Print packs, write nothing")
@@ -269,23 +339,40 @@ def main(argv: list[str] | None = None) -> int:
 
     stamp = datetime.now(UK).date().isoformat()
     leagues = [code.strip() for code in args.leagues.split(",") if code.strip()]
-    dates = [args.date] if args.date else recent_uk_dates(args.days_back)
     results: list[str] = []
-    for date in sorted(dates):  # oldest first, so rolling numbers build up in order
+    if args.season:
         results.extend(
-            process_date(
-                date,
+            process_season(
+                args.season,
                 root=args.data_root,
                 force=args.force,
                 dry_run=args.dry_run,
                 stamp=stamp,
                 leagues=leagues,
+                from_date=args.from_date,
             )
         )
+    else:
+        dates = [args.date] if args.date else recent_uk_dates(args.days_back)
+        for date in sorted(dates):  # oldest first, so rolling numbers build up in order
+            results.extend(
+                process_date(
+                    date,
+                    root=args.data_root,
+                    force=args.force,
+                    dry_run=args.dry_run,
+                    stamp=stamp,
+                    leagues=leagues,
+                )
+            )
     if not args.skip_fixtures:
         results.append(
             refresh_fixtures(
-                root=args.data_root, force=args.force, dry_run=args.dry_run, stamp=stamp
+                root=args.data_root,
+                force=args.force,
+                dry_run=args.dry_run,
+                stamp=stamp,
+                leagues=leagues,
             )
         )
     results.append(

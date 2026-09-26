@@ -307,7 +307,7 @@
    "yellow_cards": 2
   }
  },
- "generated_at": "2026-09-25T02:40:16Z",
+ "generated_at": "2026-09-26T20:05:17Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -939,9 +939,11 @@
    "name": "Scottish Premiership"
   },
   "date": "2026-08-30",
+  "decided_by": "ft",
   "espn_id": "401878393",
   "home_away": "away",
   "kickoff_utc": "2026-08-30T14:00Z",
+  "leg": null,
   "neutral_site": false,
   "opponent": {
    "abbrev": "STM",
@@ -951,11 +953,13 @@
   },
   "referee": "Kevin Clancy",
   "result": "D",
+  "round": null,
   "score": {
    "motherwell": 3,
    "opponent": 3
   },
   "season": "2026-27 Scottish Premiership",
+  "shootout": null,
   "status": "STATUS_FULL_TIME",
   "venue": "The SMISA Stadium"
  },
@@ -1081,25 +1085,25 @@
  "rolling": {
   "last5_all": {
    "clean_sheets": 1,
-   "draws": 2,
+   "draws": 1,
    "failed_to_score": 1,
-   "form": "WDD",
-   "games": 3,
-   "goal_diff": 1,
-   "goals_against": 4,
-   "goals_for": 5,
-   "losses": 0,
-   "points": 5,
-   "ppg": 1.67,
-   "streak": "D2",
-   "unbeaten": 3,
-   "winless": 2,
+   "form": "WLLLD",
+   "games": 5,
+   "goal_diff": -4,
+   "goals_against": 11,
+   "goals_for": 7,
+   "losses": 3,
+   "points": 4,
+   "ppg": 0.8,
+   "streak": "D1",
+   "unbeaten": 1,
+   "winless": 4,
    "wins": 1,
-   "xg_against": 4.68,
-   "xg_diff": 0.32,
-   "xg_for": 5.0,
-   "xg_games": 3,
-   "xpoints": 4.45
+   "xg_against": 2.32,
+   "xg_diff": -0.21,
+   "xg_for": 2.11,
+   "xg_games": 1,
+   "xpoints": 1.29
   },
   "last5_league": {
    "clean_sheets": 1,
@@ -1124,24 +1128,24 @@
    "xpoints": 4.45
   },
   "season_all": {
-   "away_record": "1-1-0",
-   "clean_sheets": 1,
-   "draws": 2,
-   "failed_to_score": 1,
-   "form": "WDD",
-   "form_last5": "WDD",
-   "games": 3,
-   "goal_diff": 1,
-   "goals_against": 4,
-   "goals_for": 5,
-   "home_record": "0-1-0",
-   "losses": 0,
-   "points": 5,
-   "ppg": 1.67,
-   "streak": "D2",
-   "unbeaten": 3,
-   "winless": 2,
-   "wins": 1,
+   "away_record": "2-2-2",
+   "clean_sheets": 4,
+   "draws": 3,
+   "failed_to_score": 2,
+   "form": "WWWDDWLLLD",
+   "form_last5": "WLLLD",
+   "games": 10,
+   "goal_diff": 2,
+   "goals_against": 13,
+   "goals_for": 15,
+   "home_record": "2-1-1",
+   "losses": 3,
+   "points": 15,
+   "ppg": 1.5,
+   "streak": "D1",
+   "unbeaten": 1,
+   "winless": 4,
+   "wins": 4,
    "xg_against": 4.68,
    "xg_diff": 0.32,
    "xg_for": 5.0,
@@ -1334,6 +1338,7 @@
   ]
  },
  "team_stats": {
+  "available": true,
   "motherwell": {
    "clearances": 26,
    "corners": 7,

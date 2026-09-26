@@ -50,8 +50,9 @@ _REQUIRED_KEYS = {
 
 COMPETITION_SLUGS = {
     "sco.1": "",
-    "sco.tennents": "league-cup",
-    "sco.cis": "scottish-cup",
+    "sco.cis": "league-cup",
+    "sco.tennents": "scottish-cup",
+    "sco.tennents_qual": "scottish-cup-qual",
     "uefa.europa.conf_qual": "uecl-qual",
     "uefa.europa_qual": "uel-qual",
     "uefa.europa.conf": "uecl",
@@ -139,6 +140,8 @@ def build_stat_pack(
     }
 
     notes = []
+    if not team_stats["available"]:
+        notes.append("ESPN box score empty for this match: team stats unavailable")
     if not xg["available"]:
         reason = (
             "non-league match" if league != PREMIERSHIP else "football-data row not yet published"
@@ -184,19 +187,32 @@ def validate_stat_pack(pack: dict) -> None:
             f"Stat pack schema_version {pack['schema_version']} != {STAT_PACK_VERSION}"
         )
     match = pack["match"]
-    for key in ("espn_id", "date", "result", "score", "opponent", "competition", "home_away"):
+    for key in (
+        "espn_id",
+        "date",
+        "result",
+        "score",
+        "opponent",
+        "competition",
+        "home_away",
+        "decided_by",
+    ):
         if key not in match:
             raise StatPackError(f"Stat pack match section missing '{key}'")
     if match["result"] not in ("W", "D", "L"):
         raise StatPackError(f"Invalid result: {match['result']}")
     if match["home_away"] not in ("home", "away"):
         raise StatPackError(f"Invalid home_away: {match['home_away']}")
+    if match["decided_by"] not in ("ft", "aet", "pens", "aggregate"):
+        raise StatPackError(f"Invalid decided_by: {match['decided_by']}")
     if not isinstance(pack["xg"].get("available"), bool):
         raise StatPackError("xg.available must be a bool")
     if not isinstance(pack["market"].get("available"), bool):
         raise StatPackError("market.available must be a bool")
     if "motherwell" not in pack["lineups"]:
         raise StatPackError("lineups.motherwell missing")
+    if not isinstance(pack["team_stats"].get("available"), bool):
+        raise StatPackError("team_stats.available must be a bool")
 
 
 def write_stat_pack(pack: dict, root: Path) -> Path:

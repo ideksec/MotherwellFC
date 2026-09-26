@@ -17,8 +17,8 @@ STANDINGS_BASE = "https://site.api.espn.com/apis/v2/sports/soccer"
 # this order and the first hit wins for a given event id.
 LEAGUES: dict[str, str] = {
     "sco.1": "Scottish Premiership",
-    "sco.tennents": "Scottish League Cup",
-    "sco.cis": "Scottish Cup",
+    "sco.cis": "Scottish League Cup",  # ESPN kept the old CIS Cup code
+    "sco.tennents": "Scottish Cup",  # ... and the Tennent's Scottish Cup code
     "uefa.europa.conf_qual": "UEFA Conference League qualifying",
     "uefa.europa_qual": "UEFA Europa League qualifying",
     "uefa.europa.conf": "UEFA Conference League",
@@ -39,6 +39,28 @@ def get_scoreboard(
         f"{BASE}/{league}/scoreboard",
         params={"dates": compact},
         cache_path=cache_dir / "espn" / "scoreboard" / f"{league}_{compact}.json",
+        force=force,
+    )
+
+
+def get_season_scoreboard(
+    league: str,
+    year: int | str,
+    *,
+    cache_dir: Path = DATA_RAW,
+    force: bool = False,
+    stamp: str | None = None,
+) -> dict:
+    """Every match ESPN lists for a competition in a calendar year (dates=YYYY).
+
+    The cheapest way to find cup and European ties, whose dates are not on a
+    weekly rhythm. stamp is a cache-buster (e.g. today's date).
+    """
+    suffix = f"_{stamp}" if stamp else ""
+    return cached_get_json(
+        f"{BASE}/{league}/scoreboard",
+        params={"dates": str(year), "limit": "1000"},
+        cache_path=cache_dir / "espn" / "season" / f"{league}_{year}{suffix}.json",
         force=force,
     )
 

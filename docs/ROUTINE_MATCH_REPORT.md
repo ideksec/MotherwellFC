@@ -29,7 +29,8 @@ You are writing the Motherwell match report for this repo.
 
    `{match.date}_{"vs" if match.home_away == "home" else "at"}-{match.opponent.slug}{"" if match.competition.code == "sco.1" else "_" + competition-suffix}.md`
 
-   Competition suffixes: `sco.tennents` → `league-cup`, `sco.cis` → `scottish-cup`,
+   Competition suffixes: `sco.cis` → `league-cup`, `sco.tennents` → `scottish-cup`,
+   `sco.tennents_qual` → `scottish-cup-qual`,
    `uefa.europa.conf_qual` → `uecl-qual`, `uefa.europa_qual` → `uel-qual`,
    `uefa.europa.conf` → `uecl`, `uefa.europa` → `uel`, `club.friendly` → `friendly`.
    Examples: `2026-09-15_vs-aberdeen.md`; `2026-08-16_at-hearts_league-cup.md`.
@@ -59,14 +60,19 @@ Follow `reports/report_template.md` headers, adapted for a match:
 - **Results** — four themed sections, each with a thesis-first `###` header:
   1. **Match story** — the goals and turning points from `events` (minutes, scorers,
      penalties, cards, subs that changed it), the shape (`lineups.motherwell.formation`),
-     venue, attendance and referee from `match`. Embed the figure right after this
+     venue, attendance and referee from `match`. For cups and Europe use `match.round`,
+     `match.leg`, `match.decided_by` (`ft`, `aet`, `pens`, `aggregate`) and
+     `match.shootout`; a two-legged tie's aggregate is the sum of both legs' packs. Embed the figure right after this
      section: `![Match figure]({pack.figure})`.
-  2. **What the numbers say** — `team_stats` (shots, SOT, possession, corners), then
+  2. **What the numbers say** — `team_stats` (shots, SOT, possession, corners; if
+     `team_stats.available` is false say ESPN published no box score and move on), then
      `xg` if available (xG for/against, `xpoints`) and `market` if available (implied
      win probability, `points_vs_market`). If `xg.available` is false, say in one line
      that xG is not available for this competition/match — do not skip silently, and
      never estimate one.
-  3. **Personnel and usage** — `player_lines` (scorers, assists, most shots, booked) and
+  3. **Personnel and usage** — `player_lines` (scorers, assists, most shots, booked; when
+     ESPN's per-player stats disagree with `events` and `match.score`, the events and
+     the score win and the player stat is not repeated) and
      `lineups` (starters, subs used, `minutes_est` — call it an estimate). Notable
      debuts or absences only if in the data or sourced inline.
   4. **Where this leaves the season** — `rolling.last5_league`, `rolling.season_league`

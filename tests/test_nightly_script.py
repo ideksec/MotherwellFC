@@ -56,6 +56,9 @@ def wired(nightly, monkeypatch, scoreboard_gameday, scoreboard_empty, summary_ab
         lambda *a, fixtures=False, **k: upcoming if fixtures else schedule_266,
     )
     monkeypatch.setattr(nightly, "get_standings", lambda *a, **k: standings_payload)
+    monkeypatch.setattr(nightly, "get_season_scoreboard", lambda league, year, **k: (
+        json.loads(json.dumps(scoreboard_gameday)) if league == "sco.1" else {"events": []}
+    ))  # fmt: skip
     monkeypatch.setattr(nightly, "next_events", lambda *a, **k: [
         {"idEvent": "1", "dateEvent": "2026-10-11", "strTimestamp": "2026-10-11T11:00:00",
          "strHomeTeam": "Motherwell", "strAwayTeam": "Celtic",
@@ -155,6 +158,19 @@ def test_refresh_table_handles_missing_team_and_ordinals(wired, monkeypatch, sta
     ]
     out = nightly.refresh_table(root=root, dry_run=True, force=False, stamp="x")
     assert "Motherwell not listed" in out
+
+
+def test_season_backfill_mode(wired, capsys):
+    nightly, root, calls = wired
+    nightly.main(["--season", "2026", "--data-root", str(root), "--skip-fixtures"])
+    out = capsys.readouterr().out
+    assert "RESULT: wrote 2026-09-15 sco.1 event 401878401" in out
+    assert calls["scoreboard"] == []  # season mode never scans single dates
+
+
+def test_season_start(nightly):
+    assert nightly.season_start(datetime(2026, 9, 26, tzinfo=UK)) == "2026-07-01"
+    assert nightly.season_start(datetime(2027, 3, 1, tzinfo=UK)) == "2026-07-01"
 
 
 def test_recent_dates_include_today(nightly):

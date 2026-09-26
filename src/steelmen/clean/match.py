@@ -48,6 +48,23 @@ PLAYER_STAT_KEYS = {
     "ownGoals": "own_goals",
 }
 
+# Administrative timeline entries ESPN adds on some competitions; not events.
+IGNORED_EVENT_TYPES = {
+    "kickoff",
+    "halftime",
+    "start-2nd-half",
+    "end-regular-time",
+    "start-extra-time",
+    "end-extra-time",
+    "start-1st-half",
+    "end-1st-half",
+    "end-2nd-half",
+    "start-of-period",
+    "end-of-period",
+    "end-of-game",
+    "shootout",
+}
+
 EVENT_KINDS = {
     "goal": "goal",
     "own-goal": "own_goal",
@@ -110,6 +127,27 @@ def parse_match_summary(summary: dict, league: str) -> dict:
     our_goals = int(_require(ours, "score"))
     their_goals = int(_require(theirs, "score"))
     result = "W" if our_goals > their_goals else "L" if our_goals < their_goals else "D"
+    status_name = status.get("name") or ""
+    decided_by = "ft"
+    if status_name == "STATUS_FINAL_AET":
+        decided_by = "aet"
+    elif status_name == "STATUS_FINAL_PEN":
+        decided_by = "pens"
+    shootout = None
+    if ours.get("shootoutScore") is not None or theirs.get("shootoutScore") is not None:
+        shootout = {
+            "motherwell": _number(ours.get("shootoutScore")),
+            "opponent": _number(theirs.get("shootoutScore")),
+        }
+    if result == "D" and (ours.get("winner") or theirs.get("winner")):
+        # level on the night but a winner declared: a shootout, or a tie decided on aggregate
+        result = "W" if ours.get("winner") else "L"
+        if decided_by == "ft":
+            decided_by = "aggregate"
+    season_name = (summary.get("header", {}).get("season") or {}).get("name") or ""
+    round_name = season_name.split(",", 1)[1].strip() if "," in season_name else None
+    notes = summary["header"]["competitions"][0].get("notes") or []
+    leg = next((n.get("headline") for n in notes if n.get("headline")), None)
     game_info = summary.get("gameInfo", {})
     officials = game_info.get("officials") or []
     referee = next(
@@ -139,6 +177,10 @@ def parse_match_summary(summary: dict, league: str) -> dict:
         },
         "result": result,
         "score": {"motherwell": our_goals, "opponent": their_goals},
+        "decided_by": decided_by,
+        "shootout": shootout,
+        "round": round_name,
+        "leg": leg,
         "venue": (game_info.get("venue") or {}).get("fullName"),
         "city": ((game_info.get("venue") or {}).get("address") or {}).get("city"),
         "attendance": game_info.get("attendance") or None,  # ESPN writes 0 when unknown
@@ -175,11 +217,16 @@ def parse_events(summary: dict) -> list[dict]:
     events = []
     for raw in summary.get("keyEvents") or []:
         kind_raw = (raw.get("type") or {}).get("type", "")
+        if kind_raw in IGNORED_EVENT_TYPES or not raw.get("clock"):
+            continue
         kind = EVENT_KINDS.get(kind_raw, kind_raw or "other")
         text = (raw.get("type") or {}).get("text", "")
-        if kind == "goal" and "own" in text.lower():
+        lowered = text.lower()
+        if raw.get("scoringPlay") and kind not in ("own_goal", "penalty_goal"):
+            kind = "goal"  # "Goal - Header", "Goal - Volley", ... all count as goals
+        if kind == "goal" and "own" in lowered:
             kind = "own_goal"
-        if kind == "goal" and "penalty" in text.lower():
+        if kind == "goal" and "penalty" in lowered:
             kind = "penalty_goal"
         minute, display = _minute(raw.get("clock"))
         participants = [
@@ -219,7 +266,11 @@ def _stat_map(stats: list[dict], keys: dict[str, str]) -> dict:
 
 
 def parse_team_stats(summary: dict) -> dict:
-    """Box-score team stats, keyed motherwell/opponent with compact names."""
+    """Box-score team stats, keyed motherwell/opponent with compact names.
+
+    ESPN serves an all-zero box score for some ties (smaller European
+    opponents, lower-league cup draws). That is missing data, not a 0-0 in
+    every column, so `available` is False and both sides are empty."""
     teams = _require(summary, "boxscore.teams")
     out: dict[str, dict] = {}
     for team in teams:
@@ -227,7 +278,12 @@ def parse_team_stats(summary: dict) -> dict:
         out[side] = _stat_map(team.get("statistics", []), TEAM_STAT_KEYS)
     if set(out) != {"motherwell", "opponent"}:
         raise ParseError("Box score does not have both teams")
-    return out
+    # cards alone do not make a box score: ESPN sometimes fills only those
+    core = ("shots", "shots_on_target", "possession_pct", "passes")
+    populated = any(stats.get(key) for stats in out.values() for key in core)
+    if not populated:
+        return {"available": False, "motherwell": {}, "opponent": {}}
+    return {"available": True, **out}
 
 
 def _player_entry(entry: dict) -> dict:

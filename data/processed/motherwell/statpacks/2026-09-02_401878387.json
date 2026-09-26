@@ -223,7 +223,7 @@
    "yellow_cards": 0
   }
  },
- "generated_at": "2026-09-25T02:40:18Z",
+ "generated_at": "2026-09-26T20:05:18Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -808,9 +808,11 @@
    "name": "Scottish Premiership"
   },
   "date": "2026-09-02",
+  "decided_by": "ft",
   "espn_id": "401878387",
   "home_away": "home",
   "kickoff_utc": "2026-09-02T18:45Z",
+  "leg": null,
   "neutral_site": false,
   "opponent": {
    "abbrev": "DUN",
@@ -820,11 +822,13 @@
   },
   "referee": "Calum Scott",
   "result": "W",
+  "round": null,
   "score": {
    "motherwell": 3,
    "opponent": 0
   },
   "season": "2026-27 Scottish Premiership",
+  "shootout": null,
   "status": "STATUS_FULL_TIME",
   "venue": "Fir Park"
  },
@@ -921,26 +925,26 @@
  },
  "rolling": {
   "last5_all": {
-   "clean_sheets": 2,
-   "draws": 2,
+   "clean_sheets": 1,
+   "draws": 1,
    "failed_to_score": 1,
-   "form": "WDDW",
-   "games": 4,
-   "goal_diff": 4,
-   "goals_against": 4,
+   "form": "LLLDW",
+   "games": 5,
+   "goal_diff": -3,
+   "goals_against": 11,
    "goals_for": 8,
-   "losses": 0,
-   "points": 8,
-   "ppg": 2.0,
+   "losses": 3,
+   "points": 4,
+   "ppg": 0.8,
    "streak": "W1",
-   "unbeaten": 4,
+   "unbeaten": 2,
    "winless": 0,
-   "wins": 2,
-   "xg_against": 4.87,
-   "xg_diff": 2.27,
-   "xg_for": 7.14,
-   "xg_games": 4,
-   "xpoints": 7.09
+   "wins": 1,
+   "xg_against": 2.51,
+   "xg_diff": 1.74,
+   "xg_for": 4.25,
+   "xg_games": 2,
+   "xpoints": 3.93
   },
   "last5_league": {
    "clean_sheets": 2,
@@ -965,24 +969,24 @@
    "xpoints": 7.09
   },
   "season_all": {
-   "away_record": "1-1-0",
-   "clean_sheets": 2,
-   "draws": 2,
-   "failed_to_score": 1,
-   "form": "WDDW",
-   "form_last5": "WDDW",
-   "games": 4,
-   "goal_diff": 4,
-   "goals_against": 4,
-   "goals_for": 8,
-   "home_record": "1-1-0",
-   "losses": 0,
-   "points": 8,
-   "ppg": 2.0,
+   "away_record": "2-2-2",
+   "clean_sheets": 5,
+   "draws": 3,
+   "failed_to_score": 2,
+   "form": "WWWDDWLLLDW",
+   "form_last5": "LLLDW",
+   "games": 11,
+   "goal_diff": 5,
+   "goals_against": 13,
+   "goals_for": 18,
+   "home_record": "3-1-1",
+   "losses": 3,
+   "points": 18,
+   "ppg": 1.64,
    "streak": "W1",
-   "unbeaten": 4,
+   "unbeaten": 2,
    "winless": 0,
-   "wins": 2,
+   "wins": 5,
    "xg_against": 4.87,
    "xg_diff": 2.27,
    "xg_for": 7.14,
@@ -1175,6 +1179,7 @@
   ]
  },
  "team_stats": {
+  "available": true,
   "motherwell": {
    "clearances": 20,
    "corners": 9,

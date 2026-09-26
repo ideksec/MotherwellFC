@@ -173,7 +173,7 @@
    "yellow_cards": 0
   }
  },
- "generated_at": "2026-09-25T02:40:20Z",
+ "generated_at": "2026-09-26T20:05:19Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -760,9 +760,11 @@
    "name": "Scottish Premiership"
   },
   "date": "2026-09-05",
+  "decided_by": "ft",
   "espn_id": "401878383",
   "home_away": "away",
   "kickoff_utc": "2026-09-05T14:00Z",
+  "leg": null,
   "neutral_site": false,
   "opponent": {
    "abbrev": "RAN",
@@ -772,11 +774,13 @@
   },
   "referee": "Duncan Nicolson",
   "result": "L",
+  "round": null,
   "score": {
    "motherwell": 0,
    "opponent": 1
   },
   "season": "2026-27 Scottish Premiership",
+  "shootout": null,
   "status": "STATUS_FULL_TIME",
   "venue": "Ibrox Stadium"
  },
@@ -856,26 +860,26 @@
  },
  "rolling": {
   "last5_all": {
-   "clean_sheets": 2,
-   "draws": 2,
-   "failed_to_score": 2,
-   "form": "WDDWL",
+   "clean_sheets": 1,
+   "draws": 1,
+   "failed_to_score": 1,
+   "form": "LLDWL",
    "games": 5,
-   "goal_diff": 3,
-   "goals_against": 5,
+   "goal_diff": -3,
+   "goals_against": 11,
    "goals_for": 8,
-   "losses": 1,
-   "points": 8,
-   "ppg": 1.6,
+   "losses": 3,
+   "points": 4,
+   "ppg": 0.8,
    "streak": "L1",
    "unbeaten": 0,
    "winless": 1,
-   "wins": 2,
-   "xg_against": 8.8,
-   "xg_diff": -1.15,
-   "xg_for": 7.65,
-   "xg_games": 5,
-   "xpoints": 7.2
+   "wins": 1,
+   "xg_against": 6.44,
+   "xg_diff": -1.68,
+   "xg_for": 4.76,
+   "xg_games": 3,
+   "xpoints": 4.03
   },
   "last5_league": {
    "clean_sheets": 2,
@@ -900,24 +904,24 @@
    "xpoints": 7.2
   },
   "season_all": {
-   "away_record": "1-1-1",
-   "clean_sheets": 2,
-   "draws": 2,
-   "failed_to_score": 2,
-   "form": "WDDWL",
-   "form_last5": "WDDWL",
-   "games": 5,
-   "goal_diff": 3,
-   "goals_against": 5,
-   "goals_for": 8,
-   "home_record": "1-1-0",
-   "losses": 1,
-   "points": 8,
-   "ppg": 1.6,
+   "away_record": "2-2-3",
+   "clean_sheets": 5,
+   "draws": 3,
+   "failed_to_score": 3,
+   "form": "WWWDDWLLLDWL",
+   "form_last5": "LLDWL",
+   "games": 12,
+   "goal_diff": 4,
+   "goals_against": 14,
+   "goals_for": 18,
+   "home_record": "3-1-1",
+   "losses": 4,
+   "points": 18,
+   "ppg": 1.5,
    "streak": "L1",
    "unbeaten": 0,
    "winless": 1,
-   "wins": 2,
+   "wins": 5,
    "xg_against": 8.8,
    "xg_diff": -1.15,
    "xg_for": 7.65,
@@ -1110,6 +1114,7 @@
   ]
  },
  "team_stats": {
+  "available": true,
   "motherwell": {
    "clearances": 21,
    "corners": 5,

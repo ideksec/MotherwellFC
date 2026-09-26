@@ -11,11 +11,14 @@ Document every data source used in this repo. Keep this file current.
 | TheSportsDB | thesportsdb.com/api/v1/json/3/… | JSON with the public test key `3` | Nightly | Free tier truncates lists to 5 rows; Premium removes that. Attribution requested | Yes (`data/raw/thesportsdb/`) — fixtures rows reach `fixtures.csv` |
 | Match reports / news (BBC Sport, Motherwell FC, Daily Record, The Herald) | various | Web search from the Routines; qualitative facts quoted with inline links | As needed | News content; quote with attribution, no bulk scraping, never a statistic | n/a (cited in reports only) |
 
-League codes used on ESPN: `sco.1` Premiership, `sco.tennents` League Cup, `sco.cis`
-Scottish Cup, `uefa.europa.conf_qual` / `uefa.europa_qual` European qualifying,
-`uefa.europa.conf` / `uefa.europa` group and knockout stages, `club.friendly` friendlies.
-Cup coverage on ESPN was patchy in September 2026 probes; when a cup match is missing
-the nightly job simply finds nothing and the fixture still shows via TheSportsDB.
+League codes used on ESPN: `sco.1` Premiership, `sco.cis` League Cup (ESPN kept the old
+CIS Cup code), `sco.tennents` Scottish Cup (the Tennent's code), `sco.tennents_qual`
+Scottish Cup qualifying, `uefa.europa.conf_qual` / `uefa.europa_qual` European
+qualifying, `uefa.europa.conf` / `uefa.europa` group and knockout stages,
+`club.friendly` friendlies. Cup and European ties are found with the season-wide
+scoreboard (`?dates=YYYY`), which lists every match in the calendar year; the nightly
+job also scans single dates. Motherwell B's Challenge Cup matches use a different ESPN
+team id and are excluded.
 
 ## What each source contributes to a stat pack
 
