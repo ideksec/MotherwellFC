@@ -47,9 +47,11 @@ def test_usage_over_committed_packs(tmp_path):
     packs = _packs()
     if not packs:
         return
-    usage = squad_usage(packs, competition="sco.1")
+    usage = squad_usage(packs)
     rows = player_match_rows(packs)
     assert usage["minutes_est"].sum() == rows["minutes_est"].sum()
     assert usage["goals"].sum() == rows["goals"].sum()  # vendor player stats, not the score
+    league = squad_usage(packs, competition="sco.1")
+    assert league["minutes_est"].sum() <= usage["minutes_est"].sum()
     out = usage_figure(usage, tmp_path / "u.png", title="t", max_minutes=90 * len(packs))
     assert out.exists()
