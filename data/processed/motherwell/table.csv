@@ -1,13 +1,13 @@
 rank,team,espn_id,played,wins,draws,losses,goal_difference,points,goals_for,goals_against
 1,Celtic,256,8,7,0,1,12,21,16,4
-2,Rangers,257,8,6,1,1,6,19,11,5
+2,Rangers,257,9,6,2,1,6,20,13,7
 3,Heart of Midlothian,262,8,5,1,2,11,16,19,8
-4,Dundee,261,8,4,1,3,3,13,11,8
-5,St Johnstone,267,8,3,2,3,0,11,10,10
-6,Dundee United,264,8,3,2,3,-1,11,10,11
-7,St Mirren,250,8,3,1,4,-6,10,8,14
-8,Aberdeen,263,8,2,2,4,-2,8,7,9
-9,Motherwell,266,8,2,2,4,-4,8,9,13
-10,Hibernian,258,8,2,1,5,-4,7,8,12
-11,Falkirk,254,8,1,3,4,-4,6,7,11
-12,Kilmarnock,260,8,1,2,5,-11,5,7,18
+4,Dundee,261,9,4,2,3,3,14,13,10
+5,St Johnstone,267,9,3,3,3,0,12,11,11
+6,Dundee United,264,9,3,3,3,-1,12,11,12
+7,Aberdeen,263,9,3,2,4,0,11,10,10
+8,St Mirren,250,9,3,1,5,-8,10,9,17
+9,Falkirk,254,9,2,3,4,-3,9,9,12
+10,Motherwell,266,9,2,2,5,-5,8,11,16
+11,Kilmarnock,260,9,2,2,5,-10,8,10,20
+12,Hibernian,258,9,2,1,6,-5,7,9,14
