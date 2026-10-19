@@ -203,7 +203,7 @@
  "footballdata_stats": {
   "available": false
  },
- "generated_at": "2026-10-18T07:52:48Z",
+ "generated_at": "2026-10-19T08:37:18Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -1044,13 +1044,13 @@
    {
     "draws": 0,
     "espn_id": "256",
-    "goal_difference": 12,
+    "goal_difference": 18,
     "losses": 1,
-    "played": 8,
-    "points": 21,
+    "played": 9,
+    "points": 24,
     "rank": 1,
     "team": "Celtic",
-    "wins": 7
+    "wins": 8
    },
    {
     "draws": 2,
@@ -1066,9 +1066,9 @@
    {
     "draws": 1,
     "espn_id": "262",
-    "goal_difference": 11,
-    "losses": 2,
-    "played": 8,
+    "goal_difference": 5,
+    "losses": 3,
+    "played": 9,
     "points": 16,
     "rank": 3,
     "team": "Heart of Midlothian",
