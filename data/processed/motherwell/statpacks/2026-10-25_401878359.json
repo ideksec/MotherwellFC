@@ -1,0 +1,1262 @@
+{
+ "events": [
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 24,
+   "minute_display": "24'",
+   "period": 1,
+   "player": "Malachi Walcott",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Malachi Walcott (Heart of Midlothian) Yellow Card at 24'"
+  },
+  {
+   "kind": "goal",
+   "label": "Goal",
+   "minute": 29,
+   "minute_display": "29'",
+   "period": 1,
+   "player": "Cl\u00e1udio Braga",
+   "scoring": true,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Cl\u00e1udio Braga (Heart of Midlothian) Goal at 29'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 41,
+   "minute_display": "41'",
+   "period": 1,
+   "player": "Tom Sparrow",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Tom Sparrow (Motherwell) Yellow Card at 41'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 57,
+   "minute_display": "57'",
+   "period": 2,
+   "player": "Sabah Kerjota",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Sabah Kerjota (Heart of Midlothian) Yellow Card at 57'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 59,
+   "minute_display": "59'",
+   "period": 2,
+   "player": "Jamie McCart",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Jamie McCart (Heart of Midlothian) Yellow Card at 59'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 61,
+   "minute_display": "61'",
+   "period": 2,
+   "player": "Jamie Knight-Lebel",
+   "player_off": "Martin Moormann",
+   "player_on": "Jamie Knight-Lebel",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Jamie Knight-Lebel (Motherwell) Substitution at 61'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 64,
+   "minute_display": "64'",
+   "period": 2,
+   "player": "Laurent Mendy",
+   "player_off": "T\u00f3mas Magn\u00fasson",
+   "player_on": "Laurent Mendy",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Laurent Mendy (Heart of Midlothian) Substitution at 64'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 65,
+   "minute_display": "65'",
+   "period": 2,
+   "player": "Calvin Miller",
+   "player_off": "Sabah Kerjota",
+   "player_on": "Calvin Miller",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Calvin Miller (Heart of Midlothian) Substitution at 65'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 65,
+   "minute_display": "65'",
+   "period": 2,
+   "player": "Jardell Kanga",
+   "player_off": "Jordan McGhee",
+   "player_on": "Jardell Kanga",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Jardell Kanga (Motherwell) Substitution at 65'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 65,
+   "minute_display": "65'",
+   "period": 2,
+   "player": "Eythor Bj\u00f8rgolfsson",
+   "player_off": "Seb Palmer-Houlden",
+   "player_on": "Eythor Bj\u00f8rgolfsson",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Eythor Bj\u00f8rgolfsson (Motherwell) Substitution at 65'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 77,
+   "minute_display": "77'",
+   "period": 2,
+   "player": "Rogers Mato",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Rogers Mato (Heart of Midlothian) Yellow Card at 77'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 79,
+   "minute_display": "79'",
+   "period": 2,
+   "player": "Ibrahim Sa'Id",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Ibrahim Sa'Id (Motherwell) Yellow Card at 79'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 81,
+   "minute_display": "81'",
+   "period": 2,
+   "player": "Tawanda Maswanhise",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Tawanda Maswanhise (Motherwell) Yellow Card at 81'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 82,
+   "minute_display": "82'",
+   "period": 2,
+   "player": "Stephen O'Donnell",
+   "player_off": "Tom Sparrow",
+   "player_on": "Stephen O'Donnell",
+   "scoring": false,
+   "team": "motherwell",
+   "team_name": "Motherwell",
+   "text": "Stephen O'Donnell (Motherwell) Substitution at 82'"
+  },
+  {
+   "kind": "goal",
+   "label": "Goal",
+   "minute": 86,
+   "minute_display": "86'",
+   "period": 2,
+   "player": "Calvin Miller",
+   "scoring": true,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Calvin Miller (Heart of Midlothian) Goal at 86'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 87,
+   "minute_display": "87'",
+   "period": 2,
+   "player": "Yan Dhanda",
+   "player_off": "James Wilson",
+   "player_on": "Yan Dhanda",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Yan Dhanda (Heart of Midlothian) Substitution at 87'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 88,
+   "minute_display": "88'",
+   "period": 2,
+   "player": "Jerome Williams",
+   "player_off": "Cl\u00e1udio Braga",
+   "player_on": "Jerome Williams",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Jerome Williams (Heart of Midlothian) Substitution at 88'"
+  },
+  {
+   "kind": "substitution",
+   "label": "Substitution",
+   "minute": 91,
+   "minute_display": "90'+1'",
+   "period": 2,
+   "player": "Severin Sabri Guendouz",
+   "player_off": "Joshua McPake",
+   "player_on": "Severin Sabri Guendouz",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Severin Sabri Guendouz (Heart of Midlothian) Substitution at 90'+1'"
+  },
+  {
+   "kind": "yellow_card",
+   "label": "Yellow Card",
+   "minute": 93,
+   "minute_display": "90'+3'",
+   "period": 2,
+   "player": "Yan Dhanda",
+   "scoring": false,
+   "team": "opponent",
+   "team_name": "Heart of Midlothian",
+   "text": "Yan Dhanda (Heart of Midlothian) Yellow Card at 90'+3'"
+  }
+ ],
+ "figure": "reports/motherwell/figures/2026-10-25_vs-hearts.png",
+ "footballdata_stats": {
+  "available": false
+ },
+ "generated_at": "2026-10-26T08:39:32Z",
+ "lineups": {
+  "motherwell": {
+   "bench": [
+    {
+     "espn_id": "3103163",
+     "jersey": "77",
+     "minutes_est": null,
+     "name": "Willy Gabriel Vogt Veigantes",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "367146",
+     "goals_conceded": 1,
+     "jersey": "4",
+     "minutes_est": 29,
+     "name": "Jamie Knight-Lebel",
+     "off_minute": null,
+     "on_minute": 61,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "322901",
+     "jersey": "23",
+     "minutes_est": null,
+     "name": "Ewan Wilson",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "380027",
+     "fouled": 1,
+     "fouls": 2,
+     "goals_conceded": 1,
+     "jersey": "13",
+     "minutes_est": 25,
+     "name": "Jardell Kanga",
+     "off_minute": null,
+     "on_minute": 65,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "362500",
+     "fouled": 1,
+     "fouls": 1,
+     "goals_conceded": 1,
+     "jersey": "15",
+     "minutes_est": 25,
+     "name": "Eythor Bj\u00f8rgolfsson",
+     "off_minute": null,
+     "on_minute": 65,
+     "position": "SUB",
+     "shots": 4,
+     "shots_on_target": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "366702",
+     "jersey": "27",
+     "minutes_est": null,
+     "name": "Mikey Booth",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "291429",
+     "jersey": "21",
+     "minutes_est": null,
+     "name": "Matty Connolly",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "197372",
+     "goals_conceded": 1,
+     "jersey": "2",
+     "minutes_est": 8,
+     "name": "Stephen O'Donnell",
+     "off_minute": null,
+     "on_minute": 82,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    }
+   ],
+   "formation": "4-2-3-1",
+   "starters": [
+    {
+     "espn_id": "297800",
+     "goals_conceded": 2,
+     "jersey": "1",
+     "minutes_est": 90,
+     "name": "Alex Paulsen",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "G",
+     "saves": 3,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "330297",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "5",
+     "minutes_est": 61,
+     "name": "Martin Moormann",
+     "off_minute": 61,
+     "on_minute": 0,
+     "position": "CD-L",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "336926",
+     "fouls": 1,
+     "goals_conceded": 2,
+     "jersey": "3",
+     "minutes_est": 90,
+     "name": "Jake Girdwood-Reich",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-R",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "243554",
+     "fouled": 1,
+     "goals_conceded": 2,
+     "jersey": "45",
+     "minutes_est": 90,
+     "name": "Emmanuel Longelo",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "LB",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "319094",
+     "fouls": 2,
+     "goals_conceded": 1,
+     "jersey": "7",
+     "minutes_est": 82,
+     "name": "Tom Sparrow",
+     "off_minute": 82,
+     "on_minute": 0,
+     "position": "RB",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "297816",
+     "fouled": 2,
+     "fouls": 2,
+     "goals_conceded": 2,
+     "jersey": "19",
+     "minutes_est": 90,
+     "name": "Ibrahim Sa'Id",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "AM",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "288838",
+     "fouled": 1,
+     "goals_conceded": 2,
+     "jersey": "63",
+     "minutes_est": 90,
+     "name": "Dylan Levitt",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "LM",
+     "shots": 3,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "186166",
+     "fouls": 3,
+     "goals_conceded": 1,
+     "jersey": "6",
+     "minutes_est": 65,
+     "name": "Jordan McGhee",
+     "off_minute": 65,
+     "on_minute": 0,
+     "position": "RM",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "352909",
+     "fouled": 1,
+     "goals_conceded": 1,
+     "jersey": "47",
+     "minutes_est": 65,
+     "name": "Seb Palmer-Houlden",
+     "off_minute": 65,
+     "on_minute": 0,
+     "position": "F",
+     "shots": 3,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "290102",
+     "fouled": 2,
+     "fouls": 2,
+     "goals_conceded": 2,
+     "jersey": "71",
+     "minutes_est": 90,
+     "name": "Joseph Hodge",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "AM-L",
+     "shots": 2,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "307108",
+     "fouls": 2,
+     "goals_conceded": 2,
+     "jersey": "18",
+     "minutes_est": 90,
+     "name": "Tawanda Maswanhise",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "AM-R",
+     "shots": 3,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    }
+   ],
+   "used_subs": 4
+  },
+  "opponent": {
+   "bench": [
+    {
+     "espn_id": "222211",
+     "jersey": "30",
+     "minutes_est": null,
+     "name": "Ryan Fulton",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "356917",
+     "jersey": "77",
+     "minutes_est": null,
+     "name": "Amadou Ba-Sy",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "204352",
+     "fouls": 1,
+     "jersey": "31",
+     "minutes_est": 3,
+     "name": "Yan Dhanda",
+     "off_minute": null,
+     "on_minute": 87,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "408614",
+     "jersey": "78",
+     "minutes_est": 26,
+     "name": "Laurent Mendy",
+     "off_minute": null,
+     "on_minute": 64,
+     "position": "SUB",
+     "shots": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "383884",
+     "jersey": "27",
+     "minutes_est": null,
+     "name": "Aron Benjaminsen",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "315335",
+     "jersey": "11",
+     "minutes_est": null,
+     "name": "Pierre Landry Kabore",
+     "off_minute": null,
+     "on_minute": null,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "256238",
+     "jersey": "9",
+     "minutes_est": 2,
+     "name": "Jerome Williams",
+     "off_minute": null,
+     "on_minute": 88,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "199731",
+     "fouled": 1,
+     "fouls": 2,
+     "goals": 1,
+     "jersey": "7",
+     "minutes_est": 25,
+     "name": "Calvin Miller",
+     "off_minute": null,
+     "on_minute": 65,
+     "position": "SUB",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "366334",
+     "jersey": "19",
+     "minutes_est": 0,
+     "name": "Severin Sabri Guendouz",
+     "off_minute": null,
+     "on_minute": 91,
+     "position": "SUB",
+     "starter": false,
+     "subbed_in": true,
+     "subbed_out": false
+    }
+   ],
+   "formation": "4-4-2",
+   "starters": [
+    {
+     "espn_id": "277882",
+     "jersey": "1",
+     "minutes_est": 90,
+     "name": "Beau Reus",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "G",
+     "saves": 5,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "225632",
+     "fouls": 1,
+     "jersey": "5",
+     "minutes_est": 90,
+     "name": "Jamie McCart",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-L",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "279791",
+     "fouls": 1,
+     "jersey": "64",
+     "minutes_est": 90,
+     "name": "Malachi Walcott",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CD-R",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "150601",
+     "fouled": 1,
+     "fouls": 1,
+     "jersey": "3",
+     "minutes_est": 90,
+     "name": "Stephen Kingsley",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "LB",
+     "shots": 1,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "333609",
+     "fouled": 1,
+     "fouls": 1,
+     "jersey": "74",
+     "minutes_est": 90,
+     "name": "Rogers Mato",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "RB",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "367663",
+     "fouled": 4,
+     "fouls": 1,
+     "jersey": "23",
+     "minutes_est": 90,
+     "name": "Jordi Altena",
+     "off_minute": null,
+     "on_minute": 0,
+     "position": "CM-L",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": false
+    },
+    {
+     "espn_id": "405748",
+     "jersey": "22",
+     "minutes_est": 64,
+     "name": "T\u00f3mas Magn\u00fasson",
+     "off_minute": 64,
+     "on_minute": 0,
+     "position": "CM-R",
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "271194",
+     "fouled": 3,
+     "jersey": "15",
+     "minutes_est": 91,
+     "name": "Joshua McPake",
+     "off_minute": 91,
+     "on_minute": 0,
+     "position": "LM",
+     "shots": 3,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "assists": 1,
+     "espn_id": "407780",
+     "fouled": 1,
+     "fouls": 1,
+     "jersey": "29",
+     "minutes_est": 65,
+     "name": "Sabah Kerjota",
+     "off_minute": 65,
+     "on_minute": 0,
+     "position": "RM",
+     "shots": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true,
+     "yellow_cards": 1
+    },
+    {
+     "espn_id": "405624",
+     "fouled": 3,
+     "fouls": 1,
+     "goals": 1,
+     "jersey": "10",
+     "minutes_est": 88,
+     "name": "Cl\u00e1udio Braga",
+     "off_minute": 88,
+     "on_minute": 0,
+     "position": "CF-L",
+     "shots": 3,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    },
+    {
+     "espn_id": "362560",
+     "fouled": 1,
+     "jersey": "21",
+     "minutes_est": 87,
+     "name": "James Wilson",
+     "off_minute": 87,
+     "on_minute": 0,
+     "position": "CF-R",
+     "shots": 2,
+     "shots_on_target": 1,
+     "starter": true,
+     "subbed_in": false,
+     "subbed_out": true
+    }
+   ],
+   "used_subs": 5
+  }
+ },
+ "market": {
+  "available": false
+ },
+ "match": {
+  "attendance": null,
+  "city": "Motherwell",
+  "competition": {
+   "code": "sco.1",
+   "name": "Scottish Premiership"
+  },
+  "date": "2026-10-25",
+  "decided_by": "ft",
+  "espn_id": "401878359",
+  "home_away": "home",
+  "kickoff_utc": "2026-10-25T14:00Z",
+  "leg": null,
+  "neutral_site": false,
+  "opponent": {
+   "abbrev": "HOM",
+   "espn_id": "262",
+   "name": "Heart of Midlothian",
+   "slug": "hearts"
+  },
+  "referee": null,
+  "result": "L",
+  "round": null,
+  "score": {
+   "motherwell": 0,
+   "opponent": 2
+  },
+  "season": "2026-27 Scottish Premiership",
+  "shootout": null,
+  "status": "STATUS_FULL_TIME",
+  "venue": "Fir Park"
+ },
+ "notes": [
+  "xG unavailable: football-data row not yet published"
+ ],
+ "player_lines": {
+  "motherwell": {
+   "assists": [],
+   "booked": [
+    "Tom Sparrow",
+    "Ibrahim Sa'Id",
+    "Tawanda Maswanhise"
+   ],
+   "most_shots": [
+    {
+     "name": "Eythor Bj\u00f8rgolfsson",
+     "shots": 4
+    },
+    {
+     "name": "Dylan Levitt",
+     "shots": 3
+    },
+    {
+     "name": "Seb Palmer-Houlden",
+     "shots": 3
+    }
+   ],
+   "most_shots_on_target": [
+    {
+     "name": "Emmanuel Longelo",
+     "shots_on_target": 1
+    },
+    {
+     "name": "Dylan Levitt",
+     "shots_on_target": 1
+    },
+    {
+     "name": "Jordan McGhee",
+     "shots_on_target": 1
+    }
+   ],
+   "players_used": 15,
+   "scorers": [],
+   "sent_off": []
+  },
+  "opponent": {
+   "assists": [
+    {
+     "assists": 1,
+     "name": "Sabah Kerjota"
+    }
+   ],
+   "booked": [
+    "Jamie McCart",
+    "Malachi Walcott",
+    "Rogers Mato",
+    "Sabah Kerjota",
+    "Yan Dhanda"
+   ],
+   "most_shots": [
+    {
+     "name": "Joshua McPake",
+     "shots": 3
+    },
+    {
+     "name": "Cl\u00e1udio Braga",
+     "shots": 3
+    },
+    {
+     "name": "James Wilson",
+     "shots": 2
+    }
+   ],
+   "most_shots_on_target": [
+    {
+     "name": "Stephen Kingsley",
+     "shots_on_target": 1
+    },
+    {
+     "name": "Joshua McPake",
+     "shots_on_target": 1
+    },
+    {
+     "name": "Cl\u00e1udio Braga",
+     "shots_on_target": 1
+    }
+   ],
+   "players_used": 16,
+   "scorers": [
+    {
+     "goals": 1,
+     "name": "Cl\u00e1udio Braga"
+    },
+    {
+     "goals": 1,
+     "name": "Calvin Miller"
+    }
+   ],
+   "sent_off": []
+  }
+ },
+ "rolling": {
+  "last5_all": {
+   "clean_sheets": 0,
+   "draws": 0,
+   "failed_to_score": 3,
+   "form": "LLLLL",
+   "games": 5,
+   "goal_diff": -10,
+   "goals_against": 13,
+   "goals_for": 3,
+   "losses": 5,
+   "points": 0,
+   "ppg": 0.0,
+   "streak": "L5",
+   "unbeaten": 0,
+   "winless": 5,
+   "wins": 0,
+   "xg_against": 5.13,
+   "xg_diff": -2.21,
+   "xg_for": 2.92,
+   "xg_games": 3,
+   "xpoints": 2.86
+  },
+  "last5_league": {
+   "clean_sheets": 0,
+   "draws": 0,
+   "failed_to_score": 3,
+   "form": "LLLLL",
+   "games": 5,
+   "goal_diff": -10,
+   "goals_against": 13,
+   "goals_for": 3,
+   "losses": 5,
+   "points": 0,
+   "ppg": 0.0,
+   "streak": "L5",
+   "unbeaten": 0,
+   "winless": 5,
+   "wins": 0,
+   "xg_against": 5.13,
+   "xg_diff": -2.21,
+   "xg_for": 2.92,
+   "xg_games": 3,
+   "xpoints": 2.86
+  },
+  "season_all": {
+   "away_record": "2-2-5",
+   "clean_sheets": 5,
+   "draws": 3,
+   "failed_to_score": 6,
+   "form": "WWWDDWLLLDWLLLLLL",
+   "form_last5": "LLLLL",
+   "games": 17,
+   "goal_diff": -6,
+   "goals_against": 27,
+   "goals_for": 21,
+   "home_record": "3-1-4",
+   "losses": 9,
+   "points": 18,
+   "ppg": 1.06,
+   "streak": "L6",
+   "unbeaten": 0,
+   "winless": 6,
+   "wins": 5,
+   "xg_against": 13.93,
+   "xg_diff": -3.36,
+   "xg_for": 10.57,
+   "xg_games": 8,
+   "xpoints": 10.06
+  },
+  "season_league": {
+   "away_record": "1-1-3",
+   "clean_sheets": 2,
+   "draws": 2,
+   "failed_to_score": 5,
+   "form": "WDDWLLLLLL",
+   "form_last5": "LLLLL",
+   "games": 10,
+   "goal_diff": -7,
+   "goals_against": 18,
+   "goals_for": 11,
+   "home_record": "1-1-3",
+   "losses": 6,
+   "points": 8,
+   "ppg": 0.8,
+   "streak": "L6",
+   "unbeaten": 0,
+   "winless": 6,
+   "wins": 2,
+   "xg_against": 13.93,
+   "xg_diff": -3.36,
+   "xg_for": 10.57,
+   "xg_games": 8,
+   "xpoints": 10.06
+  }
+ },
+ "schema_version": 1,
+ "season": "2026-27",
+ "sources": {
+  "espn_summary": true,
+  "footballdata_market": false,
+  "footballdata_row": false,
+  "footballdata_xg": false
+ },
+ "table": {
+  "as_of": "when the ESPN summary was fetched, not full time",
+  "motherwell": {
+   "draws": 2,
+   "espn_id": "266",
+   "gap_to_above": 3,
+   "gap_to_below": 0,
+   "goal_difference": -7,
+   "losses": 6,
+   "played": 10,
+   "points": 8,
+   "rank": 10,
+   "team": "Motherwell",
+   "teams": 12,
+   "wins": 2
+  },
+  "table": [
+   {
+    "draws": 0,
+    "espn_id": "256",
+    "goal_difference": 19,
+    "losses": 1,
+    "played": 10,
+    "points": 27,
+    "rank": 1,
+    "team": "Celtic",
+    "wins": 9
+   },
+   {
+    "draws": 2,
+    "espn_id": "257",
+    "goal_difference": 10,
+    "losses": 1,
+    "played": 10,
+    "points": 23,
+    "rank": 2,
+    "team": "Rangers",
+    "wins": 7
+   },
+   {
+    "draws": 1,
+    "espn_id": "262",
+    "goal_difference": 7,
+    "losses": 3,
+    "played": 10,
+    "points": 19,
+    "rank": 3,
+    "team": "Heart of Midlothian",
+    "wins": 6
+   },
+   {
+    "draws": 3,
+    "espn_id": "264",
+    "goal_difference": 0,
+    "losses": 3,
+    "played": 10,
+    "points": 15,
+    "rank": 4,
+    "team": "Dundee United",
+    "wins": 4
+   },
+   {
+    "draws": 2,
+    "espn_id": "261",
+    "goal_difference": 2,
+    "losses": 4,
+    "played": 10,
+    "points": 14,
+    "rank": 5,
+    "team": "Dundee",
+    "wins": 4
+   },
+   {
+    "draws": 1,
+    "espn_id": "250",
+    "goal_difference": -7,
+    "losses": 5,
+    "played": 10,
+    "points": 13,
+    "rank": 6,
+    "team": "St Mirren",
+    "wins": 4
+   },
+   {
+    "draws": 3,
+    "espn_id": "254",
+    "goal_difference": 0,
+    "losses": 4,
+    "played": 10,
+    "points": 12,
+    "rank": 7,
+    "team": "Falkirk",
+    "wins": 3
+   },
+   {
+    "draws": 3,
+    "espn_id": "267",
+    "goal_difference": -4,
+    "losses": 4,
+    "played": 10,
+    "points": 12,
+    "rank": 8,
+    "team": "St Johnstone",
+    "wins": 3
+   },
+   {
+    "draws": 2,
+    "espn_id": "263",
+    "goal_difference": -1,
+    "losses": 5,
+    "played": 10,
+    "points": 11,
+    "rank": 9,
+    "team": "Aberdeen",
+    "wins": 3
+   },
+   {
+    "draws": 2,
+    "espn_id": "266",
+    "goal_difference": -7,
+    "losses": 6,
+    "played": 10,
+    "points": 8,
+    "rank": 10,
+    "team": "Motherwell",
+    "wins": 2
+   },
+   {
+    "draws": 2,
+    "espn_id": "260",
+    "goal_difference": -13,
+    "losses": 6,
+    "played": 10,
+    "points": 8,
+    "rank": 11,
+    "team": "Kilmarnock",
+    "wins": 2
+   },
+   {
+    "draws": 1,
+    "espn_id": "258",
+    "goal_difference": -6,
+    "losses": 7,
+    "played": 10,
+    "points": 7,
+    "rank": 12,
+    "team": "Hibernian",
+    "wins": 2
+   }
+  ]
+ },
+ "team_stats": {
+  "available": true,
+  "motherwell": {
+   "clearances": 19,
+   "corners": 6,
+   "fouls": 15,
+   "interceptions": 0,
+   "offsides": 0,
+   "pass_pct": 0.8,
+   "passes": 481,
+   "passes_accurate": 403,
+   "possession_pct": 53.9,
+   "red_cards": 0,
+   "saves": 3,
+   "shots": 17,
+   "shots_blocked": 5,
+   "shots_on_target": 5,
+   "tackles": 15,
+   "tackles_won": 6,
+   "yellow_cards": 3
+  },
+  "opponent": {
+   "clearances": 20,
+   "corners": 5,
+   "fouls": 10,
+   "interceptions": 0,
+   "offsides": 1,
+   "pass_pct": 0.8,
+   "passes": 412,
+   "passes_accurate": 321,
+   "possession_pct": 46.1,
+   "red_cards": 0,
+   "saves": 5,
+   "shots": 14,
+   "shots_blocked": 6,
+   "shots_on_target": 5,
+   "tackles": 20,
+   "tackles_won": 9,
+   "yellow_cards": 5
+  }
+ },
+ "xg": {
+  "available": false,
+  "source": null
+ }
+}
