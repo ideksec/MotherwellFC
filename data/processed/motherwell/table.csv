@@ -1,13 +1,13 @@
 rank,team,espn_id,played,wins,draws,losses,goal_difference,points,goals_for,goals_against
-1,Celtic,256,10,9,0,1,19,27,25,6
-2,Rangers,257,10,7,2,1,10,23,17,7
-3,Heart of Midlothian,262,10,6,1,3,7,19,22,15
-4,Dundee United,264,10,4,3,3,0,15,14,14
-5,Dundee,261,10,4,2,4,2,14,14,12
-6,St Mirren,250,10,4,1,5,-7,13,11,18
-7,Falkirk,254,10,3,3,4,0,12,12,12
-8,St Johnstone,267,10,3,3,4,-4,12,11,15
-9,Aberdeen,263,10,3,2,5,-1,11,12,13
-10,Motherwell,266,10,2,2,6,-7,8,11,18
-11,Kilmarnock,260,10,2,2,6,-13,8,10,23
-12,Hibernian,258,10,2,1,7,-6,7,10,16
+1,Celtic,256,11,9,1,1,19,28,27,8
+2,Rangers,257,11,7,3,1,10,24,19,9
+3,Heart of Midlothian,262,11,6,2,3,7,20,24,17
+4,Dundee,261,11,5,2,4,4,17,17,13
+5,Dundee United,264,11,4,4,3,0,16,16,16
+6,Falkirk,254,11,4,3,4,1,15,13,12
+7,St Mirren,250,11,4,2,5,-7,14,12,19
+8,St Johnstone,267,11,3,4,4,-4,13,13,17
+9,Aberdeen,263,11,3,2,6,-2,11,12,14
+10,Motherwell,266,11,2,3,6,-7,9,13,20
+11,Hibernian,258,11,2,2,7,-6,8,11,17
+12,Kilmarnock,260,11,2,2,7,-15,8,11,26
