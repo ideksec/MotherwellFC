@@ -213,9 +213,27 @@
  ],
  "figure": "reports/motherwell/figures/2026-10-28_at-st-johnstone.png",
  "footballdata_stats": {
-  "available": false
+  "available": true,
+  "motherwell": {
+   "corners": 8,
+   "fouls": 15,
+   "ht_goals": 1,
+   "red_cards": 0,
+   "shots": 17,
+   "shots_on_target": 9,
+   "yellow_cards": 2
+  },
+  "opponent": {
+   "corners": 2,
+   "fouls": 9,
+   "ht_goals": 1,
+   "red_cards": 0,
+   "shots": 15,
+   "shots_on_target": 3,
+   "yellow_cards": 1
+  }
  },
- "generated_at": "2026-10-29T09:36:45Z",
+ "generated_at": "2026-10-30T09:44:30Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -806,7 +824,21 @@
   }
  },
  "market": {
-  "available": false
+  "actual_points": 1,
+  "available": true,
+  "draw_prob": 0.264,
+  "expected_points": 1.34,
+  "favourite": "opponent",
+  "motherwell_loss_prob": 0.377,
+  "motherwell_win_prob": 0.359,
+  "odds": {
+   "away": 2.57,
+   "draw": 3.5,
+   "home": 2.45
+  },
+  "over_2_5_price": 1.77,
+  "points_vs_market": -0.34,
+  "source": "football-data.co.uk (Bet365 pre-match)"
  },
  "match": {
   "attendance": null,
@@ -840,9 +872,7 @@
   "status": "STATUS_FULL_TIME",
   "venue": "McDiarmid Park"
  },
- "notes": [
-  "xG unavailable: football-data row not yet published"
- ],
+ "notes": [],
  "player_lines": {
   "motherwell": {
    "assists": [
@@ -969,11 +999,11 @@
    "unbeaten": 1,
    "winless": 5,
    "wins": 0,
-   "xg_against": 5.27,
-   "xg_diff": -1.86,
-   "xg_for": 3.41,
-   "xg_games": 3,
-   "xpoints": 3.16
+   "xg_against": 6.71,
+   "xg_diff": -1.79,
+   "xg_for": 4.92,
+   "xg_games": 4,
+   "xpoints": 4.59
   },
   "last5_league": {
    "clean_sheets": 0,
@@ -991,11 +1021,11 @@
    "unbeaten": 1,
    "winless": 5,
    "wins": 0,
-   "xg_against": 5.27,
-   "xg_diff": -1.86,
-   "xg_for": 3.41,
-   "xg_games": 3,
-   "xpoints": 3.16
+   "xg_against": 6.71,
+   "xg_diff": -1.79,
+   "xg_for": 4.92,
+   "xg_games": 4,
+   "xpoints": 4.59
   },
   "season_all": {
    "away_record": "2-3-5",
@@ -1016,11 +1046,11 @@
    "unbeaten": 1,
    "winless": 7,
    "wins": 5,
-   "xg_against": 14.99,
-   "xg_diff": -3.16,
-   "xg_for": 11.83,
-   "xg_games": 9,
-   "xpoints": 11.56
+   "xg_against": 16.43,
+   "xg_diff": -3.09,
+   "xg_for": 13.34,
+   "xg_games": 10,
+   "xpoints": 12.99
   },
   "season_league": {
    "away_record": "1-2-3",
@@ -1041,20 +1071,20 @@
    "unbeaten": 1,
    "winless": 7,
    "wins": 2,
-   "xg_against": 14.99,
-   "xg_diff": -3.16,
-   "xg_for": 11.83,
-   "xg_games": 9,
-   "xpoints": 11.56
+   "xg_against": 16.43,
+   "xg_diff": -3.09,
+   "xg_for": 13.34,
+   "xg_games": 10,
+   "xpoints": 12.99
   }
  },
  "schema_version": 1,
  "season": "2026-27",
  "sources": {
   "espn_summary": true,
-  "footballdata_market": false,
-  "footballdata_row": false,
-  "footballdata_xg": false
+  "footballdata_market": true,
+  "footballdata_row": true,
+  "footballdata_xg": true
  },
  "table": {
   "as_of": "when the ESPN summary was fetched, not full time",
@@ -1213,7 +1243,6 @@
    "clearances": 27,
    "corners": 8,
    "fouls": 15,
-   "interceptions": 0,
    "offsides": 0,
    "pass_pct": 0.8,
    "passes": 424,
@@ -1232,7 +1261,6 @@
    "clearances": 29,
    "corners": 2,
    "fouls": 9,
-   "interceptions": 0,
    "offsides": 0,
    "pass_pct": 0.8,
    "passes": 548,
@@ -1249,7 +1277,11 @@
   }
  },
  "xg": {
-  "available": false,
-  "source": null
+  "available": true,
+  "diff": 0.07,
+  "motherwell": 1.51,
+  "opponent": 1.44,
+  "source": "football-data.co.uk",
+  "xpoints": 1.42
  }
 }
