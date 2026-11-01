@@ -5,9 +5,9 @@ rank,team,espn_id,played,wins,draws,losses,goal_difference,points,goals_for,goal
 4,Dundee,261,11,5,2,4,4,17,17,13
 5,Dundee United,264,11,4,4,3,0,16,16,16
 6,Falkirk,254,11,4,3,4,1,15,13,12
-7,St Mirren,250,11,4,2,5,-7,14,12,19
-8,St Johnstone,267,11,3,4,4,-4,13,13,17
-9,Aberdeen,263,11,3,2,6,-2,11,12,14
-10,Motherwell,266,11,2,3,6,-7,9,13,20
-11,Hibernian,258,11,2,2,7,-6,8,11,17
-12,Kilmarnock,260,11,2,2,7,-15,8,11,26
+7,St Johnstone,267,12,3,5,4,-4,14,15,19
+8,St Mirren,250,12,4,2,6,-8,14,12,20
+9,Motherwell,266,12,3,3,6,-6,12,14,20
+10,Aberdeen,263,11,3,2,6,-2,11,12,14
+11,Kilmarnock,260,12,2,3,7,-15,9,13,28
+12,Hibernian,258,11,2,2,7,-6,8,11,17
