@@ -251,7 +251,7 @@
  "footballdata_stats": {
   "available": false
  },
- "generated_at": "2026-11-01T10:14:12Z",
+ "generated_at": "2026-11-02T10:42:22Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -1063,9 +1063,9 @@
    {
     "draws": 1,
     "espn_id": "256",
-    "goal_difference": 19,
-    "losses": 1,
-    "played": 11,
+    "goal_difference": 17,
+    "losses": 2,
+    "played": 12,
     "points": 28,
     "rank": 1,
     "team": "Celtic",
@@ -1094,13 +1094,24 @@
     "wins": 6
    },
    {
+    "draws": 3,
+    "espn_id": "254",
+    "goal_difference": 3,
+    "losses": 4,
+    "played": 12,
+    "points": 18,
+    "rank": 4,
+    "team": "Falkirk",
+    "wins": 5
+   },
+   {
     "draws": 2,
     "espn_id": "261",
     "goal_difference": 4,
     "losses": 4,
     "played": 11,
     "points": 17,
-    "rank": 4,
+    "rank": 5,
     "team": "Dundee",
     "wins": 5
    },
@@ -1111,19 +1122,8 @@
     "losses": 3,
     "played": 11,
     "points": 16,
-    "rank": 5,
-    "team": "Dundee United",
-    "wins": 4
-   },
-   {
-    "draws": 3,
-    "espn_id": "254",
-    "goal_difference": 1,
-    "losses": 4,
-    "played": 11,
-    "points": 15,
     "rank": 6,
-    "team": "Falkirk",
+    "team": "Dundee United",
     "wins": 4
    },
    {
