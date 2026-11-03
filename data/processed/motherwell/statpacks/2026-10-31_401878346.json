@@ -249,9 +249,27 @@
  ],
  "figure": "reports/motherwell/figures/2026-10-31_vs-st-mirren.png",
  "footballdata_stats": {
-  "available": false
+  "available": true,
+  "motherwell": {
+   "corners": 6,
+   "fouls": 17,
+   "ht_goals": 0,
+   "red_cards": 0,
+   "shots": 11,
+   "shots_on_target": 2,
+   "yellow_cards": 4
+  },
+  "opponent": {
+   "corners": 3,
+   "fouls": 14,
+   "ht_goals": 0,
+   "red_cards": 0,
+   "shots": 5,
+   "shots_on_target": 1,
+   "yellow_cards": 5
+  }
  },
- "generated_at": "2026-11-02T10:42:22Z",
+ "generated_at": "2026-11-03T10:34:24Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -826,7 +844,21 @@
   }
  },
  "market": {
-  "available": false
+  "actual_points": 3,
+  "available": true,
+  "draw_prob": 0.234,
+  "expected_points": 1.83,
+  "favourite": "motherwell",
+  "motherwell_loss_prob": 0.234,
+  "motherwell_win_prob": 0.532,
+  "odds": {
+   "away": 4.0,
+   "draw": 4.0,
+   "home": 1.76
+  },
+  "over_2_5_price": 1.57,
+  "points_vs_market": 1.17,
+  "source": "football-data.co.uk (Bet365 pre-match)"
  },
  "match": {
   "attendance": 6738,
@@ -860,9 +892,7 @@
   "status": "STATUS_FULL_TIME",
   "venue": "Fir Park"
  },
- "notes": [
-  "xG unavailable: football-data row not yet published"
- ],
+ "notes": [],
  "player_lines": {
   "motherwell": {
    "assists": [],
@@ -956,11 +986,11 @@
    "unbeaten": 2,
    "winless": 0,
    "wins": 1,
-   "xg_against": 5.35,
-   "xg_diff": -1.53,
-   "xg_for": 3.82,
-   "xg_games": 3,
-   "xpoints": 3.41
+   "xg_against": 5.55,
+   "xg_diff": 0.58,
+   "xg_for": 6.13,
+   "xg_games": 4,
+   "xpoints": 6.09
   },
   "last5_league": {
    "clean_sheets": 1,
@@ -978,11 +1008,11 @@
    "unbeaten": 2,
    "winless": 0,
    "wins": 1,
-   "xg_against": 5.35,
-   "xg_diff": -1.53,
-   "xg_for": 3.82,
-   "xg_games": 3,
-   "xpoints": 3.41
+   "xg_against": 5.55,
+   "xg_diff": 0.58,
+   "xg_for": 6.13,
+   "xg_games": 4,
+   "xpoints": 6.09
   },
   "season_all": {
    "away_record": "2-3-5",
@@ -1003,11 +1033,11 @@
    "unbeaten": 2,
    "winless": 0,
    "wins": 6,
-   "xg_against": 16.43,
-   "xg_diff": -3.09,
-   "xg_for": 13.34,
-   "xg_games": 10,
-   "xpoints": 12.99
+   "xg_against": 16.63,
+   "xg_diff": -0.98,
+   "xg_for": 15.65,
+   "xg_games": 11,
+   "xpoints": 15.67
   },
   "season_league": {
    "away_record": "1-2-3",
@@ -1028,20 +1058,20 @@
    "unbeaten": 2,
    "winless": 0,
    "wins": 3,
-   "xg_against": 16.43,
-   "xg_diff": -3.09,
-   "xg_for": 13.34,
-   "xg_games": 10,
-   "xpoints": 12.99
+   "xg_against": 16.63,
+   "xg_diff": -0.98,
+   "xg_for": 15.65,
+   "xg_games": 11,
+   "xpoints": 15.67
   }
  },
  "schema_version": 1,
  "season": "2026-27",
  "sources": {
   "espn_summary": true,
-  "footballdata_market": false,
-  "footballdata_row": false,
-  "footballdata_xg": false
+  "footballdata_market": true,
+  "footballdata_row": true,
+  "footballdata_xg": true
  },
  "table": {
   "as_of": "when the ESPN summary was fetched, not full time",
@@ -1234,7 +1264,11 @@
   }
  },
  "xg": {
-  "available": false,
-  "source": null
+  "available": true,
+  "diff": 2.11,
+  "motherwell": 2.31,
+  "opponent": 0.2,
+  "source": "football-data.co.uk",
+  "xpoints": 2.69
  }
 }
