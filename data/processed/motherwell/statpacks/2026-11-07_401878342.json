@@ -187,9 +187,27 @@
  ],
  "figure": "reports/motherwell/figures/2026-11-07_at-dundee-utd.png",
  "footballdata_stats": {
-  "available": false
+  "available": true,
+  "motherwell": {
+   "corners": 7,
+   "fouls": 17,
+   "ht_goals": 1,
+   "red_cards": 0,
+   "shots": 17,
+   "shots_on_target": 6,
+   "yellow_cards": 0
+  },
+  "opponent": {
+   "corners": 13,
+   "fouls": 9,
+   "ht_goals": 1,
+   "red_cards": 0,
+   "shots": 24,
+   "shots_on_target": 6,
+   "yellow_cards": 0
+  }
  },
- "generated_at": "2026-11-08T09:57:54Z",
+ "generated_at": "2026-11-09T11:05:01Z",
  "lineups": {
   "motherwell": {
    "bench": [
@@ -782,7 +800,21 @@
   }
  },
  "market": {
-  "available": false
+  "actual_points": 1,
+  "available": true,
+  "draw_prob": 0.249,
+  "expected_points": 1.07,
+  "favourite": "opponent",
+  "motherwell_loss_prob": 0.476,
+  "motherwell_win_prob": 0.275,
+  "odds": {
+   "away": 3.4,
+   "draw": 3.75,
+   "home": 1.96
+  },
+  "over_2_5_price": 1.55,
+  "points_vs_market": -0.07,
+  "source": "football-data.co.uk (Bet365 pre-match)"
  },
  "match": {
   "attendance": 8579,
@@ -816,9 +848,7 @@
   "status": "STATUS_FULL_TIME",
   "venue": "Tannadice Park"
  },
- "notes": [
-  "xG unavailable: football-data row not yet published"
- ],
+ "notes": [],
  "player_lines": {
   "motherwell": {
    "assists": [],
@@ -929,11 +959,11 @@
    "unbeaten": 3,
    "winless": 1,
    "wins": 1,
-   "xg_against": 2.7,
-   "xg_diff": 2.38,
-   "xg_for": 5.08,
-   "xg_games": 3,
-   "xpoints": 5.62
+   "xg_against": 4.61,
+   "xg_diff": 2.22,
+   "xg_for": 6.83,
+   "xg_games": 4,
+   "xpoints": 6.91
   },
   "last5_league": {
    "clean_sheets": 1,
@@ -951,11 +981,11 @@
    "unbeaten": 3,
    "winless": 1,
    "wins": 1,
-   "xg_against": 2.7,
-   "xg_diff": 2.38,
-   "xg_for": 5.08,
-   "xg_games": 3,
-   "xpoints": 5.62
+   "xg_against": 4.61,
+   "xg_diff": 2.22,
+   "xg_for": 6.83,
+   "xg_games": 4,
+   "xpoints": 6.91
   },
   "season_all": {
    "away_record": "2-4-5",
@@ -976,11 +1006,11 @@
    "unbeaten": 3,
    "winless": 1,
    "wins": 6,
-   "xg_against": 16.63,
-   "xg_diff": -0.98,
-   "xg_for": 15.65,
-   "xg_games": 11,
-   "xpoints": 15.67
+   "xg_against": 18.54,
+   "xg_diff": -1.14,
+   "xg_for": 17.4,
+   "xg_games": 12,
+   "xpoints": 16.97
   },
   "season_league": {
    "away_record": "1-3-3",
@@ -1001,20 +1031,20 @@
    "unbeaten": 3,
    "winless": 1,
    "wins": 3,
-   "xg_against": 16.63,
-   "xg_diff": -0.98,
-   "xg_for": 15.65,
-   "xg_games": 11,
-   "xpoints": 15.67
+   "xg_against": 18.54,
+   "xg_diff": -1.14,
+   "xg_for": 17.4,
+   "xg_games": 12,
+   "xpoints": 16.97
   }
  },
  "schema_version": 1,
  "season": "2026-27",
  "sources": {
   "espn_summary": true,
-  "footballdata_market": false,
-  "footballdata_row": false,
-  "footballdata_xg": false
+  "footballdata_market": true,
+  "footballdata_row": true,
+  "footballdata_xg": true
  },
  "table": {
   "as_of": "when the ESPN summary was fetched, not full time",
@@ -1036,13 +1066,13 @@
    {
     "draws": 1,
     "espn_id": "256",
-    "goal_difference": 17,
+    "goal_difference": 18,
     "losses": 2,
-    "played": 12,
-    "points": 28,
+    "played": 13,
+    "points": 31,
     "rank": 1,
     "team": "Celtic",
-    "wins": 9
+    "wins": 10
    },
    {
     "draws": 3,
@@ -1056,26 +1086,26 @@
     "wins": 8
    },
    {
-    "draws": 2,
-    "espn_id": "262",
-    "goal_difference": 7,
-    "losses": 3,
-    "played": 11,
-    "points": 20,
+    "draws": 3,
+    "espn_id": "254",
+    "goal_difference": 6,
+    "losses": 4,
+    "played": 13,
+    "points": 21,
     "rank": 3,
-    "team": "Heart of Midlothian",
+    "team": "Falkirk",
     "wins": 6
    },
    {
-    "draws": 3,
-    "espn_id": "254",
-    "goal_difference": 3,
+    "draws": 2,
+    "espn_id": "262",
+    "goal_difference": 4,
     "losses": 4,
     "played": 12,
-    "points": 18,
+    "points": 20,
     "rank": 4,
-    "team": "Falkirk",
-    "wins": 5
+    "team": "Heart of Midlothian",
+    "wins": 6
    },
    {
     "draws": 2,
@@ -1157,9 +1187,9 @@
    {
     "draws": 3,
     "espn_id": "260",
-    "goal_difference": -15,
-    "losses": 7,
-    "played": 12,
+    "goal_difference": -16,
+    "losses": 8,
+    "played": 13,
     "points": 9,
     "rank": 12,
     "team": "Kilmarnock",
@@ -1207,7 +1237,11 @@
   }
  },
  "xg": {
-  "available": false,
-  "source": null
+  "available": true,
+  "diff": -0.16,
+  "motherwell": 1.75,
+  "opponent": 1.91,
+  "source": "football-data.co.uk",
+  "xpoints": 1.3
  }
 }
